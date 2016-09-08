@@ -67,6 +67,3 @@ A Video Example:
 ### [Time Log](IRV-TimeLog.md)
 
 
-
-
-
