@@ -7,3 +7,4 @@
 | 9/7/16 | 2 | Created mockups and update project palnning statement | |
 | 9/7/16 | .5 | Added additional slide to mockup | |
 | 9/8/16 | 2 | Class | |
+| 9/10/16 | 1 | Create database design in visio | |
