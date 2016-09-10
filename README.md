@@ -58,7 +58,8 @@ A Video Example:
 
 ### Design
 
-* ?????
+* [Screen Mockups](Design-Docs/IRV-MockUp-160907.pdf)
+* [Database Design](Design-Docs/IRV-DB-Design_v1.pdf)
 
 ### [Project Plan](IRV-ProjectPlan.md)
 
