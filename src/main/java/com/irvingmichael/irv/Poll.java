@@ -2,14 +2,12 @@ package com.irvingmichael.irv;
 
 import org.apache.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 import org.apache.commons.lang.RandomStringUtils;
 
-import static java.util.Collections.emptyMap;
+import static com.irvingmichael.irv.PollStatus.*;
+
 
 /**
  * Created by aaron on 9/10/16.
@@ -26,6 +24,7 @@ public class Poll {
     private int winner;
     private String pollCode;
     private int winThreshold;
+    private PollStatus status;
 
     public Poll(int id, String title) {
         this.id = id;
@@ -35,6 +34,7 @@ public class Poll {
         votes = new ArrayList<Vote>();
         voteCounts = new HashMap<Integer, Integer>();
         pollCode = "";
+        status = initial;
     }
 
     public ArrayList<Choice> getChoices() {
@@ -57,7 +57,7 @@ public class Poll {
         return voteCounts;
     }
 
-    public void setVoteCounts(HashMap<Integer, Integer> voteCounts) {
+    public void setVoteCounts(LinkedHashMap<Integer, Integer> voteCounts) {
         this.voteCounts = voteCounts;
     }
 
@@ -86,4 +86,61 @@ public class Poll {
         }
         return winThreshold;
     }
+
+    void determineWinner() {
+
+        status = PollStatus.closed;
+
+        for (Vote vote : votes) {
+            vote.setCurrentRankings(vote.getVoteRankings());
+        }
+
+        while (winner == -1) {
+            resetChoiceCounts();
+            countVotes();
+            if (!winnerExists()) {
+                int choiceToRemove = getLowestVoteGetter();
+                removeChoiceFromContention(choiceToRemove);
+            }
+        }
+    }
+
+    void countVotes() {
+        for (Vote vote : votes) {
+            int currentChoice = findHighestRankedChoice(vote);
+            voteCounts.put(currentChoice, voteCounts.get(currentChoice) + 1);
+        }
+    }
+
+    void resetChoiceCounts() {
+        voteCounts = new HashMap<Integer, Integer>();
+        for (Choice choice : choices) {
+            voteCounts.put(choice.getId(), 0);
+        }
+    }
+
+    int findHighestRankedChoice(Vote vote) {
+        int idToReturn = -1;
+        int highestRank = Integer.MIN_VALUE;
+
+        for (Map.Entry<Integer, Integer> entry : vote.getCurrentRankings().entrySet()) {
+            if (entry.getValue() > lowestRank) {
+                lowestRank = entry.getValue();
+                idToReturn = entry.getKey();
+            }
+        }
+
+        return idToReturn;
+    }
+
+    Boolean winnerExists() {
+        for (Map.Entry<Integer, Integer> entry : voteCounts.entrySet()) {
+            if (entry.getValue() > winThreshold) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    
 }

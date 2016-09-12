@@ -1,6 +1,6 @@
 package com.irvingmichael.irv;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 /**
  * Created by aaron on 9/10/16.
@@ -8,31 +8,31 @@ import java.util.HashMap;
 public class Vote {
 
     private int voteId;
-    private HashMap<Integer, Integer> voteRankings;
-    private HashMap<Integer, Integer> currentRankings;
+    private LinkedHashMap<Integer, Integer> voteRankings;
+    private LinkedHashMap<Integer, Integer> currentRankings;
 
     public Vote(int id) {
-        voteRankings = new HashMap<Integer, Integer>();
-        currentRankings = new HashMap<Integer, Integer>();
+        voteRankings = new LinkedHashMap<Integer, Integer>();
+        currentRankings = new LinkedHashMap<Integer, Integer>();
     }
 
     public int getVoteId() {
         return voteId;
     }
 
-    public HashMap<Integer, Integer> getVoteRankings() {
+    public LinkedHashMap<Integer, Integer> getVoteRankings() {
         return voteRankings;
     }
 
-    public void setVoteRankings(HashMap<Integer, Integer> voteRankings) {
+    public void setVoteRankings(LinkedHashMap<Integer, Integer> voteRankings) {
         this.voteRankings = voteRankings;
     }
 
-    public HashMap<Integer, Integer> getCurrentRankings() {
+    public LinkedHashMap<Integer, Integer> getCurrentRankings() {
         return currentRankings;
     }
 
-    public void setCurrentRankings(HashMap<Integer, Integer> currentRankings) {
+    public void setCurrentRankings(LinkedHashMap<Integer, Integer> currentRankings) {
         this.currentRankings = currentRankings;
     }
 }

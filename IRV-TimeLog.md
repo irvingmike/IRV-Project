@@ -8,3 +8,4 @@
 | 9/7/16 | .5 | Added additional slide to mockup | |
 | 9/8/16 | 2 | Class | |
 | 9/10/16 | 1 | Created database design in visio | |
+| 9/10/16 | 3 | Started building personal app | |
