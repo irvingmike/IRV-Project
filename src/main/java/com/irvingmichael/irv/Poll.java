@@ -124,8 +124,8 @@ public class Poll {
         int highestRank = Integer.MIN_VALUE;
 
         for (Map.Entry<Integer, Integer> entry : vote.getCurrentRankings().entrySet()) {
-            if (entry.getValue() > lowestRank) {
-                lowestRank = entry.getValue();
+            if (entry.getValue() > highestRank) {
+                highestRank = entry.getValue();
                 idToReturn = entry.getKey();
             }
         }
@@ -142,5 +142,51 @@ public class Poll {
         return false;
     }
 
+    int getLowestVoteGetter() {
+        int idToReturn = -1;
+        int lowestVoteCount = Integer.MAX_VALUE;
+        for (Map.Entry<Integer, Integer> entry : voteCounts.entrySet()) {
+            if (entry.getValue() < lowestVoteCount) {
+                lowestVoteCount = entry.getValue();
+                idToReturn = entry.getKey();
+            }
+        }
+        return idToReturn;
+    }
+
+    ArrayList<Vote> removeChoiceFromContention(int idToRemove) {
+        ArrayList<Vote> newVotes = new ArrayList<Vote>();
+        for (Vote vote : votes) {
+            newVotes.add(removeChoiceFromVote(idToRemove, vote));
+        }
+        return newVotes;
+    }
+
+    Vote removeChoiceFromVote(int idToRemove, Vote vote) {
+        Vote newVote = new Vote(vote.getVoteId());
+        newVote.setVoteRankings(vote.getVoteRankings());
+        for (Map.Entry<Integer, Integer> entry : vote.getCurrentRankings().entrySet()) {
+            if (entry.getKey() != idToRemove) {
+                newVote.getCurrentRankings().put(entry.getKey(), entry.getValue());
+            }
+        }
+        return newVote;
+    }
+
+    void setVotesCountsToZero() {
+        voteCounts = new HashMap<Integer, Integer>();
+        for (Choice choice : Choices) {
+            voteCounts.put(choice.getId(), 0);
+        }
+    }
+
+    String getChoiceNameById(int id) {
+        for (Choice choice : choices) {
+            if (choice.getId() == id) {
+                return choice.getName();
+            }
+        }
+        return "Bad ID supplied";
+    }
 
 }

@@ -10,8 +10,57 @@ import static org.junit.Assert.*;
  * Created by aaron on 9/10/16.
  */
 public class PollTest {
-
     Poll poll = new Poll(1, "test");
+    
+    @Test
+    public void determineWinner() throws Exception {
+
+    }
+
+    @Test
+    public void countVotes() throws Exception {
+
+    }
+
+    @Test
+    public void resetChoiceCounts() throws Exception {
+
+    }
+
+    @Test
+    public void findHighestRankedChoice() throws Exception {
+
+    }
+
+    @Test
+    public void winnerExists() throws Exception {
+
+    }
+
+    @Test
+    public void getLowestVoteGetter() throws Exception {
+
+    }
+
+    @Test
+    public void removeChoiceFromContention() throws Exception {
+
+    }
+
+    @Test
+    public void removeChoiceFromVote() throws Exception {
+
+    }
+
+    @Test
+    public void setVotesCountsToZero() throws Exception {
+
+    }
+
+    @Test
+    public void getChoiceNameById() throws Exception {
+
+    }
 
     @Test
     public void getPollCode() throws Exception {
