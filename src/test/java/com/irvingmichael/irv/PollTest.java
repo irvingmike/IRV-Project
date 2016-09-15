@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import javax.persistence.Entity;
 import java.util.*;
 
 import static javax.swing.UIManager.put;
@@ -22,6 +23,64 @@ public class PollTest {
     @BeforeClass
     public static void setup() {
         poll = new TestPollSetup().testPoll;
+    }
+
+    /*@Test
+    public void countVotes() throws Exception {
+        logger.debug("***** Vote Counting *****");
+        poll = new TestPollSetup().testPoll;
+        poll.countVotes();
+        for (Map.Entry<Integer, Integer> entry : poll.getVoteCounts().entrySet()) {
+            logger.debug("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+        }
+        assertEquals("Bad count for choice A", (Integer) 3, poll.getVoteCounts().get(1));
+        assertEquals("Bad count for choice B", (Integer) 4, poll.getVoteCounts().get(2));
+        assertEquals("Bad count for choice C", (Integer) 2, poll.getVoteCounts().get(3));
+        assertEquals("Bad count for choice D", (Integer) 1, poll.getVoteCounts().get(4));
+    }*/
+
+    /*@Before
+    public void setVoteCountsToReset() {
+        poll.setVoteCounts(new HashMap<Integer, Integer>() {{
+            put(1, 1);
+            put(2, 2);
+            put(3, 3);
+            put(4, 4);
+        }});
+    }
+    @Test
+    public void resetChoiceCounts() throws Exception {
+        poll.resetChoiceCounts();
+        for (Map.Entry<Integer, Integer> entry : poll.getVoteCounts().entrySet()) {
+            assertEquals("Vote count not se to zero", (Integer) 0, entry.getValue());
+        }
+    }
+    @After
+    public void emptyVoteCounts() {
+        poll.setVoteCounts(new HashMap<Integer, Integer>());
+    }*/
+
+    @Test
+    public void winnerExists() throws Exception {
+        poll.setVoteCounts(new HashMap<Integer, Integer>() {{
+            put(1, 1);
+            put(2, 6);
+            put(3, 2);
+            put(4, 1);
+        }});
+        assertTrue(poll.winnerExists());
+        poll.setVoteCounts(new HashMap<Integer, Integer>() {{
+            put(1, 2);
+            put(2, 4);
+            put(3, 3);
+            put(4, 1);
+        }});
+        assertTrue(!poll.winnerExists());
+        poll.setVoteCounts(new HashMap<Integer, Integer>());
+    }
+    @After
+    public void resetVoteCounts() {
+        poll.setVoteCounts(new HashMap<Integer, Integer>());
     }
 
     @Test
@@ -44,7 +103,7 @@ public class PollTest {
         }});
     }
     @Test
-    public void getLowestVoteGetter() {
+    public void getLowestVoteGetter() throws Exception {
         assertEquals("Incorrect lowest voter getter returned", 4, poll.getLowestVoteGetter());
     }
     @After

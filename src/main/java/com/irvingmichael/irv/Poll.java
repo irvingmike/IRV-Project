@@ -24,7 +24,6 @@ public class Poll {
     private HashMap<Integer, Integer> voteCounts;
     private int winner;
     private String pollCode;
-    private int winThreshold;
     private PollStatus status;
 
     public Poll(String title) {
@@ -77,6 +76,7 @@ public class Poll {
     }
 
     int getWinThreshold() {
+        int winThreshold = -1;
         if (votes.size() < 1) {
             winThreshold = -1;
         } else if (votes.size() % 2 == 0) {
@@ -135,10 +135,11 @@ public class Poll {
 
     Boolean winnerExists() {
         for (Map.Entry<Integer, Integer> entry : voteCounts.entrySet()) {
-            if (entry.getValue() > winThreshold) {
+            if (entry.getValue() > getWinThreshold()) {
                 return true;
             }
         }
+        logger.debug("No winner for you!");
         return false;
     }
 
