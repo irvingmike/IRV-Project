@@ -1,21 +1,17 @@
-[2016-09-10 17:25:33,465] *** Getting poll code ***
-[2016-09-10 17:28:34,447] *** Getting poll code ***
-[2016-09-10 17:28:34,451] Newly Generated: ≜鋆幮刃瞮ව듞륭
-[2016-09-10 17:28:34,451] ≜鋆幮刃瞮ව듞륭
-[2016-09-10 17:28:34,451] *** Getting poll code ***
-[2016-09-10 17:28:34,451] ≜鋆幮刃瞮ව듞륭
-[2016-09-10 17:32:33,115] *** Getting poll code ***
-[2016-09-10 17:32:33,119] Newly Generated: YQeCFSLT
-[2016-09-10 17:32:33,119] YQeCFSLT
-[2016-09-10 17:32:33,119] *** Getting poll code ***
-[2016-09-10 17:32:33,120] YQeCFSLT
-[2016-09-10 17:33:24,223] cUbaqMZv
-[2016-09-10 17:33:24,225] cUbaqMZv
-[2016-09-10 17:33:55,655] isr8rN5h
-[2016-09-10 17:33:55,656] isr8rN5h
-[2016-09-10 17:33:59,137] rrWRlbjL
-[2016-09-10 17:33:59,138] rrWRlbjL
-[2016-09-10 17:34:05,038] 52XgQiLF
-[2016-09-10 17:34:05,041] 52XgQiLF
-[2016-09-10 17:34:12,459] uKQgsMhh
-[2016-09-10 17:34:12,460] uKQgsMhh
+[2016-09-15 13:49:59,537] Find high test vote ID: 0
+[2016-09-15 13:51:23,764] Find high test vote ID: 0
+[2016-09-15 13:52:39,613] Find high test vote ID: 101
+[2016-09-15 13:53:30,833] Find high test vote ID: 101
+[2016-09-15 13:57:59,967] Initial values - id: -1 low: 2147483647
+[2016-09-15 14:08:52,371] Initial values - id: -1 low: 2147483647
+[2016-09-15 14:08:52,372] Looking at vote - Key: 1, Value: 3
+[2016-09-15 14:08:52,373] Current lowest vote count: 2147483647
+[2016-09-15 14:08:52,373] New low vote count: 1
+[2016-09-15 14:08:52,373] Looking at vote - Key: 2, Value: 4
+[2016-09-15 14:08:52,373] Current lowest vote count: 3
+[2016-09-15 14:08:52,373] Looking at vote - Key: 3, Value: 2
+[2016-09-15 14:08:52,373] Current lowest vote count: 3
+[2016-09-15 14:08:52,373] New low vote count: 3
+[2016-09-15 14:08:52,373] Looking at vote - Key: 4, Value: 1
+[2016-09-15 14:08:52,373] Current lowest vote count: 2
+[2016-09-15 14:08:52,373] New low vote count: 4

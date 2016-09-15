@@ -100,7 +100,7 @@ public class Poll {
             countVotes();
             if (!winnerExists()) {
                 int choiceToRemove = getLowestVoteGetter();
-                removeChoiceFromContention(choiceToRemove);
+                votes = removeChoiceFromContention(choiceToRemove, votes);
             }
         }
     }
@@ -121,10 +121,10 @@ public class Poll {
 
     int findHighestRankedChoice(Vote vote) {
         int idToReturn = -1;
-        int highestRank = Integer.MIN_VALUE;
+        int highestRank = Integer.MAX_VALUE;
 
         for (Map.Entry<Integer, Integer> entry : vote.getCurrentRankings().entrySet()) {
-            if (entry.getValue() > highestRank) {
+            if (entry.getValue() < highestRank) {
                 highestRank = entry.getValue();
                 idToReturn = entry.getKey();
             }
@@ -154,7 +154,7 @@ public class Poll {
         return idToReturn;
     }
 
-    ArrayList<Vote> removeChoiceFromContention(int idToRemove) {
+    ArrayList<Vote> removeChoiceFromContention(int idToRemove, ArrayList<Vote> votes) {
         ArrayList<Vote> newVotes = new ArrayList<Vote>();
         for (Vote vote : votes) {
             newVotes.add(removeChoiceFromVote(idToRemove, vote));

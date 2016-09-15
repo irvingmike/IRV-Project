@@ -12,6 +12,7 @@ public class Vote {
     private LinkedHashMap<Integer, Integer> currentRankings;
 
     public Vote(int id) {
+        voteId = id;
         voteRankings = new LinkedHashMap<Integer, Integer>();
         currentRankings = new LinkedHashMap<Integer, Integer>();
     }

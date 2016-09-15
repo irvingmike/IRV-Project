@@ -1,6 +1,9 @@
 package com.irvingmichael.irv;
 
+import org.apache.log4j.Logger;
+import org.junit.After;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.*;
@@ -13,23 +16,64 @@ import static org.junit.Assert.*;
  */
 public class PollTest {
 
-    private Poll poll;
+    private static Poll poll;
+    private final Logger logger = Logger.getLogger(this.getClass());
 
-    @Before
-    public void setup() {
+    @BeforeClass
+    public static void setup() {
         poll = new TestPollSetup().testPoll;
     }
 
     @Test
+    public void findHighestRankedChoice() throws Exception {
+        Vote testVote = poll.getVotes().get(0);
+        assertEquals("Wrong highest choice found", 1, poll.findHighestRankedChoice(testVote));
+        testVote = poll.getVotes().get(1);
+        assertEquals("Wrong highest choice found", 2, poll.findHighestRankedChoice(testVote));
+        testVote = poll.getVotes().get(8);
+        assertEquals("Wrong highest choice found", 3, poll.findHighestRankedChoice(testVote));
+    }
+
+    @Before
+    public void createTestVoteCounts() {
+        poll.setVoteCounts(new HashMap<Integer, Integer>() {{
+            put(1, 3);
+            put(2, 4);
+            put(3, 2);
+            put(4, 1);
+        }});
+    }
+    @Test
+    public void getLowestVoteGetter() {
+        assertEquals("Incorrect lowest voter getter returned", 4, poll.getLowestVoteGetter());
+    }
+    @After
+    public void resetVoteCountToEmpty(){
+        poll.setVoteCounts(new HashMap<Integer, Integer>());
+    }
+
+    @Test
+    public void removeChoiceFromContention() throws Exception {
+        ArrayList<Vote> originalVotes = poll.getVotes();
+        ArrayList<Vote> modifiedVotes = new ArrayList<Vote>();
+        int choiceCount = 0;
+
+        modifiedVotes = poll.removeChoiceFromContention(1, originalVotes);
+        for (Vote vote: modifiedVotes) {
+            choiceCount += vote.getCurrentRankings().size();
+        }
+        assertEquals("Didn't remove the correct amount of votes", 30, choiceCount);
+    }
+
+    @Test
     public void removeChoiceFromVote() throws Exception {
-        ArrayList<Vote> testVotes = poll.getVotes();
-        Vote testVote = testVotes.get(0);
+        Vote testVote = poll.getVotes().get(0);
         int beforeLength = testVote.getCurrentRankings().size();
-        poll.removeChoiceFromVote(1, testVote);
-        assertEquals("Bad array length after removing vote", beforeLength - 1, testVote.getCurrentRankings().size());
-        assertEquals("Removed wrong choice", (Integer) 2, testVote.getCurrentRankings().get(2));
-        assertEquals("Removed wrong choice", (Integer) 3, testVote.getCurrentRankings().get(3));
-        assertEquals("Removed wrong choice", (Integer) 4, testVote.getCurrentRankings().get(4));
+        Vote modifiedVote = poll.removeChoiceFromVote(1, testVote);
+        assertEquals("Bad array length after removing vote", beforeLength - 1, modifiedVote.getCurrentRankings().size());
+        assertEquals("Removed wrong choice", (Integer) 2, modifiedVote.getCurrentRankings().get(2));
+        assertEquals("Removed wrong choice", (Integer) 3, modifiedVote.getCurrentRankings().get(3));
+        assertEquals("Removed wrong choice", (Integer) 4, modifiedVote.getCurrentRankings().get(4));
     }
 
     @Test
@@ -59,7 +103,7 @@ public class PollTest {
     public void getWinThreshold() throws Exception {
         Poll testPollTemp = new Poll("Win Threshold Test Poll");
         testPollTemp.setVotes(new ArrayList<Vote>());
-        assertEquals("Empty vote array handled incorrectly", -1, poll.getWinThreshold());
+        assertEquals("Empty vote array handled incorrectly", -1, testPollTemp.getWinThreshold());
         ArrayList<Vote> testVotes = new ArrayList<Vote>();
         testVotes.add(new Vote(1));
         testVotes.add(new Vote(2));
@@ -67,11 +111,11 @@ public class PollTest {
         testVotes.add(new Vote(4));
         testVotes.add(new Vote(5));
         testVotes.add(new Vote(6));
-        poll.setVotes(testVotes);
-        assertEquals("Bad win threshold for even number of votes", 3, poll.getWinThreshold());
+        testPollTemp.setVotes(testVotes);
+        assertEquals("Bad win threshold for even number of votes", 3, testPollTemp.getWinThreshold());
         testVotes.add(new Vote(7));
-        poll.setVotes(testVotes);
-        assertEquals("Bad win threshold for odd number of votes", 3, poll.getWinThreshold());
+        testPollTemp.setVotes(testVotes);
+        assertEquals("Bad win threshold for odd number of votes", 3, testPollTemp.getWinThreshold());
     }
 
     @Test

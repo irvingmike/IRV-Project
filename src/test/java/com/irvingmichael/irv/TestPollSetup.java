@@ -1,5 +1,7 @@
 package com.irvingmichael.irv;
 
+import org.apache.log4j.Logger;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -10,6 +12,9 @@ import java.util.LinkedHashMap;
 public class TestPollSetup {
 
     Poll testPoll;
+
+    private final Logger logger = Logger.getLogger(this.getClass());
+
 
     TestPollSetup() {
         testPoll = new Poll("Test Poll");
@@ -33,51 +38,61 @@ public class TestPollSetup {
         int[] rankings = {1,2,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         testVote = new Vote(102);
         rankings = new int[] {2,1,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         testVote = new Vote(103);
         rankings = new int[] {2,1,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         testVote = new Vote(104);
         rankings = new int[] {2,1,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         testVote = new Vote(105);
         rankings = new int[] {3,4,1,2};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         testVote = new Vote(106);
         rankings = new int[] {2,3,4,1};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         testVote = new Vote(107);
         rankings = new int[] {1,2,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         testVote = new Vote(108);
         rankings = new int[] {4,1,3,2};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         testVote = new Vote(109);
         rankings = new int[] {2,3,1,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         testVote = new Vote(110);
         rankings = new int[] {1,2,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
+        testVotes.add(testVote);
 
         return testVotes;
     }
@@ -85,7 +100,7 @@ public class TestPollSetup {
     private LinkedHashMap<Integer, Integer> createRanking(int[] rankings) {
         LinkedHashMap<Integer, Integer> testRankings = new LinkedHashMap<Integer, Integer>();
         for (int i = 0; i < 4; i++) {
-            testRankings.put(i, rankings[i]);
+            testRankings.put((i+1), rankings[i]);
         }
         return testRankings;
     }
