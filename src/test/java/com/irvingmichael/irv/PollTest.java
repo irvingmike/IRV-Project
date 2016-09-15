@@ -1,65 +1,48 @@
 package com.irvingmichael.irv;
 
+import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
+import java.util.*;
 
+import static javax.swing.UIManager.put;
 import static org.junit.Assert.*;
 
 /**
  * Created by aaron on 9/10/16.
  */
 public class PollTest {
-    Poll poll = new Poll(1, "test");
-    
-    @Test
-    public void determineWinner() throws Exception {
 
-    }
+    private Poll poll;
 
-    @Test
-    public void countVotes() throws Exception {
-
-    }
-
-    @Test
-    public void resetChoiceCounts() throws Exception {
-
-    }
-
-    @Test
-    public void findHighestRankedChoice() throws Exception {
-
-    }
-
-    @Test
-    public void winnerExists() throws Exception {
-
-    }
-
-    @Test
-    public void getLowestVoteGetter() throws Exception {
-
-    }
-
-    @Test
-    public void removeChoiceFromContention() throws Exception {
-
+    @Before
+    public void setup() {
+        poll = new TestPollSetup().testPoll;
     }
 
     @Test
     public void removeChoiceFromVote() throws Exception {
-
+        ArrayList<Vote> testVotes = poll.getVotes();
+        Vote testVote = testVotes.get(0);
+        int beforeLength = testVote.getCurrentRankings().size();
+        poll.removeChoiceFromVote(1, testVote);
+        assertEquals("Bad array length after removing vote", beforeLength - 1, testVote.getCurrentRankings().size());
+        assertEquals("Removed wrong choice", (Integer) 2, testVote.getCurrentRankings().get(2));
+        assertEquals("Removed wrong choice", (Integer) 3, testVote.getCurrentRankings().get(3));
+        assertEquals("Removed wrong choice", (Integer) 4, testVote.getCurrentRankings().get(4));
     }
 
     @Test
     public void setVotesCountsToZero() throws Exception {
-
-    }
-
-    @Test
-    public void getChoiceNameById() throws Exception {
-
+        poll.setVoteCounts(new HashMap<Integer, Integer>() {{
+                put(1,1);
+                put(2,2);
+                put(3,3);
+        }});
+        poll.setVotesCountsToZero();
+        assertEquals("Vote count 1 didn't set to zero", (Integer) 0, poll.getVoteCounts().get(1));
+        assertEquals("Vote count 2 didn't set to zero", (Integer) 0, poll.getVoteCounts().get(2));
+        assertEquals("Vote count 3 didn't set to zero", (Integer) 0, poll.getVoteCounts().get(3));
     }
 
     @Test
@@ -74,8 +57,9 @@ public class PollTest {
 
     @Test
     public void getWinThreshold() throws Exception {
-        poll.setVotes(new ArrayList<Vote>());
-        assertEquals("Empty vote array handle incorrectly", -1, poll.getWinThreshold());
+        Poll testPollTemp = new Poll("Win Threshold Test Poll");
+        testPollTemp.setVotes(new ArrayList<Vote>());
+        assertEquals("Empty vote array handled incorrectly", -1, poll.getWinThreshold());
         ArrayList<Vote> testVotes = new ArrayList<Vote>();
         testVotes.add(new Vote(1));
         testVotes.add(new Vote(2));
@@ -88,6 +72,13 @@ public class PollTest {
         testVotes.add(new Vote(7));
         poll.setVotes(testVotes);
         assertEquals("Bad win threshold for odd number of votes", 3, poll.getWinThreshold());
+    }
+
+    @Test
+    public void getChoiceNameById() throws Exception {
+        assertEquals("Wrong name returned for choice 1", "Test Choice A", poll.getChoiceNameById(1));
+        assertEquals("Wrong name returned for choice 2", "Test Choice B", poll.getChoiceNameById(2));
+
     }
 
 }

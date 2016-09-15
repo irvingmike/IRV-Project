@@ -9,3 +9,4 @@
 | 9/8/16 | 2 | Class | |
 | 9/10/16 | 1 | Created database design in visio | |
 | 9/10/16 | 3 | Started building personal app | |
+| 9/12/16 | 1.5 | Finished inital take on Poll class and began to generate tests | |

@@ -12,6 +12,7 @@ import static com.irvingmichael.irv.PollStatus.*;
 /**
  * Created by aaron on 9/10/16.
  */
+
 public class Poll {
 
     private final Logger logger = Logger.getLogger(this.getClass());
@@ -26,8 +27,7 @@ public class Poll {
     private int winThreshold;
     private PollStatus status;
 
-    public Poll(int id, String title) {
-        this.id = id;
+    public Poll(String title) {
         this.title = title;
         winner = -1;
         choices = new ArrayList<Choice>();
@@ -57,7 +57,7 @@ public class Poll {
         return voteCounts;
     }
 
-    public void setVoteCounts(LinkedHashMap<Integer, Integer> voteCounts) {
+    public void setVoteCounts(HashMap<Integer, Integer> voteCounts) {
         this.voteCounts = voteCounts;
     }
 
@@ -175,7 +175,7 @@ public class Poll {
 
     void setVotesCountsToZero() {
         voteCounts = new HashMap<Integer, Integer>();
-        for (Choice choice : Choices) {
+        for (Choice choice : choices) {
             voteCounts.put(choice.getId(), 0);
         }
     }
