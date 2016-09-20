@@ -112,6 +112,8 @@ public class Poll {
         }
     }
 
+
+
     void resetChoiceCounts() {
         voteCounts = new HashMap<Integer, Integer>();
         for (Choice choice : choices) {
