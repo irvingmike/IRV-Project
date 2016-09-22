@@ -12,3 +12,6 @@
 | 9/12/16 | 1.5 | Finished initial take on Poll class and began to generate tests | |
 | 9/14/16 | 3 | Started adding test code for Poll class. Built first part of Test Poll Setup. |
 | 9/15/16 | 2 | In Class: Added more testing to Poll class; | |
+| 9/19/16 | 1.5 | Hibernate giving back same user even after it is deleted ||
+| 9/20/16 | 2 | In Class: First code reviews. ||
+| 9/21/16 | 1 |Fighting with clearing the cache to fix delete user test, to no avail. | |
