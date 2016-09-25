@@ -1,0 +1,119 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Oswald:400,700';
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+form button,
+form .question label,
+form .question input[type="text"] {
+  -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5); }
+
+form .question {
+  position: relative;
+  padding: 10px 0; }
+  form .question:last-of-type {
+    padding-bottom: 0; }
+  form .question label {
+    transform-origin: left center;
+    padding: 10px 15px;
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    z-index: 2;
+    pointer-events: none;
+    color: #BBB; }
+  form .question input[type="text"], form .question input[type="password"] {
+    appearance: none;
+    background-color: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 1;
+    outline: none; }
+    form .question input[type="text"]:focus, form .question input[type="text"]:valid, form .question input[type="password"]:focus, form .question input[type="password"]:valid {
+      margin-top: 10px; }
+      form .question input[type="text"]:focus ~ label, form .question input[type="text"]:valid ~ label, form .question input[type="password"]:focus ~ label, form .question input[type="password"]:valid ~ label {
+        text-transform: uppercase;
+        -moz-transform: translate(0, -30px) scale(0.6);
+        -ms-transform: translate(0, -30px) scale(0.6);
+        -webkit-transform: translate(0, -30px) scale(0.6);
+        transform: translate(0, -30px) scale(0.6); }
+    form .question input[type="text"]:valid ~ label, form .question input[type="password"]:valid ~ label {
+      color: #BBB; }
+    form .question input[type="text"]:focus ~ label, form .question input[type="password"]:focus ~ label {
+      color: #1C3D78; }
+
+button {
+  display: inline-block;
+  width: 18vmin;
+  height: 4vmin;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 105%;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  background-color: #cd5c57;
+  box-shadow: 0.25vmin 0.25vmin 0.5vmin rgba(0, 0, 0, 0.4);
+  border: none;
+  outline: none; }
+  button:hover {
+    background-color: #BA3D37; }
+  button:active {
+    box-shadow: none; }
+
+html {
+  background: url(../images/Index-Bkgrnd.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+div.content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -22vmin;
+  margin-left: -33vmin;
+  height: 44vmin;
+  width: 66vmin;
+  padding: 2vmin;
+  background-color: #FFF;
+  box-shadow: 1vmin 1vmin 2vmin 0.25vmin rgba(0, 0, 0, 0.4); }
+
+form {
+  display: block;
+  float: left;
+  width: 48%; }
+  form:first-of-type {
+    margin-right: 4%; }
+
+div#submit {
+  clear: both;
+  padding-top: 1vmin;
+  text-align: center; }
+
+h1 {
+  display: block;
+  margin: 0;
+  margin-top: 0.5vmin;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 150%; }
+
+#logo {
+  text-align: center;
+  margin-bottom: 0.5vmin; }
+  #logo img {
+    width: 30vmin; }

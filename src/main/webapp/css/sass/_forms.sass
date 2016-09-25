@@ -1,0 +1,78 @@
+form button,
+form .question label,
+form .question input[type="text"]
+  -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5)
+  -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5)
+  -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5)
+  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5)
+
+form .question
+  position: relative
+  padding: 10px 0
+
+  &:last-of-type
+    padding-bottom: 0
+
+  & label
+    transform-origin: left center
+    padding: 10px 15px
+    display: block
+    position: absolute
+    margin-top: -40px
+    z-index: 2
+    pointer-events: none
+
+    color: #BBB
+
+  & input[type="text"], input[type="password"]
+    appearance: none
+    background-color: none
+    display: block
+    width: 100%
+    padding: 10px 15px
+    position: relative
+    z-index: 1
+    outline: none
+
+
+    // Input field while focused
+    &:focus, &:valid
+      margin-top: 10px
+
+      // Label appearance while focused
+      & ~ label
+        text-transform: uppercase
+        -moz-transform: translate(0, -30px) scale(0.6)
+        -ms-transform: translate(0, -30px) scale(0.6)
+        -webkit-transform: translate(0, -30px) scale(0.6)
+        transform: translate(0, -30px) scale(0.6)
+
+    // Input field appearance when valid
+    &:valid ~ label
+      color: #BBB
+
+    &:focus ~ label
+      color: $mainBlue
+
+button
+  display: inline-block
+  width: 18vmin
+  height: 4vmin
+
+  font-family: $fontBold
+  font-weight: 800
+  text-transform: uppercase
+  font-size: 105%
+  letter-spacing: .1em
+  color: #FFF
+
+  background-color: lighten($mainRed, 10%)
+  box-shadow: .25vmin .25vmin .5vmin rgba(0, 0, 0, .4)
+  border: none
+  outline: none
+
+  &:hover
+    background-color: $mainRed
+
+  &:active
+    box-shadow: none
