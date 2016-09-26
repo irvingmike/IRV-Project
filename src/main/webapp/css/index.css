@@ -97,7 +97,7 @@ form {
   form:first-of-type {
     margin-right: 4%; }
 
-div#submit {
+div.submitdiv {
   clear: both;
   padding-top: 1vmin;
   text-align: center; }

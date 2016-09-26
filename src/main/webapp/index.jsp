@@ -1,8 +1,52 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<%--
+  Created by IntelliJ IDEA.
+  User: Aaron Anderson
+  Date: 9/25/16
+  Time: 3:37 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="css/test.css">
-</head>
+
+<c:set var="pagetitle" scope="page" value="Canvass - Your Instant Runoff Voting Systems"/>
+<jsp:include page="webparts/head.jsp" />
+
 <body>
-<h2>Hello World!</h2>
+<div class="content">
+    <div id="logo"><img src="images/Canvass_logo_final.png"></div>
+
+    <form id="signin">
+        <h1>Sign In</h1>
+        <div class="question">
+            <input type="text" id="loginuserid" required />
+            <label>Email</label>
+        </div>
+        <div class="question">
+            <input type="password" id="loginpassword" required="" />
+            <label for="loginpassword">Password</label>
+        </div>
+        <div class="submitdiv"><button type="button" id="btnsignin">Submit</button></div>
+    </form>
+
+    <form id="createaccount">
+        <h1>Sign Up</h1>
+        <div class="question">
+            <input type="text" id="signupemail" required="" />
+            <label for="signupemail">Email</label>
+        </div>
+        <div class="question">
+            <input type="password" id="passwordone" required="" />
+            <label for="passwordone">Password</label>
+        </div>
+        <div class="question">
+            <input type="password" id="passwordtwo" required="" />
+            <label>Confirm Password</label>
+        </div>
+        <div class="submitdiv"><button type="button" name="btncreate">Create Account</button></div>
+    </form>
+
+</div>
 </body>
 </html>

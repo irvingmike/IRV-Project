@@ -2,7 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
-| 9/25/16 | 5 | Finished styling index page and login/create account form.
+| 9/25/16 | 6 | Finished styling index page and login/create account form and converted the page to a jsp.
 | 9/23/16 | 6 | Researching Sass and implementing it in my project. Also setting up intellij to auto-transpile sass to css in the correct folders ||
 | 9/21/16 | 1 | Fighting with clearing the cache to fix delete user test, to no avail. | |
 | 9/20/16 | 2 | In Class: First code reviews. ||
