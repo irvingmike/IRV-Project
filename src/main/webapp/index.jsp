@@ -5,12 +5,13 @@
   User: Aaron Anderson
   Date: 9/25/16
   Time: 3:37 PM
-  To change this template use File | Settings | File Templates.
 --%>
+<c:set var="pagetitle" scope="request" value="Canvass: Your Instant Runoff Voting Systems"/>
+<c:set var="stylesheet" scope="request" value="index.css"/>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 
-<c:set var="pagetitle" scope="page" value="Canvass - Your Instant Runoff Voting Systems"/>
 <jsp:include page="webparts/head.jsp" />
 
 <body>

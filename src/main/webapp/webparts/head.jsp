@@ -3,7 +3,7 @@
   User: Aaron Anderson
   Date: 9/25/16
   Time: 3:29 PM
-  To change this template use File | Settings | File Templates.
+  To change this template use File | Settings | File Templates. change
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
@@ -13,11 +13,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{$pagetitle}</title>
+    <title>${pagetitle}</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/${stylesheet}">
 
 </head>
 
