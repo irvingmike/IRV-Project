@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 2px solid black;
+    margin: 3vmin auto;
+    background-color: lightgreen;
+    padding: 3vmin;
+}
+
+.choice {
+    display: flex;
+    flex: 0 0 100%;
+    background-color: pink;
+    margin: 1vmin 0vmin;
+    border: 2px solid black;
+
+    /* Makes text unselectable */
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.choice.over {
+    border: 2px solid blue;
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vmin;
+    height: 5vmin;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+.choiceName {
+    display: flex;
+    align-items: center;
+    height: 5vmin;
+    padding-left: 2vmin;
+    flex-grow: 1;
+}
+
+.hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: lightblue;
+}
