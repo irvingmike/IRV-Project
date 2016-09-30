@@ -106,6 +106,7 @@ public class Poll {
     }
 
     void countVotes() {
+        setVotesCountsToZero();
         for (Vote vote : votes) {
             int currentChoice = findHighestRankedChoice(vote);
             voteCounts.put(currentChoice, voteCounts.get(currentChoice) + 1);

@@ -25,7 +25,7 @@ public class PollTest {
         poll = new TestPollSetup().testPoll;
     }
 
-    /*@Test
+    @Test
     public void countVotes() throws Exception {
         logger.debug("***** Vote Counting *****");
         poll = new TestPollSetup().testPoll;
@@ -37,9 +37,9 @@ public class PollTest {
         assertEquals("Bad count for choice B", (Integer) 4, poll.getVoteCounts().get(2));
         assertEquals("Bad count for choice C", (Integer) 2, poll.getVoteCounts().get(3));
         assertEquals("Bad count for choice D", (Integer) 1, poll.getVoteCounts().get(4));
-    }*/
+    }
 
-    /*@Before
+    @Before
     public void setVoteCountsToReset() {
         poll.setVoteCounts(new HashMap<Integer, Integer>() {{
             put(1, 1);
@@ -58,7 +58,7 @@ public class PollTest {
     @After
     public void emptyVoteCounts() {
         poll.setVoteCounts(new HashMap<Integer, Integer>());
-    }*/
+    }
 
     @Test
     public void winnerExists() throws Exception {
