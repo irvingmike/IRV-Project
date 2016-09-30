@@ -2,6 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 9/27/16 | 3 | Database setup | |
 | 9/26/16 | 3 | Styling template for base page | |
 | 9/25/16 | 6 | Finished styling index page and login/create account form and converted the page to a jsp.
 | 9/23/16 | 6 | Researching Sass and implementing it in my project. Also setting up intellij to auto-transpile sass to css in the correct folders ||

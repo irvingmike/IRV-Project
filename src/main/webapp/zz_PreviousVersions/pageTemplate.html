@@ -2,16 +2,19 @@
 <html>
 <head>
   <title>Page Template</title>
-  <link rel="stylesheet" type="text/css" href="css/stdPage.css">
+  <link rel="stylesheet" type="text/css" href="../css/stdPage.css">
+  <script type="text/javascript" src="../js/irv-main.js"></script>
 </head>
 <body>
   <header>
-    <img src="images/Canvass_logo_final.png">
-    <ol>
-      <li id="mypolls" class="selected">My Polls</li>
+    <img src="../images/Canvass_logo_final.png">
+    <ol id="navbaritems">
+    <!--
+      <li id="mypolls">My Polls</li>
       <li id="createpoll">Create Poll</li>
       <li id="account">Account</li>
       <li id="logout">Log Out</li>
+    -->
     </ol>
   </header>
   <section>
@@ -133,3 +136,5 @@
   </footer>
 </body>
 </html>
+<script type="text/javascript">init("Create Poll");</script>
+

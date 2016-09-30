@@ -13,11 +13,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>${pagetitle}</title>
+    <title>Canvass: ${pagetitle}</title>
+
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" type="text/css" href="../css/${stylesheet}">
+
+    <script type="text/javascript" src="js/irv-main.js"></script>
 
 </head>
 

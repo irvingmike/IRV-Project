@@ -5,7 +5,7 @@
   Date: 9/26/16
   Time: 10:58 AM
 --%>
-<c:set var="pagetitle" scope="request" value="Canvass: Your Polls"/>
+<c:set var="pagetitle" scope="request" value="My Polls"/>
 <c:set var="stylesheet" scope="request" value="stdPage.css"/>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,3 +17,4 @@
     <jsp:include page="webparts/footer.jsp" />
 </body>
 </html>
+<script type="text/javascript">init("${pagetitle}");</script>
