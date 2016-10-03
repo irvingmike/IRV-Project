@@ -21,10 +21,10 @@
     <property name="show_sql">true</property>
 
     <!-- List the annotated entity class/es -->
-    <mapping class="com.irvingmichael.irv.Choice"/>
-    <mapping class="com.irvingmichael.irv.Vote"/>
-    <mapping class="com.irvingmichael.irv.Voter"/>
-    <mapping class="com.irvingmichael.irv.Poll"/>
+    <mapping class="com.irvingmichael.irv.entity.Choice"/>
+    <mapping class="com.irvingmichael.irv.entity.Vote"/>
+    <mapping class="com.irvingmichael.irv.entity.Voter"/>
+    <mapping class="com.irvingmichael.irv.entity.Poll"/>
 
   </session-factory>
 

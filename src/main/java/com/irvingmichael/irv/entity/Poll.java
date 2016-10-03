@@ -1,12 +1,10 @@
-package com.irvingmichael.irv;
+package com.irvingmichael.irv.entity;
 
 import org.apache.log4j.Logger;
 
 import java.util.*;
 
 import org.apache.commons.lang.RandomStringUtils;
-
-import static com.irvingmichael.irv.PollStatus.*;
 
 
 /**
@@ -33,7 +31,7 @@ public class Poll {
         votes = new ArrayList<Vote>();
         voteCounts = new HashMap<Integer, Integer>();
         pollCode = "";
-        status = initial;
+        status = PollStatus.initial;
     }
 
     public ArrayList<Choice> getChoices() {

@@ -1,8 +1,10 @@
-package com.irvingmichael.irv;
+package com.irvingmichael.irv.entity;
 
+import com.irvingmichael.irv.entity.Choice;
+import com.irvingmichael.irv.entity.Poll;
+import com.irvingmichael.irv.entity.Vote;
 import org.apache.log4j.Logger;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 

@@ -1,4 +1,4 @@
-package com.irvingmichael.irv;
+package com.irvingmichael.irv.entity;
 
 import java.util.LinkedHashMap;
 

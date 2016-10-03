@@ -1,15 +1,14 @@
-package com.irvingmichael.irv;
+package com.irvingmichael.irv.entity;
 
+import com.irvingmichael.irv.entity.*;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import javax.persistence.Entity;
 import java.util.*;
 
-import static javax.swing.UIManager.put;
 import static org.junit.Assert.*;
 
 /**
@@ -24,7 +23,6 @@ public class PollTest {
     public static void setup() {
         poll = new TestPollSetup().testPoll;
     }
-
     @Test
     public void countVotes() throws Exception {
         logger.debug("***** Vote Counting *****");
@@ -57,7 +55,7 @@ public class PollTest {
     }
     @After
     public void emptyVoteCounts() {
-        poll.setVoteCounts(new HashMap<Integer, Integer>());
+        poll.setVotesCountsToZero();
     }
 
     @Test
@@ -104,6 +102,7 @@ public class PollTest {
     }
     @Test
     public void getLowestVoteGetter() throws Exception {
+        poll.countVotes();
         assertEquals("Incorrect lowest voter getter returned", 4, poll.getLowestVoteGetter());
     }
     @After

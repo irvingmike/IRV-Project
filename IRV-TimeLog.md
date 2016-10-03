@@ -2,7 +2,9 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
-| 9/30/16 | 
+| 10/3/16 | 1 | Security exercise | |
+| 9/30/16 | 2 | Security Exercise | |
+| 9/30/16 | 4 | Developing dragable list for form input | |
 | 9/29/16 | 2 | Adding java script to create nav bar and change highlighted item by current page | |
 | 9/29/16 | 2 | Class | |
 | 9/27/16 | 3 | Database setup | |

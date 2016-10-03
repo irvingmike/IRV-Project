@@ -1,4 +1,4 @@
-package com.irvingmichael.irv;
+package com.irvingmichael.irv.entity;
 
 /**
  * Created by aaron on 9/10/16.

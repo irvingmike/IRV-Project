@@ -1,36 +1,47 @@
-package com.irvingmichael.irv;
+package com.irvingmichael.irv.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
 /**
- * Created by aaron on 9/10/16.
+ * Choice class to store information about a choice for a poll.
+ *
+ * @author Aaron Anderson
  */
 
 @Entity
-@Table(name = "choices")
+@Table(name = "Choices")
 public class Choice {
 
     @Id
-    @GeneratedValue(generator = "increment")
-    @GenericGenerator(name = "increment", strategy = "increment")
-    @Column(name = "choiceId")
+    @GeneratedValue
+    @Column(name = "choice-id")
     private int id;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "description")
+    private String description;
 
     public Choice() {};
 
-    public Choice(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
+    Choice(int id, String name) { this.id = id; this.name = name; };
+
+    void setId(int id) { this.id = id; }
 
     public int getId() {
         return id;
     }
 
+    void setName(String name) { this.name = name; }
+
     public String getName() {
         return name;
     }
+
+    void setDescription(String description) { this.description = description; }
+
+    public String getDescription() { return description; }
 }
