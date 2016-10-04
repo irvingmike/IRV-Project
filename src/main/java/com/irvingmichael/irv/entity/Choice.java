@@ -28,11 +28,15 @@ public class Choice {
     @Column(name = "pollid")
     private int pollId;
 
-    public Choice() {}
+    protected Choice() {}
 
-    public Choice(String name) { this(); this.name = name; }
+    protected Choice(String name) { this(); this.setName(name); }
 
-    Choice(int id, String name) { this(name); this.id = id; }
+    protected Choice(int id, String name) { this(name); this.setId(id); }
+
+    public Choice(String name, int pollId) { this(name); this.setPollId(pollId); }
+
+    public Choice(String name, int pollId, String description) { this(name, pollId); this.setDescription(description);}
 
     void setId(int id) { this.id = id; }
 
@@ -46,7 +50,7 @@ public class Choice {
         return name;
     }
 
-    void setDescription(String description) { this.description = description; }
+    public void setDescription(String description) { this.description = description; }
 
     public String getDescription() { return description; }
 

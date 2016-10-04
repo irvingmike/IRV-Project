@@ -23,7 +23,7 @@ public class ChoiceDao {
      * Returns a list of all choices in the database
      * @return
      */
-    public List<Choice> getAllChoicesForPoll(int pollid) {
+    List<Choice> getAllChoicesForPoll(int pollid) {
         List<Choice> choices;
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         choices = session.createCriteria(Choice.class)
@@ -34,14 +34,14 @@ public class ChoiceDao {
         return choices;
     }
 
-    public Choice getChoiceById(int choiceId) {
+    Choice getChoiceById(int choiceId) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Choice choice = (Choice) session.get(Choice.class, choiceId);
         session.close();
         return choice;
     }
 
-    public int addChoice(Choice choice) {
+    int addChoice(Choice choice) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         int id = 0;
         Transaction tx = session.beginTransaction();
@@ -49,5 +49,23 @@ public class ChoiceDao {
         tx.commit();
         session.close();
         return id;
+    }
+
+    void deleteChoice(int choiceId) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction tx = session.beginTransaction();
+        Choice choice = getChoiceById(choiceId);
+        session.delete(choice);
+        tx.commit();
+        session.close();
+    }
+
+    void updateChoice(Choice choice) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction tx = session.beginTransaction();
+        session.update(choice);
+        session.flush();
+        tx.commit();
+        session.close();
     }
 }
