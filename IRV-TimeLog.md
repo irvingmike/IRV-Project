@@ -2,6 +2,8 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 10/3/16 | 1 | Choice Dao with testing | |
+| 10/3/16 | 5.5 | Security exercise and Choice Dao with testing| |
 | 10/3/16 | 1 | Security exercise | |
 | 9/30/16 | 2 | Security Exercise | |
 | 9/30/16 | 4 | Developing dragable list for form input | |
