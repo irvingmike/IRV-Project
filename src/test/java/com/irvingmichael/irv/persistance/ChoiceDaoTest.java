@@ -11,7 +11,7 @@ public class ChoiceDaoTest {
     @Test
     public void getAllChoices() throws Exception {
         ChoiceDao choice = new ChoiceDao();
-        assertEquals("Wrong number of choices returned", 4, choice.getAllChoices());
+        assertEquals("Wrong number of choices returned", 4, choice.getAllChoices().size());
     }
 
 }

@@ -15,7 +15,7 @@
     <table id="10" parent="1" name="Voters"/>
     <table id="11" parent="1" name="Votes"/>
     <table id="12" parent="1" name="VotersPolls"/>
-    <column id="13" parent="8" name="choice-id">
+    <column id="13" parent="8" name="choiceid">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
@@ -35,7 +35,7 @@
       <desc-columns></desc-columns>
     </index>
     <key id="18" parent="8" name="PRIMARY">
-      <columns>choice-id</columns>
+      <columns>choiceid</columns>
       <primary>1</primary>
     </key>
     <foreign-key id="19" parent="8" name="fk_poll-id_choices">

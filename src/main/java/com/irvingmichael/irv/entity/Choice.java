@@ -16,7 +16,7 @@ public class Choice {
 
     @Id
     @GeneratedValue
-    @Column(name = "choice-id")
+    @Column(name = "choiceid")
     private int id;
 
     @Column(name = "name")
@@ -24,6 +24,9 @@ public class Choice {
 
     @Column(name = "description")
     private String description;
+
+    @Column(name = "poll-id")
+    private int pollid;
 
     public Choice() {};
 
