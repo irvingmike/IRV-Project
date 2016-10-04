@@ -2877,3 +2877,1037 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'this_
 [2016-10-03 19:09:34,828] Done materializing entity [com.irvingmichael.irv.entity.Choice#4]
 [2016-10-03 19:09:34,834] Releasing JDBC connection
 [2016-10-03 19:09:34,834] Released JDBC connection
+[2016-10-03 19:25:38,963] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-10-03 19:25:38,986] Adding type registration boolean -> org.hibernate.type.BooleanType@71c7db30
+[2016-10-03 19:25:38,987] Adding type registration boolean -> org.hibernate.type.BooleanType@71c7db30
+[2016-10-03 19:25:38,987] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@71c7db30
+[2016-10-03 19:25:38,988] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1fbc7afb
+[2016-10-03 19:25:38,989] Adding type registration true_false -> org.hibernate.type.TrueFalseType@5ba23b66
+[2016-10-03 19:25:38,989] Adding type registration yes_no -> org.hibernate.type.YesNoType@3f0ee7cb
+[2016-10-03 19:25:38,991] Adding type registration byte -> org.hibernate.type.ByteType@56cbfb61
+[2016-10-03 19:25:38,991] Adding type registration byte -> org.hibernate.type.ByteType@56cbfb61
+[2016-10-03 19:25:38,991] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@56cbfb61
+[2016-10-03 19:25:38,992] Adding type registration character -> org.hibernate.type.CharacterType@2d209079
+[2016-10-03 19:25:38,992] Adding type registration char -> org.hibernate.type.CharacterType@2d209079
+[2016-10-03 19:25:38,992] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2d209079
+[2016-10-03 19:25:38,993] Adding type registration short -> org.hibernate.type.ShortType@27f674d
+[2016-10-03 19:25:38,993] Adding type registration short -> org.hibernate.type.ShortType@27f674d
+[2016-10-03 19:25:38,993] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@27f674d
+[2016-10-03 19:25:38,994] Adding type registration integer -> org.hibernate.type.IntegerType@2133c8f8
+[2016-10-03 19:25:38,994] Adding type registration int -> org.hibernate.type.IntegerType@2133c8f8
+[2016-10-03 19:25:38,994] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@2133c8f8
+[2016-10-03 19:25:38,995] Adding type registration long -> org.hibernate.type.LongType@7a79be86
+[2016-10-03 19:25:38,995] Adding type registration long -> org.hibernate.type.LongType@7a79be86
+[2016-10-03 19:25:38,996] Adding type registration java.lang.Long -> org.hibernate.type.LongType@7a79be86
+[2016-10-03 19:25:38,997] Adding type registration float -> org.hibernate.type.FloatType@30c7da1e
+[2016-10-03 19:25:38,997] Adding type registration float -> org.hibernate.type.FloatType@30c7da1e
+[2016-10-03 19:25:38,997] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@30c7da1e
+[2016-10-03 19:25:38,998] Adding type registration double -> org.hibernate.type.DoubleType@7a0ac6e3
+[2016-10-03 19:25:38,998] Adding type registration double -> org.hibernate.type.DoubleType@7a0ac6e3
+[2016-10-03 19:25:38,998] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7a0ac6e3
+[2016-10-03 19:25:38,999] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@67b64c45
+[2016-10-03 19:25:39,000] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@67b64c45
+[2016-10-03 19:25:39,001] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@edf4efb
+[2016-10-03 19:25:39,001] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@edf4efb
+[2016-10-03 19:25:39,001] Adding type registration string -> org.hibernate.type.StringType@6cd8737
+[2016-10-03 19:25:39,002] Adding type registration java.lang.String -> org.hibernate.type.StringType@6cd8737
+[2016-10-03 19:25:39,002] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1a407d53
+[2016-10-03 19:25:39,003] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@668bc3d5
+[2016-10-03 19:25:39,003] Adding type registration url -> org.hibernate.type.UrlType@79698539
+[2016-10-03 19:25:39,004] Adding type registration java.net.URL -> org.hibernate.type.UrlType@79698539
+[2016-10-03 19:25:39,005] Adding type registration date -> org.hibernate.type.DateType@13fee20c
+[2016-10-03 19:25:39,005] Adding type registration java.sql.Date -> org.hibernate.type.DateType@13fee20c
+[2016-10-03 19:25:39,006] Adding type registration time -> org.hibernate.type.TimeType@2c6a3f77
+[2016-10-03 19:25:39,006] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@2c6a3f77
+[2016-10-03 19:25:39,008] Adding type registration timestamp -> org.hibernate.type.TimestampType@60addb54
+[2016-10-03 19:25:39,008] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@60addb54
+[2016-10-03 19:25:39,008] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@60addb54
+[2016-10-03 19:25:39,009] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@6fb554cc
+[2016-10-03 19:25:39,010] Adding type registration calendar -> org.hibernate.type.CalendarType@3567135c
+[2016-10-03 19:25:39,010] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3567135c
+[2016-10-03 19:25:39,010] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3567135c
+[2016-10-03 19:25:39,011] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@90f6bfd
+[2016-10-03 19:25:39,012] Adding type registration locale -> org.hibernate.type.LocaleType@4909b8da
+[2016-10-03 19:25:39,012] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4909b8da
+[2016-10-03 19:25:39,012] Adding type registration currency -> org.hibernate.type.CurrencyType@34b7bfc0
+[2016-10-03 19:25:39,013] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@34b7bfc0
+[2016-10-03 19:25:39,013] Adding type registration timezone -> org.hibernate.type.TimeZoneType@54a097cc
+[2016-10-03 19:25:39,013] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@54a097cc
+[2016-10-03 19:25:39,014] Adding type registration class -> org.hibernate.type.ClassType@52af6cff
+[2016-10-03 19:25:39,014] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@52af6cff
+[2016-10-03 19:25:39,015] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@13c78c0b
+[2016-10-03 19:25:39,015] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@13c78c0b
+[2016-10-03 19:25:39,016] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@97e1986
+[2016-10-03 19:25:39,016] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@13a57a3b
+[2016-10-03 19:25:39,017] Adding type registration binary -> org.hibernate.type.BinaryType@6276ae34
+[2016-10-03 19:25:39,018] Adding type registration byte[] -> org.hibernate.type.BinaryType@6276ae34
+[2016-10-03 19:25:39,018] Adding type registration [B -> org.hibernate.type.BinaryType@6276ae34
+[2016-10-03 19:25:39,019] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@32e6e9c3
+[2016-10-03 19:25:39,019] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@32e6e9c3
+[2016-10-03 19:25:39,019] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@32e6e9c3
+[2016-10-03 19:25:39,019] Adding type registration image -> org.hibernate.type.ImageType@458ad742
+[2016-10-03 19:25:39,020] Adding type registration characters -> org.hibernate.type.CharArrayType@66d2e7d9
+[2016-10-03 19:25:39,020] Adding type registration char[] -> org.hibernate.type.CharArrayType@66d2e7d9
+[2016-10-03 19:25:39,020] Adding type registration [C -> org.hibernate.type.CharArrayType@66d2e7d9
+[2016-10-03 19:25:39,021] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@48eff760
+[2016-10-03 19:25:39,021] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@48eff760
+[2016-10-03 19:25:39,021] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@48eff760
+[2016-10-03 19:25:39,021] Adding type registration text -> org.hibernate.type.TextType@548b7f67
+[2016-10-03 19:25:39,022] Adding type registration ntext -> org.hibernate.type.NTextType@1810399e
+[2016-10-03 19:25:39,027] Adding type registration blob -> org.hibernate.type.BlobType@4f933fd1
+[2016-10-03 19:25:39,027] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4f933fd1
+[2016-10-03 19:25:39,027] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7c16905e
+[2016-10-03 19:25:39,030] Adding type registration clob -> org.hibernate.type.ClobType@4b9e13df
+[2016-10-03 19:25:39,030] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4b9e13df
+[2016-10-03 19:25:39,033] Adding type registration nclob -> org.hibernate.type.NClobType@ae45eb6
+[2016-10-03 19:25:39,033] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@ae45eb6
+[2016-10-03 19:25:39,033] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6f7fd0e6
+[2016-10-03 19:25:39,034] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@66a3ffec
+[2016-10-03 19:25:39,034] Adding type registration serializable -> org.hibernate.type.SerializableType@5e3a8624
+[2016-10-03 19:25:39,036] Adding type registration object -> org.hibernate.type.ObjectType@39c0f4a
+[2016-10-03 19:25:39,036] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@39c0f4a
+[2016-10-03 19:25:39,037] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@57baeedf
+[2016-10-03 19:25:39,037] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@343f4d3d
+[2016-10-03 19:25:39,037] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@53b32d7
+[2016-10-03 19:25:39,037] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5442a311
+[2016-10-03 19:25:39,037] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@548e7350
+[2016-10-03 19:25:39,037] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1a968a59
+[2016-10-03 19:25:39,037] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4667ae56
+[2016-10-03 19:25:39,037] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@77cd7a0
+[2016-10-03 19:25:39,055] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-10-03 19:25:39,060] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-10-03 19:25:39,061] HHH000206: hibernate.properties not found
+[2016-10-03 19:25:39,062] HHH000021: Bytecode provider name : javassist
+[2016-10-03 19:25:39,070] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2016-10-03 19:25:39,070] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2016-10-03 19:25:39,070] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 19:25:39,070] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 19:25:39,071] Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2016-10-03 19:25:39,071] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2016-10-03 19:25:39,072] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2016-10-03 19:25:39,072] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2016-10-03 19:25:39,073] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2016-10-03 19:25:39,074] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2016-10-03 19:25:39,074] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2016-10-03 19:25:39,074] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2016-10-03 19:25:39,075] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2016-10-03 19:25:39,075] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2016-10-03 19:25:39,076] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2016-10-03 19:25:39,079] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-10-03 19:25:39,079] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-10-03 19:25:39,117] Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2016-10-03 19:25:39,117] Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[2016-10-03 19:25:39,117] Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+[2016-10-03 19:25:39,135] connection.driver_class=com.mysql.jdbc.Driver
+[2016-10-03 19:25:39,135] connection.url=jdbc:mysql://localhost:3306/irv_project
+[2016-10-03 19:25:39,135] dialect=org.hibernate.dialect.MySQL5Dialect
+[2016-10-03 19:25:39,136] show_sql=true
+[2016-10-03 19:25:39,136] Session-factory config [null] named class [com.irvingmichael.irv.entity.Choice] for mapping
+[2016-10-03 19:25:39,142] Session-factory config [null] named class [com.irvingmichael.irv.entity.Vote] for mapping
+[2016-10-03 19:25:39,143] Session-factory config [null] named class [com.irvingmichael.irv.entity.Voter] for mapping
+[2016-10-03 19:25:39,144] Session-factory config [null] named class [com.irvingmichael.irv.entity.Poll] for mapping
+[2016-10-03 19:25:39,145] Session-factory config [null] named class [com.irvingmichael.irv.entity.ChoicesEntity] for mapping
+[2016-10-03 19:25:39,145] HHH000041: Configured SessionFactory: null
+[2016-10-03 19:25:39,146] Properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib, java.vm.version=25.101-b13, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7532, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project, java.runtime.version=1.8.0_101-b13, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/g3/yyb1xy3j51j98211p7tdl37m0000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/aaron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.11.6, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/aaron, user.timezone=America/Chicago, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=/Applications/IntelliJ IDEA.app/Contents/bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/tools.jar:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/test-classes:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/classes:/Users/aaron/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/aaron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aaron/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/Users/aaron/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/aaron/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar:/Users/aaron/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/aaron/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/aaron/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/aaron/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/aaron/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/aaron/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar:/Users/aaron/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/aaron/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/aaron/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/aaron/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, user.name=aaron, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.irvingmichael.irv.persistance.ChoiceDaoTest, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/irv_project, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_101, java.ext.dirs=/Users/aaron/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, connection.url=jdbc:mysql://localhost:3306/irv_project, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=}
+[2016-10-03 19:25:39,156] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2016-10-03 19:25:39,158] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2016-10-03 19:25:39,159] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2016-10-03 19:25:39,173] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[2016-10-03 19:25:39,173] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[2016-10-03 19:25:39,222] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2016-10-03 19:25:39,222] Preparing to build session factory with filters : {}
+[2016-10-03 19:25:39,232] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 19:25:39,246] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-10-03 19:25:39,246] HHH000046: Connection properties: {}
+[2016-10-03 19:25:39,247] HHH000006: Autocommit mode: false
+[2016-10-03 19:25:39,248] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-10-03 19:25:39,249] Initializing Connection pool with 1 Connections
+[2016-10-03 19:41:34,619] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-10-03 19:41:34,632] Adding type registration boolean -> org.hibernate.type.BooleanType@4563e9ab
+[2016-10-03 19:41:34,632] Adding type registration boolean -> org.hibernate.type.BooleanType@4563e9ab
+[2016-10-03 19:41:34,632] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4563e9ab
+[2016-10-03 19:41:34,633] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4cdbe50f
+[2016-10-03 19:41:34,634] Adding type registration true_false -> org.hibernate.type.TrueFalseType@c818063
+[2016-10-03 19:41:34,635] Adding type registration yes_no -> org.hibernate.type.YesNoType@7d417077
+[2016-10-03 19:41:34,636] Adding type registration byte -> org.hibernate.type.ByteType@d041cf
+[2016-10-03 19:41:34,637] Adding type registration byte -> org.hibernate.type.ByteType@d041cf
+[2016-10-03 19:41:34,637] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@d041cf
+[2016-10-03 19:41:34,638] Adding type registration character -> org.hibernate.type.CharacterType@6b71769e
+[2016-10-03 19:41:34,638] Adding type registration char -> org.hibernate.type.CharacterType@6b71769e
+[2016-10-03 19:41:34,638] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6b71769e
+[2016-10-03 19:41:34,639] Adding type registration short -> org.hibernate.type.ShortType@48140564
+[2016-10-03 19:41:34,639] Adding type registration short -> org.hibernate.type.ShortType@48140564
+[2016-10-03 19:41:34,639] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@48140564
+[2016-10-03 19:41:34,640] Adding type registration integer -> org.hibernate.type.IntegerType@3ac3fd8b
+[2016-10-03 19:41:34,640] Adding type registration int -> org.hibernate.type.IntegerType@3ac3fd8b
+[2016-10-03 19:41:34,640] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3ac3fd8b
+[2016-10-03 19:41:34,641] Adding type registration long -> org.hibernate.type.LongType@b684286
+[2016-10-03 19:41:34,641] Adding type registration long -> org.hibernate.type.LongType@b684286
+[2016-10-03 19:41:34,641] Adding type registration java.lang.Long -> org.hibernate.type.LongType@b684286
+[2016-10-03 19:41:34,643] Adding type registration float -> org.hibernate.type.FloatType@57829d67
+[2016-10-03 19:41:34,643] Adding type registration float -> org.hibernate.type.FloatType@57829d67
+[2016-10-03 19:41:34,643] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@57829d67
+[2016-10-03 19:41:34,644] Adding type registration double -> org.hibernate.type.DoubleType@6fadae5d
+[2016-10-03 19:41:34,644] Adding type registration double -> org.hibernate.type.DoubleType@6fadae5d
+[2016-10-03 19:41:34,645] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6fadae5d
+[2016-10-03 19:41:34,646] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6442b0a6
+[2016-10-03 19:41:34,646] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6442b0a6
+[2016-10-03 19:41:34,647] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@566776ad
+[2016-10-03 19:41:34,647] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@566776ad
+[2016-10-03 19:41:34,648] Adding type registration string -> org.hibernate.type.StringType@13969fbe
+[2016-10-03 19:41:34,648] Adding type registration java.lang.String -> org.hibernate.type.StringType@13969fbe
+[2016-10-03 19:41:34,649] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5ebec15
+[2016-10-03 19:41:34,650] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7a5d012c
+[2016-10-03 19:41:34,650] Adding type registration url -> org.hibernate.type.UrlType@2ed94a8b
+[2016-10-03 19:41:34,651] Adding type registration java.net.URL -> org.hibernate.type.UrlType@2ed94a8b
+[2016-10-03 19:41:34,652] Adding type registration date -> org.hibernate.type.DateType@783e6358
+[2016-10-03 19:41:34,652] Adding type registration java.sql.Date -> org.hibernate.type.DateType@783e6358
+[2016-10-03 19:41:34,653] Adding type registration time -> org.hibernate.type.TimeType@62043840
+[2016-10-03 19:41:34,653] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@62043840
+[2016-10-03 19:41:34,655] Adding type registration timestamp -> org.hibernate.type.TimestampType@4cb2c100
+[2016-10-03 19:41:34,655] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4cb2c100
+[2016-10-03 19:41:34,655] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4cb2c100
+[2016-10-03 19:41:34,656] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@77b52d12
+[2016-10-03 19:41:34,657] Adding type registration calendar -> org.hibernate.type.CalendarType@4157f54e
+[2016-10-03 19:41:34,657] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4157f54e
+[2016-10-03 19:41:34,657] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4157f54e
+[2016-10-03 19:41:34,658] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@15975490
+[2016-10-03 19:41:34,658] Adding type registration locale -> org.hibernate.type.LocaleType@2d3fcdbd
+[2016-10-03 19:41:34,658] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2d3fcdbd
+[2016-10-03 19:41:34,659] Adding type registration currency -> org.hibernate.type.CurrencyType@6df97b55
+[2016-10-03 19:41:34,660] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6df97b55
+[2016-10-03 19:41:34,661] Adding type registration timezone -> org.hibernate.type.TimeZoneType@5a61f5df
+[2016-10-03 19:41:34,661] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5a61f5df
+[2016-10-03 19:41:34,662] Adding type registration class -> org.hibernate.type.ClassType@2c9f9fb0
+[2016-10-03 19:41:34,662] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2c9f9fb0
+[2016-10-03 19:41:34,663] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3dd3bcd
+[2016-10-03 19:41:34,663] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3dd3bcd
+[2016-10-03 19:41:34,664] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@153f5a29
+[2016-10-03 19:41:34,665] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@337d0578
+[2016-10-03 19:41:34,665] Adding type registration binary -> org.hibernate.type.BinaryType@3c09711b
+[2016-10-03 19:41:34,666] Adding type registration byte[] -> org.hibernate.type.BinaryType@3c09711b
+[2016-10-03 19:41:34,666] Adding type registration [B -> org.hibernate.type.BinaryType@3c09711b
+[2016-10-03 19:41:34,667] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6574b225
+[2016-10-03 19:41:34,667] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6574b225
+[2016-10-03 19:41:34,667] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6574b225
+[2016-10-03 19:41:34,667] Adding type registration image -> org.hibernate.type.ImageType@6ea12c19
+[2016-10-03 19:41:34,668] Adding type registration characters -> org.hibernate.type.CharArrayType@6a2bcfcb
+[2016-10-03 19:41:34,668] Adding type registration char[] -> org.hibernate.type.CharArrayType@6a2bcfcb
+[2016-10-03 19:41:34,668] Adding type registration [C -> org.hibernate.type.CharArrayType@6a2bcfcb
+[2016-10-03 19:41:34,669] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@573f2bb1
+[2016-10-03 19:41:34,669] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@573f2bb1
+[2016-10-03 19:41:34,669] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@573f2bb1
+[2016-10-03 19:41:34,671] Adding type registration text -> org.hibernate.type.TextType@6d78f375
+[2016-10-03 19:41:34,671] Adding type registration ntext -> org.hibernate.type.NTextType@215be6bb
+[2016-10-03 19:41:34,677] Adding type registration blob -> org.hibernate.type.BlobType@1753acfe
+[2016-10-03 19:41:34,677] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1753acfe
+[2016-10-03 19:41:34,678] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2a5ca609
+[2016-10-03 19:41:34,684] Adding type registration clob -> org.hibernate.type.ClobType@475530b9
+[2016-10-03 19:41:34,684] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@475530b9
+[2016-10-03 19:41:34,690] Adding type registration nclob -> org.hibernate.type.NClobType@27efef64
+[2016-10-03 19:41:34,690] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@27efef64
+[2016-10-03 19:41:34,691] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3e6fa38a
+[2016-10-03 19:41:34,692] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1e88b3c
+[2016-10-03 19:41:34,693] Adding type registration serializable -> org.hibernate.type.SerializableType@91161c7
+[2016-10-03 19:41:34,696] Adding type registration object -> org.hibernate.type.ObjectType@42e26948
+[2016-10-03 19:41:34,696] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@42e26948
+[2016-10-03 19:41:34,696] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@53b32d7
+[2016-10-03 19:41:34,697] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5442a311
+[2016-10-03 19:41:34,697] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@548e7350
+[2016-10-03 19:41:34,697] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1a968a59
+[2016-10-03 19:41:34,697] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4667ae56
+[2016-10-03 19:41:34,697] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@77cd7a0
+[2016-10-03 19:41:34,697] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@204f30ec
+[2016-10-03 19:41:34,697] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@e25b2fe
+[2016-10-03 19:41:34,713] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-10-03 19:41:34,718] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-10-03 19:41:34,719] HHH000206: hibernate.properties not found
+[2016-10-03 19:41:34,720] HHH000021: Bytecode provider name : javassist
+[2016-10-03 19:41:34,728] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2016-10-03 19:41:34,729] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2016-10-03 19:41:34,729] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 19:41:34,729] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 19:41:34,730] Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2016-10-03 19:41:34,731] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2016-10-03 19:41:34,731] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2016-10-03 19:41:34,732] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2016-10-03 19:41:34,732] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2016-10-03 19:41:34,733] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2016-10-03 19:41:34,733] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2016-10-03 19:41:34,734] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2016-10-03 19:41:34,734] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2016-10-03 19:41:34,735] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2016-10-03 19:41:34,736] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2016-10-03 19:41:34,740] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-10-03 19:41:34,740] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-10-03 19:41:34,776] Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2016-10-03 19:41:34,777] Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[2016-10-03 19:41:34,777] Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+[2016-10-03 19:41:34,795] connection.driver_class=com.mysql.jdbc.Driver
+[2016-10-03 19:41:34,796] connection.url=jdbc:mysql://localhost:3306/irv_project
+[2016-10-03 19:41:34,796] dialect=org.hibernate.dialect.MySQL5Dialect
+[2016-10-03 19:41:34,796] show_sql=true
+[2016-10-03 19:41:34,797] Session-factory config [null] named class [com.irvingmichael.irv.entity.Choice] for mapping
+[2016-10-03 19:41:34,804] Session-factory config [null] named class [com.irvingmichael.irv.entity.Vote] for mapping
+[2016-10-03 19:41:34,805] Session-factory config [null] named class [com.irvingmichael.irv.entity.Voter] for mapping
+[2016-10-03 19:41:34,806] Session-factory config [null] named class [com.irvingmichael.irv.entity.Poll] for mapping
+[2016-10-03 19:41:34,807] Session-factory config [null] named class [com.irvingmichael.irv.entity.ChoicesEntity] for mapping
+[2016-10-03 19:41:34,808] HHH000041: Configured SessionFactory: null
+[2016-10-03 19:41:34,808] Properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib, java.vm.version=25.101-b13, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7534, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project, java.runtime.version=1.8.0_101-b13, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/g3/yyb1xy3j51j98211p7tdl37m0000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/aaron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.11.6, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/aaron, user.timezone=America/Chicago, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=/Applications/IntelliJ IDEA.app/Contents/bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/tools.jar:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/test-classes:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/classes:/Users/aaron/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/aaron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aaron/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/Users/aaron/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/aaron/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar:/Users/aaron/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/aaron/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/aaron/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/aaron/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/aaron/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/aaron/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar:/Users/aaron/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/aaron/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/aaron/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/aaron/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, user.name=aaron, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.irvingmichael.irv.persistance.ChoiceDaoTest, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/irv_project, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_101, java.ext.dirs=/Users/aaron/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, connection.url=jdbc:mysql://localhost:3306/irv_project, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=}
+[2016-10-03 19:41:34,816] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2016-10-03 19:41:34,818] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2016-10-03 19:41:34,819] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2016-10-03 19:41:34,836] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[2016-10-03 19:41:34,836] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[2016-10-03 19:41:34,869] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2016-10-03 19:41:34,869] Preparing to build session factory with filters : {}
+[2016-10-03 19:41:34,874] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 19:41:34,884] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-10-03 19:41:34,884] HHH000046: Connection properties: {}
+[2016-10-03 19:41:34,885] HHH000006: Autocommit mode: false
+[2016-10-03 19:41:34,886] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-10-03 19:41:34,886] Initializing Connection pool with 1 Connections
+[2016-10-03 19:57:27,091] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-10-03 19:57:27,111] Adding type registration boolean -> org.hibernate.type.BooleanType@4563e9ab
+[2016-10-03 19:57:27,112] Adding type registration boolean -> org.hibernate.type.BooleanType@4563e9ab
+[2016-10-03 19:57:27,112] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4563e9ab
+[2016-10-03 19:57:27,112] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4cdbe50f
+[2016-10-03 19:57:27,113] Adding type registration true_false -> org.hibernate.type.TrueFalseType@c818063
+[2016-10-03 19:57:27,114] Adding type registration yes_no -> org.hibernate.type.YesNoType@7d417077
+[2016-10-03 19:57:27,115] Adding type registration byte -> org.hibernate.type.ByteType@d041cf
+[2016-10-03 19:57:27,115] Adding type registration byte -> org.hibernate.type.ByteType@d041cf
+[2016-10-03 19:57:27,115] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@d041cf
+[2016-10-03 19:57:27,116] Adding type registration character -> org.hibernate.type.CharacterType@6b71769e
+[2016-10-03 19:57:27,117] Adding type registration char -> org.hibernate.type.CharacterType@6b71769e
+[2016-10-03 19:57:27,117] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6b71769e
+[2016-10-03 19:57:27,118] Adding type registration short -> org.hibernate.type.ShortType@48140564
+[2016-10-03 19:57:27,119] Adding type registration short -> org.hibernate.type.ShortType@48140564
+[2016-10-03 19:57:27,119] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@48140564
+[2016-10-03 19:57:27,119] Adding type registration integer -> org.hibernate.type.IntegerType@3ac3fd8b
+[2016-10-03 19:57:27,120] Adding type registration int -> org.hibernate.type.IntegerType@3ac3fd8b
+[2016-10-03 19:57:27,120] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3ac3fd8b
+[2016-10-03 19:57:27,121] Adding type registration long -> org.hibernate.type.LongType@b684286
+[2016-10-03 19:57:27,121] Adding type registration long -> org.hibernate.type.LongType@b684286
+[2016-10-03 19:57:27,121] Adding type registration java.lang.Long -> org.hibernate.type.LongType@b684286
+[2016-10-03 19:57:27,122] Adding type registration float -> org.hibernate.type.FloatType@57829d67
+[2016-10-03 19:57:27,122] Adding type registration float -> org.hibernate.type.FloatType@57829d67
+[2016-10-03 19:57:27,122] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@57829d67
+[2016-10-03 19:57:27,123] Adding type registration double -> org.hibernate.type.DoubleType@6fadae5d
+[2016-10-03 19:57:27,123] Adding type registration double -> org.hibernate.type.DoubleType@6fadae5d
+[2016-10-03 19:57:27,124] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6fadae5d
+[2016-10-03 19:57:27,125] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6442b0a6
+[2016-10-03 19:57:27,125] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6442b0a6
+[2016-10-03 19:57:27,127] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@566776ad
+[2016-10-03 19:57:27,127] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@566776ad
+[2016-10-03 19:57:27,128] Adding type registration string -> org.hibernate.type.StringType@13969fbe
+[2016-10-03 19:57:27,128] Adding type registration java.lang.String -> org.hibernate.type.StringType@13969fbe
+[2016-10-03 19:57:27,129] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5ebec15
+[2016-10-03 19:57:27,129] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7a5d012c
+[2016-10-03 19:57:27,130] Adding type registration url -> org.hibernate.type.UrlType@2ed94a8b
+[2016-10-03 19:57:27,130] Adding type registration java.net.URL -> org.hibernate.type.UrlType@2ed94a8b
+[2016-10-03 19:57:27,133] Adding type registration date -> org.hibernate.type.DateType@783e6358
+[2016-10-03 19:57:27,133] Adding type registration java.sql.Date -> org.hibernate.type.DateType@783e6358
+[2016-10-03 19:57:27,135] Adding type registration time -> org.hibernate.type.TimeType@62043840
+[2016-10-03 19:57:27,135] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@62043840
+[2016-10-03 19:57:27,137] Adding type registration timestamp -> org.hibernate.type.TimestampType@4cb2c100
+[2016-10-03 19:57:27,137] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4cb2c100
+[2016-10-03 19:57:27,137] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4cb2c100
+[2016-10-03 19:57:27,141] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@77b52d12
+[2016-10-03 19:57:27,142] Adding type registration calendar -> org.hibernate.type.CalendarType@4157f54e
+[2016-10-03 19:57:27,142] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4157f54e
+[2016-10-03 19:57:27,142] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4157f54e
+[2016-10-03 19:57:27,143] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@15975490
+[2016-10-03 19:57:27,143] Adding type registration locale -> org.hibernate.type.LocaleType@2d3fcdbd
+[2016-10-03 19:57:27,143] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2d3fcdbd
+[2016-10-03 19:57:27,144] Adding type registration currency -> org.hibernate.type.CurrencyType@6df97b55
+[2016-10-03 19:57:27,144] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6df97b55
+[2016-10-03 19:57:27,145] Adding type registration timezone -> org.hibernate.type.TimeZoneType@5a61f5df
+[2016-10-03 19:57:27,145] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5a61f5df
+[2016-10-03 19:57:27,146] Adding type registration class -> org.hibernate.type.ClassType@2c9f9fb0
+[2016-10-03 19:57:27,146] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2c9f9fb0
+[2016-10-03 19:57:27,147] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3dd3bcd
+[2016-10-03 19:57:27,147] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3dd3bcd
+[2016-10-03 19:57:27,148] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@153f5a29
+[2016-10-03 19:57:27,148] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@337d0578
+[2016-10-03 19:57:27,149] Adding type registration binary -> org.hibernate.type.BinaryType@3c09711b
+[2016-10-03 19:57:27,149] Adding type registration byte[] -> org.hibernate.type.BinaryType@3c09711b
+[2016-10-03 19:57:27,150] Adding type registration [B -> org.hibernate.type.BinaryType@3c09711b
+[2016-10-03 19:57:27,150] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6574b225
+[2016-10-03 19:57:27,150] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6574b225
+[2016-10-03 19:57:27,150] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6574b225
+[2016-10-03 19:57:27,151] Adding type registration image -> org.hibernate.type.ImageType@6ea12c19
+[2016-10-03 19:57:27,152] Adding type registration characters -> org.hibernate.type.CharArrayType@6a2bcfcb
+[2016-10-03 19:57:27,152] Adding type registration char[] -> org.hibernate.type.CharArrayType@6a2bcfcb
+[2016-10-03 19:57:27,152] Adding type registration [C -> org.hibernate.type.CharArrayType@6a2bcfcb
+[2016-10-03 19:57:27,153] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@573f2bb1
+[2016-10-03 19:57:27,153] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@573f2bb1
+[2016-10-03 19:57:27,153] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@573f2bb1
+[2016-10-03 19:57:27,154] Adding type registration text -> org.hibernate.type.TextType@6d78f375
+[2016-10-03 19:57:27,154] Adding type registration ntext -> org.hibernate.type.NTextType@215be6bb
+[2016-10-03 19:57:27,159] Adding type registration blob -> org.hibernate.type.BlobType@1753acfe
+[2016-10-03 19:57:27,159] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1753acfe
+[2016-10-03 19:57:27,160] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2a5ca609
+[2016-10-03 19:57:27,164] Adding type registration clob -> org.hibernate.type.ClobType@475530b9
+[2016-10-03 19:57:27,164] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@475530b9
+[2016-10-03 19:57:27,168] Adding type registration nclob -> org.hibernate.type.NClobType@27efef64
+[2016-10-03 19:57:27,168] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@27efef64
+[2016-10-03 19:57:27,168] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3e6fa38a
+[2016-10-03 19:57:27,169] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1e88b3c
+[2016-10-03 19:57:27,170] Adding type registration serializable -> org.hibernate.type.SerializableType@91161c7
+[2016-10-03 19:57:27,173] Adding type registration object -> org.hibernate.type.ObjectType@42e26948
+[2016-10-03 19:57:27,173] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@42e26948
+[2016-10-03 19:57:27,173] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@53b32d7
+[2016-10-03 19:57:27,174] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5442a311
+[2016-10-03 19:57:27,174] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@548e7350
+[2016-10-03 19:57:27,174] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1a968a59
+[2016-10-03 19:57:27,174] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4667ae56
+[2016-10-03 19:57:27,174] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@77cd7a0
+[2016-10-03 19:57:27,174] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@204f30ec
+[2016-10-03 19:57:27,174] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@e25b2fe
+[2016-10-03 19:57:27,198] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-10-03 19:57:27,205] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-10-03 19:57:27,206] HHH000206: hibernate.properties not found
+[2016-10-03 19:57:27,207] HHH000021: Bytecode provider name : javassist
+[2016-10-03 19:57:27,215] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2016-10-03 19:57:27,215] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2016-10-03 19:57:27,215] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 19:57:27,215] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 19:57:27,216] Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2016-10-03 19:57:27,216] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2016-10-03 19:57:27,217] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2016-10-03 19:57:27,217] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2016-10-03 19:57:27,218] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2016-10-03 19:57:27,218] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2016-10-03 19:57:27,219] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2016-10-03 19:57:27,219] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2016-10-03 19:57:27,220] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2016-10-03 19:57:27,220] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2016-10-03 19:57:27,221] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2016-10-03 19:57:27,223] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-10-03 19:57:27,223] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-10-03 19:57:27,260] Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2016-10-03 19:57:27,260] Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[2016-10-03 19:57:27,260] Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+[2016-10-03 19:57:27,280] connection.driver_class=com.mysql.jdbc.Driver
+[2016-10-03 19:57:27,280] connection.url=jdbc:mysql://localhost:3306/irv_project
+[2016-10-03 19:57:27,280] dialect=org.hibernate.dialect.MySQL5Dialect
+[2016-10-03 19:57:27,280] show_sql=true
+[2016-10-03 19:57:27,281] Session-factory config [null] named class [com.irvingmichael.irv.entity.Choice] for mapping
+[2016-10-03 19:57:27,289] Session-factory config [null] named class [com.irvingmichael.irv.entity.Vote] for mapping
+[2016-10-03 19:57:27,289] Session-factory config [null] named class [com.irvingmichael.irv.entity.Voter] for mapping
+[2016-10-03 19:57:27,290] Session-factory config [null] named class [com.irvingmichael.irv.entity.Poll] for mapping
+[2016-10-03 19:57:27,291] Session-factory config [null] named class [com.irvingmichael.irv.entity.ChoicesEntity] for mapping
+[2016-10-03 19:57:27,292] HHH000041: Configured SessionFactory: null
+[2016-10-03 19:57:27,292] Properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib, java.vm.version=25.101-b13, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7535, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project, java.runtime.version=1.8.0_101-b13, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/g3/yyb1xy3j51j98211p7tdl37m0000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/aaron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.11.6, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/aaron, user.timezone=America/Chicago, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=/Applications/IntelliJ IDEA.app/Contents/bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/tools.jar:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/test-classes:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/classes:/Users/aaron/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/aaron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aaron/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/Users/aaron/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/aaron/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar:/Users/aaron/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/aaron/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/aaron/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/aaron/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/aaron/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/aaron/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar:/Users/aaron/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/aaron/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/aaron/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/aaron/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, user.name=aaron, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.irvingmichael.irv.persistance.ChoiceDaoTest, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/irv_project, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_101, java.ext.dirs=/Users/aaron/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, connection.url=jdbc:mysql://localhost:3306/irv_project, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=}
+[2016-10-03 19:57:27,300] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2016-10-03 19:57:27,303] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2016-10-03 19:57:27,305] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2016-10-03 19:57:27,317] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[2016-10-03 19:57:27,318] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[2016-10-03 19:57:27,351] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2016-10-03 19:57:27,351] Preparing to build session factory with filters : {}
+[2016-10-03 19:57:27,358] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 19:57:27,365] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-10-03 19:57:27,366] HHH000046: Connection properties: {}
+[2016-10-03 19:57:27,366] HHH000006: Autocommit mode: false
+[2016-10-03 19:57:27,367] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-10-03 19:57:27,367] Initializing Connection pool with 1 Connections
+[2016-10-03 19:59:09,797] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-10-03 19:59:09,813] Adding type registration boolean -> org.hibernate.type.BooleanType@4563e9ab
+[2016-10-03 19:59:09,814] Adding type registration boolean -> org.hibernate.type.BooleanType@4563e9ab
+[2016-10-03 19:59:09,814] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4563e9ab
+[2016-10-03 19:59:09,814] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4cdbe50f
+[2016-10-03 19:59:09,815] Adding type registration true_false -> org.hibernate.type.TrueFalseType@c818063
+[2016-10-03 19:59:09,816] Adding type registration yes_no -> org.hibernate.type.YesNoType@7d417077
+[2016-10-03 19:59:09,817] Adding type registration byte -> org.hibernate.type.ByteType@d041cf
+[2016-10-03 19:59:09,817] Adding type registration byte -> org.hibernate.type.ByteType@d041cf
+[2016-10-03 19:59:09,817] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@d041cf
+[2016-10-03 19:59:09,818] Adding type registration character -> org.hibernate.type.CharacterType@6b71769e
+[2016-10-03 19:59:09,818] Adding type registration char -> org.hibernate.type.CharacterType@6b71769e
+[2016-10-03 19:59:09,818] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6b71769e
+[2016-10-03 19:59:09,821] Adding type registration short -> org.hibernate.type.ShortType@48140564
+[2016-10-03 19:59:09,821] Adding type registration short -> org.hibernate.type.ShortType@48140564
+[2016-10-03 19:59:09,821] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@48140564
+[2016-10-03 19:59:09,822] Adding type registration integer -> org.hibernate.type.IntegerType@3ac3fd8b
+[2016-10-03 19:59:09,822] Adding type registration int -> org.hibernate.type.IntegerType@3ac3fd8b
+[2016-10-03 19:59:09,822] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3ac3fd8b
+[2016-10-03 19:59:09,823] Adding type registration long -> org.hibernate.type.LongType@b684286
+[2016-10-03 19:59:09,823] Adding type registration long -> org.hibernate.type.LongType@b684286
+[2016-10-03 19:59:09,823] Adding type registration java.lang.Long -> org.hibernate.type.LongType@b684286
+[2016-10-03 19:59:09,824] Adding type registration float -> org.hibernate.type.FloatType@57829d67
+[2016-10-03 19:59:09,824] Adding type registration float -> org.hibernate.type.FloatType@57829d67
+[2016-10-03 19:59:09,824] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@57829d67
+[2016-10-03 19:59:09,825] Adding type registration double -> org.hibernate.type.DoubleType@6fadae5d
+[2016-10-03 19:59:09,825] Adding type registration double -> org.hibernate.type.DoubleType@6fadae5d
+[2016-10-03 19:59:09,826] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6fadae5d
+[2016-10-03 19:59:09,827] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6442b0a6
+[2016-10-03 19:59:09,827] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6442b0a6
+[2016-10-03 19:59:09,828] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@566776ad
+[2016-10-03 19:59:09,828] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@566776ad
+[2016-10-03 19:59:09,829] Adding type registration string -> org.hibernate.type.StringType@13969fbe
+[2016-10-03 19:59:09,829] Adding type registration java.lang.String -> org.hibernate.type.StringType@13969fbe
+[2016-10-03 19:59:09,830] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5ebec15
+[2016-10-03 19:59:09,830] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7a5d012c
+[2016-10-03 19:59:09,831] Adding type registration url -> org.hibernate.type.UrlType@2ed94a8b
+[2016-10-03 19:59:09,831] Adding type registration java.net.URL -> org.hibernate.type.UrlType@2ed94a8b
+[2016-10-03 19:59:09,833] Adding type registration date -> org.hibernate.type.DateType@783e6358
+[2016-10-03 19:59:09,833] Adding type registration java.sql.Date -> org.hibernate.type.DateType@783e6358
+[2016-10-03 19:59:09,835] Adding type registration time -> org.hibernate.type.TimeType@62043840
+[2016-10-03 19:59:09,835] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@62043840
+[2016-10-03 19:59:09,837] Adding type registration timestamp -> org.hibernate.type.TimestampType@4cb2c100
+[2016-10-03 19:59:09,837] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4cb2c100
+[2016-10-03 19:59:09,837] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4cb2c100
+[2016-10-03 19:59:09,839] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@77b52d12
+[2016-10-03 19:59:09,840] Adding type registration calendar -> org.hibernate.type.CalendarType@4157f54e
+[2016-10-03 19:59:09,840] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4157f54e
+[2016-10-03 19:59:09,840] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4157f54e
+[2016-10-03 19:59:09,841] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@15975490
+[2016-10-03 19:59:09,842] Adding type registration locale -> org.hibernate.type.LocaleType@2d3fcdbd
+[2016-10-03 19:59:09,842] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2d3fcdbd
+[2016-10-03 19:59:09,843] Adding type registration currency -> org.hibernate.type.CurrencyType@6df97b55
+[2016-10-03 19:59:09,843] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6df97b55
+[2016-10-03 19:59:09,844] Adding type registration timezone -> org.hibernate.type.TimeZoneType@5a61f5df
+[2016-10-03 19:59:09,844] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5a61f5df
+[2016-10-03 19:59:09,844] Adding type registration class -> org.hibernate.type.ClassType@2c9f9fb0
+[2016-10-03 19:59:09,845] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2c9f9fb0
+[2016-10-03 19:59:09,846] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3dd3bcd
+[2016-10-03 19:59:09,846] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3dd3bcd
+[2016-10-03 19:59:09,846] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@153f5a29
+[2016-10-03 19:59:09,847] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@337d0578
+[2016-10-03 19:59:09,847] Adding type registration binary -> org.hibernate.type.BinaryType@3c09711b
+[2016-10-03 19:59:09,848] Adding type registration byte[] -> org.hibernate.type.BinaryType@3c09711b
+[2016-10-03 19:59:09,848] Adding type registration [B -> org.hibernate.type.BinaryType@3c09711b
+[2016-10-03 19:59:09,848] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6574b225
+[2016-10-03 19:59:09,848] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6574b225
+[2016-10-03 19:59:09,848] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6574b225
+[2016-10-03 19:59:09,849] Adding type registration image -> org.hibernate.type.ImageType@6ea12c19
+[2016-10-03 19:59:09,850] Adding type registration characters -> org.hibernate.type.CharArrayType@6a2bcfcb
+[2016-10-03 19:59:09,850] Adding type registration char[] -> org.hibernate.type.CharArrayType@6a2bcfcb
+[2016-10-03 19:59:09,850] Adding type registration [C -> org.hibernate.type.CharArrayType@6a2bcfcb
+[2016-10-03 19:59:09,851] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@573f2bb1
+[2016-10-03 19:59:09,851] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@573f2bb1
+[2016-10-03 19:59:09,851] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@573f2bb1
+[2016-10-03 19:59:09,851] Adding type registration text -> org.hibernate.type.TextType@6d78f375
+[2016-10-03 19:59:09,852] Adding type registration ntext -> org.hibernate.type.NTextType@215be6bb
+[2016-10-03 19:59:09,856] Adding type registration blob -> org.hibernate.type.BlobType@1753acfe
+[2016-10-03 19:59:09,856] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1753acfe
+[2016-10-03 19:59:09,856] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2a5ca609
+[2016-10-03 19:59:09,860] Adding type registration clob -> org.hibernate.type.ClobType@475530b9
+[2016-10-03 19:59:09,860] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@475530b9
+[2016-10-03 19:59:09,862] Adding type registration nclob -> org.hibernate.type.NClobType@27efef64
+[2016-10-03 19:59:09,862] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@27efef64
+[2016-10-03 19:59:09,863] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3e6fa38a
+[2016-10-03 19:59:09,863] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1e88b3c
+[2016-10-03 19:59:09,864] Adding type registration serializable -> org.hibernate.type.SerializableType@91161c7
+[2016-10-03 19:59:09,866] Adding type registration object -> org.hibernate.type.ObjectType@42e26948
+[2016-10-03 19:59:09,866] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@42e26948
+[2016-10-03 19:59:09,866] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@53b32d7
+[2016-10-03 19:59:09,866] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5442a311
+[2016-10-03 19:59:09,866] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@548e7350
+[2016-10-03 19:59:09,866] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1a968a59
+[2016-10-03 19:59:09,866] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4667ae56
+[2016-10-03 19:59:09,867] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@77cd7a0
+[2016-10-03 19:59:09,867] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@204f30ec
+[2016-10-03 19:59:09,867] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@e25b2fe
+[2016-10-03 19:59:09,882] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-10-03 19:59:09,886] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-10-03 19:59:09,887] HHH000206: hibernate.properties not found
+[2016-10-03 19:59:09,889] HHH000021: Bytecode provider name : javassist
+[2016-10-03 19:59:09,896] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2016-10-03 19:59:09,896] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2016-10-03 19:59:09,897] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 19:59:09,897] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 19:59:09,897] Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2016-10-03 19:59:09,898] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2016-10-03 19:59:09,898] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2016-10-03 19:59:09,899] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2016-10-03 19:59:09,900] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2016-10-03 19:59:09,901] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2016-10-03 19:59:09,901] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2016-10-03 19:59:09,902] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2016-10-03 19:59:09,903] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2016-10-03 19:59:09,904] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2016-10-03 19:59:09,906] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2016-10-03 19:59:09,909] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-10-03 19:59:09,909] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-10-03 19:59:09,947] Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2016-10-03 19:59:09,947] Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[2016-10-03 19:59:09,947] Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+[2016-10-03 19:59:09,964] connection.driver_class=com.mysql.jdbc.Driver
+[2016-10-03 19:59:09,964] connection.url=jdbc:mysql://localhost:3306/irv_project
+[2016-10-03 19:59:09,964] dialect=org.hibernate.dialect.MySQL5Dialect
+[2016-10-03 19:59:09,964] show_sql=true
+[2016-10-03 19:59:09,964] Session-factory config [null] named class [com.irvingmichael.irv.entity.Choice] for mapping
+[2016-10-03 19:59:09,972] Session-factory config [null] named class [com.irvingmichael.irv.entity.Vote] for mapping
+[2016-10-03 19:59:09,973] Session-factory config [null] named class [com.irvingmichael.irv.entity.Voter] for mapping
+[2016-10-03 19:59:09,975] Session-factory config [null] named class [com.irvingmichael.irv.entity.Poll] for mapping
+[2016-10-03 19:59:09,977] Session-factory config [null] named class [com.irvingmichael.irv.entity.ChoicesEntity] for mapping
+[2016-10-03 19:59:09,978] HHH000041: Configured SessionFactory: null
+[2016-10-03 19:59:09,979] Properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib, java.vm.version=25.101-b13, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7536, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project, java.runtime.version=1.8.0_101-b13, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/g3/yyb1xy3j51j98211p7tdl37m0000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/aaron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.11.6, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/aaron, user.timezone=America/Chicago, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=/Applications/IntelliJ IDEA.app/Contents/bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/tools.jar:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/test-classes:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/classes:/Users/aaron/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/aaron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aaron/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/Users/aaron/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/aaron/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar:/Users/aaron/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/aaron/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/aaron/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/aaron/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/aaron/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/aaron/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar:/Users/aaron/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/aaron/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/aaron/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/aaron/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, user.name=aaron, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.irvingmichael.irv.persistance.ChoiceDaoTest, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/irv_project, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_101, java.ext.dirs=/Users/aaron/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, connection.url=jdbc:mysql://localhost:3306/irv_project, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=}
+[2016-10-03 19:59:09,992] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2016-10-03 19:59:09,995] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2016-10-03 19:59:09,996] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2016-10-03 19:59:10,014] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[2016-10-03 19:59:10,014] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[2016-10-03 19:59:10,048] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2016-10-03 19:59:10,048] Preparing to build session factory with filters : {}
+[2016-10-03 19:59:10,054] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 19:59:10,065] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-10-03 19:59:10,065] HHH000046: Connection properties: {}
+[2016-10-03 19:59:10,065] HHH000006: Autocommit mode: false
+[2016-10-03 19:59:10,066] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-10-03 19:59:10,066] Initializing Connection pool with 1 Connections
+[2016-10-03 20:07:25,917] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-10-03 20:07:25,942] Adding type registration boolean -> org.hibernate.type.BooleanType@66d33a
+[2016-10-03 20:07:25,943] Adding type registration boolean -> org.hibernate.type.BooleanType@66d33a
+[2016-10-03 20:07:25,943] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@66d33a
+[2016-10-03 20:07:25,944] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2ff4f00f
+[2016-10-03 20:07:25,945] Adding type registration true_false -> org.hibernate.type.TrueFalseType@2c8d66b2
+[2016-10-03 20:07:25,946] Adding type registration yes_no -> org.hibernate.type.YesNoType@56cbfb61
+[2016-10-03 20:07:25,948] Adding type registration byte -> org.hibernate.type.ByteType@6b71769e
+[2016-10-03 20:07:25,948] Adding type registration byte -> org.hibernate.type.ByteType@6b71769e
+[2016-10-03 20:07:25,948] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6b71769e
+[2016-10-03 20:07:25,949] Adding type registration character -> org.hibernate.type.CharacterType@27f674d
+[2016-10-03 20:07:25,950] Adding type registration char -> org.hibernate.type.CharacterType@27f674d
+[2016-10-03 20:07:25,950] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@27f674d
+[2016-10-03 20:07:25,952] Adding type registration short -> org.hibernate.type.ShortType@3ac3fd8b
+[2016-10-03 20:07:25,952] Adding type registration short -> org.hibernate.type.ShortType@3ac3fd8b
+[2016-10-03 20:07:25,952] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3ac3fd8b
+[2016-10-03 20:07:25,953] Adding type registration integer -> org.hibernate.type.IntegerType@7a79be86
+[2016-10-03 20:07:25,954] Adding type registration int -> org.hibernate.type.IntegerType@7a79be86
+[2016-10-03 20:07:25,954] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7a79be86
+[2016-10-03 20:07:25,955] Adding type registration long -> org.hibernate.type.LongType@511baa65
+[2016-10-03 20:07:25,955] Adding type registration long -> org.hibernate.type.LongType@511baa65
+[2016-10-03 20:07:25,956] Adding type registration java.lang.Long -> org.hibernate.type.LongType@511baa65
+[2016-10-03 20:07:25,957] Adding type registration float -> org.hibernate.type.FloatType@7a0ac6e3
+[2016-10-03 20:07:25,958] Adding type registration float -> org.hibernate.type.FloatType@7a0ac6e3
+[2016-10-03 20:07:25,958] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7a0ac6e3
+[2016-10-03 20:07:25,959] Adding type registration double -> org.hibernate.type.DoubleType@96532d6
+[2016-10-03 20:07:25,959] Adding type registration double -> org.hibernate.type.DoubleType@96532d6
+[2016-10-03 20:07:25,959] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@96532d6
+[2016-10-03 20:07:25,961] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@566776ad
+[2016-10-03 20:07:25,961] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@566776ad
+[2016-10-03 20:07:25,962] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@13969fbe
+[2016-10-03 20:07:25,962] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@13969fbe
+[2016-10-03 20:07:25,963] Adding type registration string -> org.hibernate.type.StringType@21bcffb5
+[2016-10-03 20:07:25,963] Adding type registration java.lang.String -> org.hibernate.type.StringType@21bcffb5
+[2016-10-03 20:07:25,964] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3fb6a447
+[2016-10-03 20:07:25,965] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2ed94a8b
+[2016-10-03 20:07:25,966] Adding type registration url -> org.hibernate.type.UrlType@3b81a1bc
+[2016-10-03 20:07:25,966] Adding type registration java.net.URL -> org.hibernate.type.UrlType@3b81a1bc
+[2016-10-03 20:07:25,968] Adding type registration date -> org.hibernate.type.DateType@246ae04d
+[2016-10-03 20:07:25,968] Adding type registration java.sql.Date -> org.hibernate.type.DateType@246ae04d
+[2016-10-03 20:07:25,969] Adding type registration time -> org.hibernate.type.TimeType@3f2a3a5
+[2016-10-03 20:07:25,969] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3f2a3a5
+[2016-10-03 20:07:25,970] Adding type registration timestamp -> org.hibernate.type.TimestampType@6be46e8f
+[2016-10-03 20:07:25,970] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6be46e8f
+[2016-10-03 20:07:25,970] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6be46e8f
+[2016-10-03 20:07:25,971] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4157f54e
+[2016-10-03 20:07:25,972] Adding type registration calendar -> org.hibernate.type.CalendarType@6615435c
+[2016-10-03 20:07:25,972] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6615435c
+[2016-10-03 20:07:25,972] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6615435c
+[2016-10-03 20:07:25,973] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2d3fcdbd
+[2016-10-03 20:07:25,973] Adding type registration locale -> org.hibernate.type.LocaleType@6df97b55
+[2016-10-03 20:07:25,974] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6df97b55
+[2016-10-03 20:07:25,975] Adding type registration currency -> org.hibernate.type.CurrencyType@5a61f5df
+[2016-10-03 20:07:25,975] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5a61f5df
+[2016-10-03 20:07:25,976] Adding type registration timezone -> org.hibernate.type.TimeZoneType@2096442d
+[2016-10-03 20:07:25,976] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2096442d
+[2016-10-03 20:07:25,976] Adding type registration class -> org.hibernate.type.ClassType@50f8360d
+[2016-10-03 20:07:25,977] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@50f8360d
+[2016-10-03 20:07:25,978] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@13a57a3b
+[2016-10-03 20:07:25,978] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@13a57a3b
+[2016-10-03 20:07:25,979] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@59e84876
+[2016-10-03 20:07:25,980] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@3c09711b
+[2016-10-03 20:07:25,980] Adding type registration binary -> org.hibernate.type.BinaryType@6574b225
+[2016-10-03 20:07:25,980] Adding type registration byte[] -> org.hibernate.type.BinaryType@6574b225
+[2016-10-03 20:07:25,980] Adding type registration [B -> org.hibernate.type.BinaryType@6574b225
+[2016-10-03 20:07:25,981] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6a024a67
+[2016-10-03 20:07:25,981] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6a024a67
+[2016-10-03 20:07:25,981] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6a024a67
+[2016-10-03 20:07:25,982] Adding type registration image -> org.hibernate.type.ImageType@6a2bcfcb
+[2016-10-03 20:07:25,983] Adding type registration characters -> org.hibernate.type.CharArrayType@573f2bb1
+[2016-10-03 20:07:25,983] Adding type registration char[] -> org.hibernate.type.CharArrayType@573f2bb1
+[2016-10-03 20:07:25,983] Adding type registration [C -> org.hibernate.type.CharArrayType@573f2bb1
+[2016-10-03 20:07:25,983] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@50c87b21
+[2016-10-03 20:07:25,983] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@50c87b21
+[2016-10-03 20:07:25,984] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@50c87b21
+[2016-10-03 20:07:25,984] Adding type registration text -> org.hibernate.type.TextType@4439f31e
+[2016-10-03 20:07:25,984] Adding type registration ntext -> org.hibernate.type.NTextType@6cc4c815
+[2016-10-03 20:07:25,988] Adding type registration blob -> org.hibernate.type.BlobType@28feb3fa
+[2016-10-03 20:07:25,989] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@28feb3fa
+[2016-10-03 20:07:25,989] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@482f8f11
+[2016-10-03 20:07:25,991] Adding type registration clob -> org.hibernate.type.ClobType@46d56d67
+[2016-10-03 20:07:25,992] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@46d56d67
+[2016-10-03 20:07:25,995] Adding type registration nclob -> org.hibernate.type.NClobType@1e88b3c
+[2016-10-03 20:07:25,995] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1e88b3c
+[2016-10-03 20:07:25,995] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1bce4f0a
+[2016-10-03 20:07:25,996] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@91161c7
+[2016-10-03 20:07:25,997] Adding type registration serializable -> org.hibernate.type.SerializableType@6d4b1c02
+[2016-10-03 20:07:25,999] Adding type registration object -> org.hibernate.type.ObjectType@1a968a59
+[2016-10-03 20:07:25,999] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1a968a59
+[2016-10-03 20:07:26,000] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@204f30ec
+[2016-10-03 20:07:26,000] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@e25b2fe
+[2016-10-03 20:07:26,000] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@754ba872
+[2016-10-03 20:07:26,000] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@146ba0ac
+[2016-10-03 20:07:26,000] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4dfa3a9d
+[2016-10-03 20:07:26,000] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6eebc39e
+[2016-10-03 20:07:26,000] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@464bee09
+[2016-10-03 20:07:26,001] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@f6c48ac
+[2016-10-03 20:07:26,019] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-10-03 20:07:26,023] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-10-03 20:07:26,024] HHH000206: hibernate.properties not found
+[2016-10-03 20:07:26,026] HHH000021: Bytecode provider name : javassist
+[2016-10-03 20:07:26,033] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2016-10-03 20:07:26,033] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2016-10-03 20:07:26,033] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 20:07:26,034] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 20:07:26,034] Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2016-10-03 20:07:26,034] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2016-10-03 20:07:26,035] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2016-10-03 20:07:26,035] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2016-10-03 20:07:26,036] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2016-10-03 20:07:26,036] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2016-10-03 20:07:26,036] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2016-10-03 20:07:26,037] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2016-10-03 20:07:26,037] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2016-10-03 20:07:26,038] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2016-10-03 20:07:26,038] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2016-10-03 20:07:26,040] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-10-03 20:07:26,041] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-10-03 20:07:26,080] Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2016-10-03 20:07:26,081] Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[2016-10-03 20:07:26,081] Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+[2016-10-03 20:07:26,100] connection.driver_class=com.mysql.jdbc.Driver
+[2016-10-03 20:07:26,100] connection.url=jdbc:mysql://localhost:3306/irv_project
+[2016-10-03 20:07:26,100] dialect=org.hibernate.dialect.MySQL5Dialect
+[2016-10-03 20:07:26,100] show_sql=true
+[2016-10-03 20:07:26,101] Session-factory config [null] named class [com.irvingmichael.irv.entity.Choice] for mapping
+[2016-10-03 20:07:26,108] Session-factory config [null] named class [com.irvingmichael.irv.entity.Vote] for mapping
+[2016-10-03 20:07:26,110] Session-factory config [null] named class [com.irvingmichael.irv.entity.Voter] for mapping
+[2016-10-03 20:07:26,111] Session-factory config [null] named class [com.irvingmichael.irv.entity.Poll] for mapping
+[2016-10-03 20:07:26,112] Session-factory config [null] named class [com.irvingmichael.irv.entity.ChoicesEntity] for mapping
+[2016-10-03 20:07:26,114] HHH000041: Configured SessionFactory: null
+[2016-10-03 20:07:26,114] Properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib, java.vm.version=25.101-b13, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7538, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project, java.runtime.version=1.8.0_101-b13, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/g3/yyb1xy3j51j98211p7tdl37m0000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/aaron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.11.6, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/aaron, user.timezone=America/Chicago, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=/Applications/IntelliJ IDEA.app/Contents/bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/tools.jar:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/test-classes:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/classes:/Users/aaron/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/aaron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aaron/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/Users/aaron/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/aaron/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar:/Users/aaron/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/aaron/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/aaron/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/aaron/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/aaron/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/aaron/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar:/Users/aaron/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/aaron/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/aaron/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/aaron/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, user.name=aaron, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.irvingmichael.irv.persistance.ChoiceDaoTest,getUserById, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/irv_project, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_101, java.ext.dirs=/Users/aaron/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, connection.url=jdbc:mysql://localhost:3306/irv_project, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=}
+[2016-10-03 20:07:26,123] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2016-10-03 20:07:26,126] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2016-10-03 20:07:26,127] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2016-10-03 20:07:26,143] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[2016-10-03 20:07:26,143] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[2016-10-03 20:07:26,188] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2016-10-03 20:07:26,188] Preparing to build session factory with filters : {}
+[2016-10-03 20:07:26,193] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 20:07:26,200] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-10-03 20:07:26,201] HHH000046: Connection properties: {}
+[2016-10-03 20:07:26,201] HHH000006: Autocommit mode: false
+[2016-10-03 20:07:26,202] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-10-03 20:07:26,202] Initializing Connection pool with 1 Connections
+[2016-10-03 20:07:55,018] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-10-03 20:07:55,037] Adding type registration boolean -> org.hibernate.type.BooleanType@66d33a
+[2016-10-03 20:07:55,037] Adding type registration boolean -> org.hibernate.type.BooleanType@66d33a
+[2016-10-03 20:07:55,037] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@66d33a
+[2016-10-03 20:07:55,038] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2ff4f00f
+[2016-10-03 20:07:55,039] Adding type registration true_false -> org.hibernate.type.TrueFalseType@2c8d66b2
+[2016-10-03 20:07:55,039] Adding type registration yes_no -> org.hibernate.type.YesNoType@56cbfb61
+[2016-10-03 20:07:55,041] Adding type registration byte -> org.hibernate.type.ByteType@6b71769e
+[2016-10-03 20:07:55,041] Adding type registration byte -> org.hibernate.type.ByteType@6b71769e
+[2016-10-03 20:07:55,041] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6b71769e
+[2016-10-03 20:07:55,041] Adding type registration character -> org.hibernate.type.CharacterType@27f674d
+[2016-10-03 20:07:55,042] Adding type registration char -> org.hibernate.type.CharacterType@27f674d
+[2016-10-03 20:07:55,042] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@27f674d
+[2016-10-03 20:07:55,043] Adding type registration short -> org.hibernate.type.ShortType@3ac3fd8b
+[2016-10-03 20:07:55,043] Adding type registration short -> org.hibernate.type.ShortType@3ac3fd8b
+[2016-10-03 20:07:55,043] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3ac3fd8b
+[2016-10-03 20:07:55,044] Adding type registration integer -> org.hibernate.type.IntegerType@7a79be86
+[2016-10-03 20:07:55,044] Adding type registration int -> org.hibernate.type.IntegerType@7a79be86
+[2016-10-03 20:07:55,044] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7a79be86
+[2016-10-03 20:07:55,046] Adding type registration long -> org.hibernate.type.LongType@511baa65
+[2016-10-03 20:07:55,046] Adding type registration long -> org.hibernate.type.LongType@511baa65
+[2016-10-03 20:07:55,046] Adding type registration java.lang.Long -> org.hibernate.type.LongType@511baa65
+[2016-10-03 20:07:55,047] Adding type registration float -> org.hibernate.type.FloatType@7a0ac6e3
+[2016-10-03 20:07:55,047] Adding type registration float -> org.hibernate.type.FloatType@7a0ac6e3
+[2016-10-03 20:07:55,047] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7a0ac6e3
+[2016-10-03 20:07:55,048] Adding type registration double -> org.hibernate.type.DoubleType@96532d6
+[2016-10-03 20:07:55,048] Adding type registration double -> org.hibernate.type.DoubleType@96532d6
+[2016-10-03 20:07:55,048] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@96532d6
+[2016-10-03 20:07:55,050] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@566776ad
+[2016-10-03 20:07:55,050] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@566776ad
+[2016-10-03 20:07:55,051] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@13969fbe
+[2016-10-03 20:07:55,051] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@13969fbe
+[2016-10-03 20:07:55,052] Adding type registration string -> org.hibernate.type.StringType@21bcffb5
+[2016-10-03 20:07:55,052] Adding type registration java.lang.String -> org.hibernate.type.StringType@21bcffb5
+[2016-10-03 20:07:55,052] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3fb6a447
+[2016-10-03 20:07:55,053] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2ed94a8b
+[2016-10-03 20:07:55,054] Adding type registration url -> org.hibernate.type.UrlType@3b81a1bc
+[2016-10-03 20:07:55,054] Adding type registration java.net.URL -> org.hibernate.type.UrlType@3b81a1bc
+[2016-10-03 20:07:55,055] Adding type registration date -> org.hibernate.type.DateType@246ae04d
+[2016-10-03 20:07:55,055] Adding type registration java.sql.Date -> org.hibernate.type.DateType@246ae04d
+[2016-10-03 20:07:55,057] Adding type registration time -> org.hibernate.type.TimeType@3f2a3a5
+[2016-10-03 20:07:55,057] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3f2a3a5
+[2016-10-03 20:07:55,058] Adding type registration timestamp -> org.hibernate.type.TimestampType@6be46e8f
+[2016-10-03 20:07:55,058] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6be46e8f
+[2016-10-03 20:07:55,058] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6be46e8f
+[2016-10-03 20:07:55,059] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4157f54e
+[2016-10-03 20:07:55,060] Adding type registration calendar -> org.hibernate.type.CalendarType@6615435c
+[2016-10-03 20:07:55,060] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6615435c
+[2016-10-03 20:07:55,060] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6615435c
+[2016-10-03 20:07:55,061] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2d3fcdbd
+[2016-10-03 20:07:55,062] Adding type registration locale -> org.hibernate.type.LocaleType@6df97b55
+[2016-10-03 20:07:55,062] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6df97b55
+[2016-10-03 20:07:55,063] Adding type registration currency -> org.hibernate.type.CurrencyType@5a61f5df
+[2016-10-03 20:07:55,063] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5a61f5df
+[2016-10-03 20:07:55,063] Adding type registration timezone -> org.hibernate.type.TimeZoneType@2096442d
+[2016-10-03 20:07:55,064] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2096442d
+[2016-10-03 20:07:55,064] Adding type registration class -> org.hibernate.type.ClassType@50f8360d
+[2016-10-03 20:07:55,064] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@50f8360d
+[2016-10-03 20:07:55,065] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@13a57a3b
+[2016-10-03 20:07:55,065] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@13a57a3b
+[2016-10-03 20:07:55,066] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@59e84876
+[2016-10-03 20:07:55,067] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@3c09711b
+[2016-10-03 20:07:55,067] Adding type registration binary -> org.hibernate.type.BinaryType@6574b225
+[2016-10-03 20:07:55,068] Adding type registration byte[] -> org.hibernate.type.BinaryType@6574b225
+[2016-10-03 20:07:55,068] Adding type registration [B -> org.hibernate.type.BinaryType@6574b225
+[2016-10-03 20:07:55,068] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6a024a67
+[2016-10-03 20:07:55,069] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6a024a67
+[2016-10-03 20:07:55,069] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6a024a67
+[2016-10-03 20:07:55,069] Adding type registration image -> org.hibernate.type.ImageType@6a2bcfcb
+[2016-10-03 20:07:55,070] Adding type registration characters -> org.hibernate.type.CharArrayType@573f2bb1
+[2016-10-03 20:07:55,070] Adding type registration char[] -> org.hibernate.type.CharArrayType@573f2bb1
+[2016-10-03 20:07:55,070] Adding type registration [C -> org.hibernate.type.CharArrayType@573f2bb1
+[2016-10-03 20:07:55,071] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@50c87b21
+[2016-10-03 20:07:55,071] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@50c87b21
+[2016-10-03 20:07:55,071] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@50c87b21
+[2016-10-03 20:07:55,072] Adding type registration text -> org.hibernate.type.TextType@4439f31e
+[2016-10-03 20:07:55,073] Adding type registration ntext -> org.hibernate.type.NTextType@6cc4c815
+[2016-10-03 20:07:55,079] Adding type registration blob -> org.hibernate.type.BlobType@28feb3fa
+[2016-10-03 20:07:55,079] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@28feb3fa
+[2016-10-03 20:07:55,080] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@482f8f11
+[2016-10-03 20:07:55,085] Adding type registration clob -> org.hibernate.type.ClobType@46d56d67
+[2016-10-03 20:07:55,085] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@46d56d67
+[2016-10-03 20:07:55,088] Adding type registration nclob -> org.hibernate.type.NClobType@1e88b3c
+[2016-10-03 20:07:55,088] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1e88b3c
+[2016-10-03 20:07:55,089] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1bce4f0a
+[2016-10-03 20:07:55,090] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@91161c7
+[2016-10-03 20:07:55,091] Adding type registration serializable -> org.hibernate.type.SerializableType@6d4b1c02
+[2016-10-03 20:07:55,094] Adding type registration object -> org.hibernate.type.ObjectType@1a968a59
+[2016-10-03 20:07:55,094] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1a968a59
+[2016-10-03 20:07:55,095] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@204f30ec
+[2016-10-03 20:07:55,095] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@e25b2fe
+[2016-10-03 20:07:55,095] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@754ba872
+[2016-10-03 20:07:55,095] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@146ba0ac
+[2016-10-03 20:07:55,095] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4dfa3a9d
+[2016-10-03 20:07:55,095] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6eebc39e
+[2016-10-03 20:07:55,096] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@464bee09
+[2016-10-03 20:07:55,096] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@f6c48ac
+[2016-10-03 20:07:55,114] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-10-03 20:07:55,118] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-10-03 20:07:55,119] HHH000206: hibernate.properties not found
+[2016-10-03 20:07:55,121] HHH000021: Bytecode provider name : javassist
+[2016-10-03 20:07:55,132] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2016-10-03 20:07:55,133] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2016-10-03 20:07:55,134] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 20:07:55,134] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 20:07:55,135] Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2016-10-03 20:07:55,136] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2016-10-03 20:07:55,138] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2016-10-03 20:07:55,139] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2016-10-03 20:07:55,140] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2016-10-03 20:07:55,140] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2016-10-03 20:07:55,141] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2016-10-03 20:07:55,142] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2016-10-03 20:07:55,142] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2016-10-03 20:07:55,144] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2016-10-03 20:07:55,146] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2016-10-03 20:07:55,156] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-10-03 20:07:55,156] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-10-03 20:07:55,203] Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2016-10-03 20:07:55,203] Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[2016-10-03 20:07:55,204] Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+[2016-10-03 20:07:55,222] connection.driver_class=com.mysql.jdbc.Driver
+[2016-10-03 20:07:55,222] connection.url=jdbc:mysql://localhost:3306/irv_project
+[2016-10-03 20:07:55,222] dialect=org.hibernate.dialect.MySQL5Dialect
+[2016-10-03 20:07:55,223] show_sql=true
+[2016-10-03 20:07:55,223] Session-factory config [null] named class [com.irvingmichael.irv.entity.Choice] for mapping
+[2016-10-03 20:07:55,229] Session-factory config [null] named class [com.irvingmichael.irv.entity.Vote] for mapping
+[2016-10-03 20:07:55,229] Session-factory config [null] named class [com.irvingmichael.irv.entity.Voter] for mapping
+[2016-10-03 20:07:55,229] Session-factory config [null] named class [com.irvingmichael.irv.entity.Poll] for mapping
+[2016-10-03 20:07:55,230] Session-factory config [null] named class [com.irvingmichael.irv.entity.ChoicesEntity] for mapping
+[2016-10-03 20:07:55,230] HHH000041: Configured SessionFactory: null
+[2016-10-03 20:07:55,231] Properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib, java.vm.version=25.101-b13, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7539, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project, java.runtime.version=1.8.0_101-b13, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/g3/yyb1xy3j51j98211p7tdl37m0000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/aaron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.11.6, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/aaron, user.timezone=America/Chicago, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=/Applications/IntelliJ IDEA.app/Contents/bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/tools.jar:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/test-classes:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/classes:/Users/aaron/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/aaron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aaron/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/Users/aaron/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/aaron/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar:/Users/aaron/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/aaron/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/aaron/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/aaron/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/aaron/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/aaron/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar:/Users/aaron/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/aaron/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/aaron/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/aaron/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, user.name=aaron, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.irvingmichael.irv.persistance.ChoiceDaoTest,getUserById, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/irv_project, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_101, java.ext.dirs=/Users/aaron/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, connection.url=jdbc:mysql://localhost:3306/irv_project, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=}
+[2016-10-03 20:07:55,242] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2016-10-03 20:07:55,246] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2016-10-03 20:07:55,249] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2016-10-03 20:07:55,272] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[2016-10-03 20:07:55,272] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[2016-10-03 20:07:55,316] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2016-10-03 20:07:55,316] Preparing to build session factory with filters : {}
+[2016-10-03 20:07:55,320] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 20:07:55,327] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-10-03 20:07:55,327] HHH000046: Connection properties: {}
+[2016-10-03 20:07:55,327] HHH000006: Autocommit mode: false
+[2016-10-03 20:07:55,328] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-10-03 20:07:55,328] Initializing Connection pool with 1 Connections
+[2016-10-03 20:09:54,902] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-10-03 20:09:54,920] Adding type registration boolean -> org.hibernate.type.BooleanType@66d33a
+[2016-10-03 20:09:54,920] Adding type registration boolean -> org.hibernate.type.BooleanType@66d33a
+[2016-10-03 20:09:54,921] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@66d33a
+[2016-10-03 20:09:54,921] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2ff4f00f
+[2016-10-03 20:09:54,922] Adding type registration true_false -> org.hibernate.type.TrueFalseType@2c8d66b2
+[2016-10-03 20:09:54,922] Adding type registration yes_no -> org.hibernate.type.YesNoType@56cbfb61
+[2016-10-03 20:09:54,924] Adding type registration byte -> org.hibernate.type.ByteType@6b71769e
+[2016-10-03 20:09:54,924] Adding type registration byte -> org.hibernate.type.ByteType@6b71769e
+[2016-10-03 20:09:54,924] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6b71769e
+[2016-10-03 20:09:54,925] Adding type registration character -> org.hibernate.type.CharacterType@27f674d
+[2016-10-03 20:09:54,925] Adding type registration char -> org.hibernate.type.CharacterType@27f674d
+[2016-10-03 20:09:54,925] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@27f674d
+[2016-10-03 20:09:54,926] Adding type registration short -> org.hibernate.type.ShortType@3ac3fd8b
+[2016-10-03 20:09:54,926] Adding type registration short -> org.hibernate.type.ShortType@3ac3fd8b
+[2016-10-03 20:09:54,927] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3ac3fd8b
+[2016-10-03 20:09:54,927] Adding type registration integer -> org.hibernate.type.IntegerType@7a79be86
+[2016-10-03 20:09:54,927] Adding type registration int -> org.hibernate.type.IntegerType@7a79be86
+[2016-10-03 20:09:54,927] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7a79be86
+[2016-10-03 20:09:54,929] Adding type registration long -> org.hibernate.type.LongType@511baa65
+[2016-10-03 20:09:54,929] Adding type registration long -> org.hibernate.type.LongType@511baa65
+[2016-10-03 20:09:54,929] Adding type registration java.lang.Long -> org.hibernate.type.LongType@511baa65
+[2016-10-03 20:09:54,930] Adding type registration float -> org.hibernate.type.FloatType@7a0ac6e3
+[2016-10-03 20:09:54,930] Adding type registration float -> org.hibernate.type.FloatType@7a0ac6e3
+[2016-10-03 20:09:54,930] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7a0ac6e3
+[2016-10-03 20:09:54,931] Adding type registration double -> org.hibernate.type.DoubleType@96532d6
+[2016-10-03 20:09:54,931] Adding type registration double -> org.hibernate.type.DoubleType@96532d6
+[2016-10-03 20:09:54,931] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@96532d6
+[2016-10-03 20:09:54,933] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@566776ad
+[2016-10-03 20:09:54,933] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@566776ad
+[2016-10-03 20:09:54,934] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@13969fbe
+[2016-10-03 20:09:54,934] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@13969fbe
+[2016-10-03 20:09:54,935] Adding type registration string -> org.hibernate.type.StringType@21bcffb5
+[2016-10-03 20:09:54,935] Adding type registration java.lang.String -> org.hibernate.type.StringType@21bcffb5
+[2016-10-03 20:09:54,935] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3fb6a447
+[2016-10-03 20:09:54,936] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2ed94a8b
+[2016-10-03 20:09:54,937] Adding type registration url -> org.hibernate.type.UrlType@3b81a1bc
+[2016-10-03 20:09:54,937] Adding type registration java.net.URL -> org.hibernate.type.UrlType@3b81a1bc
+[2016-10-03 20:09:54,938] Adding type registration date -> org.hibernate.type.DateType@246ae04d
+[2016-10-03 20:09:54,938] Adding type registration java.sql.Date -> org.hibernate.type.DateType@246ae04d
+[2016-10-03 20:09:54,939] Adding type registration time -> org.hibernate.type.TimeType@3f2a3a5
+[2016-10-03 20:09:54,939] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3f2a3a5
+[2016-10-03 20:09:54,941] Adding type registration timestamp -> org.hibernate.type.TimestampType@6be46e8f
+[2016-10-03 20:09:54,941] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6be46e8f
+[2016-10-03 20:09:54,941] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6be46e8f
+[2016-10-03 20:09:54,942] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4157f54e
+[2016-10-03 20:09:54,943] Adding type registration calendar -> org.hibernate.type.CalendarType@6615435c
+[2016-10-03 20:09:54,943] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6615435c
+[2016-10-03 20:09:54,943] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6615435c
+[2016-10-03 20:09:54,943] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2d3fcdbd
+[2016-10-03 20:09:54,944] Adding type registration locale -> org.hibernate.type.LocaleType@6df97b55
+[2016-10-03 20:09:54,944] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6df97b55
+[2016-10-03 20:09:54,945] Adding type registration currency -> org.hibernate.type.CurrencyType@5a61f5df
+[2016-10-03 20:09:54,945] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5a61f5df
+[2016-10-03 20:09:54,946] Adding type registration timezone -> org.hibernate.type.TimeZoneType@2096442d
+[2016-10-03 20:09:54,946] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2096442d
+[2016-10-03 20:09:54,946] Adding type registration class -> org.hibernate.type.ClassType@50f8360d
+[2016-10-03 20:09:54,947] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@50f8360d
+[2016-10-03 20:09:54,948] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@13a57a3b
+[2016-10-03 20:09:54,948] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@13a57a3b
+[2016-10-03 20:09:54,948] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@59e84876
+[2016-10-03 20:09:54,949] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@3c09711b
+[2016-10-03 20:09:54,950] Adding type registration binary -> org.hibernate.type.BinaryType@6574b225
+[2016-10-03 20:09:54,950] Adding type registration byte[] -> org.hibernate.type.BinaryType@6574b225
+[2016-10-03 20:09:54,950] Adding type registration [B -> org.hibernate.type.BinaryType@6574b225
+[2016-10-03 20:09:54,951] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6a024a67
+[2016-10-03 20:09:54,951] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6a024a67
+[2016-10-03 20:09:54,951] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6a024a67
+[2016-10-03 20:09:54,951] Adding type registration image -> org.hibernate.type.ImageType@6a2bcfcb
+[2016-10-03 20:09:54,952] Adding type registration characters -> org.hibernate.type.CharArrayType@573f2bb1
+[2016-10-03 20:09:54,952] Adding type registration char[] -> org.hibernate.type.CharArrayType@573f2bb1
+[2016-10-03 20:09:54,952] Adding type registration [C -> org.hibernate.type.CharArrayType@573f2bb1
+[2016-10-03 20:09:54,953] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@50c87b21
+[2016-10-03 20:09:54,953] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@50c87b21
+[2016-10-03 20:09:54,953] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@50c87b21
+[2016-10-03 20:09:54,953] Adding type registration text -> org.hibernate.type.TextType@4439f31e
+[2016-10-03 20:09:54,954] Adding type registration ntext -> org.hibernate.type.NTextType@6cc4c815
+[2016-10-03 20:09:54,958] Adding type registration blob -> org.hibernate.type.BlobType@28feb3fa
+[2016-10-03 20:09:54,958] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@28feb3fa
+[2016-10-03 20:09:54,959] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@482f8f11
+[2016-10-03 20:09:54,961] Adding type registration clob -> org.hibernate.type.ClobType@46d56d67
+[2016-10-03 20:09:54,961] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@46d56d67
+[2016-10-03 20:09:54,964] Adding type registration nclob -> org.hibernate.type.NClobType@1e88b3c
+[2016-10-03 20:09:54,964] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1e88b3c
+[2016-10-03 20:09:54,964] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1bce4f0a
+[2016-10-03 20:09:54,965] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@91161c7
+[2016-10-03 20:09:54,965] Adding type registration serializable -> org.hibernate.type.SerializableType@6d4b1c02
+[2016-10-03 20:09:54,968] Adding type registration object -> org.hibernate.type.ObjectType@1a968a59
+[2016-10-03 20:09:54,968] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1a968a59
+[2016-10-03 20:09:54,968] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@204f30ec
+[2016-10-03 20:09:54,968] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@e25b2fe
+[2016-10-03 20:09:54,968] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@754ba872
+[2016-10-03 20:09:54,969] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@146ba0ac
+[2016-10-03 20:09:54,969] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4dfa3a9d
+[2016-10-03 20:09:54,969] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6eebc39e
+[2016-10-03 20:09:54,969] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@464bee09
+[2016-10-03 20:09:54,969] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@f6c48ac
+[2016-10-03 20:09:54,986] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-10-03 20:09:54,993] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-10-03 20:09:54,995] HHH000206: hibernate.properties not found
+[2016-10-03 20:09:54,996] HHH000021: Bytecode provider name : javassist
+[2016-10-03 20:09:55,004] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2016-10-03 20:09:55,005] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2016-10-03 20:09:55,005] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 20:09:55,005] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2016-10-03 20:09:55,006] Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2016-10-03 20:09:55,007] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2016-10-03 20:09:55,007] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2016-10-03 20:09:55,008] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2016-10-03 20:09:55,008] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2016-10-03 20:09:55,008] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2016-10-03 20:09:55,009] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2016-10-03 20:09:55,009] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2016-10-03 20:09:55,009] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2016-10-03 20:09:55,010] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2016-10-03 20:09:55,011] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2016-10-03 20:09:55,014] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-10-03 20:09:55,014] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-10-03 20:09:55,047] Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2016-10-03 20:09:55,047] Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[2016-10-03 20:09:55,047] Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+[2016-10-03 20:09:55,064] connection.driver_class=com.mysql.jdbc.Driver
+[2016-10-03 20:09:55,064] connection.url=jdbc:mysql://localhost:3306/irv_project
+[2016-10-03 20:09:55,064] dialect=org.hibernate.dialect.MySQL5Dialect
+[2016-10-03 20:09:55,065] show_sql=true
+[2016-10-03 20:09:55,065] Session-factory config [null] named class [com.irvingmichael.irv.entity.Choice] for mapping
+[2016-10-03 20:09:55,072] Session-factory config [null] named class [com.irvingmichael.irv.entity.Vote] for mapping
+[2016-10-03 20:09:55,076] Session-factory config [null] named class [com.irvingmichael.irv.entity.Voter] for mapping
+[2016-10-03 20:09:55,077] Session-factory config [null] named class [com.irvingmichael.irv.entity.Poll] for mapping
+[2016-10-03 20:09:55,077] Session-factory config [null] named class [com.irvingmichael.irv.entity.ChoicesEntity] for mapping
+[2016-10-03 20:09:55,078] HHH000041: Configured SessionFactory: null
+[2016-10-03 20:09:55,078] Properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib, java.vm.version=25.101-b13, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7540, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project, java.runtime.version=1.8.0_101-b13, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/g3/yyb1xy3j51j98211p7tdl37m0000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/aaron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.11.6, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/aaron, user.timezone=America/Chicago, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=/Applications/IntelliJ IDEA.app/Contents/bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/tools.jar:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/test-classes:/Users/aaron/Google Drive/Madison College/2016 Fall/Java/IRV_Project/target/classes:/Users/aaron/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/aaron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aaron/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/Users/aaron/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/aaron/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar:/Users/aaron/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/aaron/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/Users/aaron/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/aaron/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/aaron/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/aaron/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/aaron/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar:/Users/aaron/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/aaron/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/aaron/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/aaron/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, user.name=aaron, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.irvingmichael.irv.persistance.ChoiceDaoTest,getUserById, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/irv_project, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_101, java.ext.dirs=/Users/aaron/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, connection.url=jdbc:mysql://localhost:3306/irv_project, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=}
+[2016-10-03 20:09:55,088] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2016-10-03 20:09:55,090] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2016-10-03 20:09:55,091] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2016-10-03 20:09:55,106] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[2016-10-03 20:09:55,106] Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[2016-10-03 20:09:55,135] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2016-10-03 20:09:55,135] Preparing to build session factory with filters : {}
+[2016-10-03 20:09:55,141] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 20:09:55,145] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-10-03 20:09:55,146] HHH000046: Connection properties: {}
+[2016-10-03 20:09:55,146] HHH000006: Autocommit mode: false
+[2016-10-03 20:09:55,147] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-10-03 20:09:55,147] Initializing Connection pool with 1 Connections
+[2016-10-03 20:10:15,653] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 20:15:45,196] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 20:24:58,753] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 21:02:55,803] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 21:06:00,923] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 21:07:47,770] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 21:08:22,004] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 21:22:19,683] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-03 21:22:20,426] SQL Error: 1452, SQLState: 23000
+[2016-10-03 21:22:20,426] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-10-03 21:22:20,427] SQL Warning Code: 1452, SQLState: 23000
+[2016-10-03 21:22:20,427] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
