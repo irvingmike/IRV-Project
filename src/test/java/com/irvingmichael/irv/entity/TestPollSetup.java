@@ -36,61 +36,61 @@ public class TestPollSetup {
     private ArrayList<Vote> makeTestVotes() {
         ArrayList<Vote> testVotes = new ArrayList<Vote>();
 
-        Vote testVote = new Vote(101);
+        Vote testVote = new Vote();
         int[] rankings = {1,2,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
         testVotes.add(testVote);
 
-        testVote = new Vote(102);
+        testVote = new Vote();
         rankings = new int[] {2,1,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
         testVotes.add(testVote);
 
-        testVote = new Vote(103);
+        testVote = new Vote();
         rankings = new int[] {2,1,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
         testVotes.add(testVote);
 
-        testVote = new Vote(104);
+        testVote = new Vote();
         rankings = new int[] {2,1,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
         testVotes.add(testVote);
 
-        testVote = new Vote(105);
+        testVote = new Vote();
         rankings = new int[] {3,4,1,2};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
         testVotes.add(testVote);
 
-        testVote = new Vote(106);
+        testVote = new Vote();
         rankings = new int[] {2,3,4,1};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
         testVotes.add(testVote);
 
-        testVote = new Vote(107);
+        testVote = new Vote();
         rankings = new int[] {1,2,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
         testVotes.add(testVote);
 
-        testVote = new Vote(108);
+        testVote = new Vote();
         rankings = new int[] {4,1,3,2};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
         testVotes.add(testVote);
 
-        testVote = new Vote(109);
+        testVote = new Vote();
         rankings = new int[] {2,3,1,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));
         testVotes.add(testVote);
 
-        testVote = new Vote(110);
+        testVote = new Vote();
         rankings = new int[] {1,2,3,4};
         testVote.setVoteRankings(createRanking(rankings));
         testVote.setCurrentRankings(createRanking(rankings));

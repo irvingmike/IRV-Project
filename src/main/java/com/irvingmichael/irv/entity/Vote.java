@@ -1,24 +1,28 @@
 package com.irvingmichael.irv.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.LinkedHashMap;
 
 /**
  * Created by aaron on 9/10/16.
  */
+
+@Entity
+@Table(name = "Votes")
 public class Vote {
 
-    private int voteId;
+    @Id
+    @Column(name = "voteid")
+
     private LinkedHashMap<Integer, Integer> voteRankings;
     private LinkedHashMap<Integer, Integer> currentRankings;
 
-    public Vote(int id) {
-        voteId = id;
+    public Vote() {
         voteRankings = new LinkedHashMap<Integer, Integer>();
         currentRankings = new LinkedHashMap<Integer, Integer>();
-    }
-
-    public int getVoteId() {
-        return voteId;
     }
 
     public LinkedHashMap<Integer, Integer> getVoteRankings() {

@@ -30,21 +30,21 @@ public class Choice {
 
     protected Choice() {}
 
-    protected Choice(String name) { this(); this.setName(name); }
+    public Choice(String name) { this(); this.setName(name); }
 
-    protected Choice(int id, String name) { this(name); this.setId(id); }
+    public Choice(int id, String name) { this(name); this.setId(id); }
 
     public Choice(String name, int pollId) { this(name); this.setPollId(pollId); }
 
     public Choice(String name, int pollId, String description) { this(name, pollId); this.setDescription(description);}
 
-    void setId(int id) { this.id = id; }
+    public void setId(int id) { this.id = id; }
 
     public int getId() {
         return id;
     }
 
-    void setName(String name) { this.name = name; }
+    public void setName(String name) { this.name = name; }
 
     public String getName() {
         return name;
@@ -54,8 +54,8 @@ public class Choice {
 
     public String getDescription() { return description; }
 
-    int getPollId() { return pollId; }
+    public int getPollId() { return pollId; }
 
-    void setPollId(int pollId) { this.pollId = pollId; }
+    public void setPollId(int pollId) { this.pollId = pollId; }
 
 }

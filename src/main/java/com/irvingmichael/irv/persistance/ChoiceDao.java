@@ -15,9 +15,11 @@ import java.util.List;
  *
  * @author Aaron Anderson
  */
-public class ChoiceDao {
+public class ChoiceDao extends GenericDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
+
+    public ChoiceDao() { super(Choice.class); }
 
     /**
      * Returns a list of all choices in the database
@@ -32,40 +34,5 @@ public class ChoiceDao {
                 .list();
         session.close();
         return choices;
-    }
-
-    Choice getChoiceById(int choiceId) {
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        Choice choice = (Choice) session.get(Choice.class, choiceId);
-        session.close();
-        return choice;
-    }
-
-    int addChoice(Choice choice) {
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        int id = 0;
-        Transaction tx = session.beginTransaction();
-        id = (Integer) session.save(choice);
-        tx.commit();
-        session.close();
-        return id;
-    }
-
-    void deleteChoice(int choiceId) {
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        Transaction tx = session.beginTransaction();
-        Choice choice = getChoiceById(choiceId);
-        session.delete(choice);
-        tx.commit();
-        session.close();
-    }
-
-    void updateChoice(Choice choice) {
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        Transaction tx = session.beginTransaction();
-        session.update(choice);
-        session.flush();
-        tx.commit();
-        session.close();
     }
 }

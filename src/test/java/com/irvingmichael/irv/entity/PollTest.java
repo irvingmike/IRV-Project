@@ -163,15 +163,15 @@ public class PollTest {
         testPollTemp.setVotes(new ArrayList<Vote>());
         assertEquals("Empty vote array handled incorrectly", -1, testPollTemp.getWinThreshold());
         ArrayList<Vote> testVotes = new ArrayList<Vote>();
-        testVotes.add(new Vote(1));
-        testVotes.add(new Vote(2));
-        testVotes.add(new Vote(3));
-        testVotes.add(new Vote(4));
-        testVotes.add(new Vote(5));
-        testVotes.add(new Vote(6));
+        testVotes.add(new Vote());
+        testVotes.add(new Vote());
+        testVotes.add(new Vote());
+        testVotes.add(new Vote());
+        testVotes.add(new Vote());
+        testVotes.add(new Vote());
         testPollTemp.setVotes(testVotes);
         assertEquals("Bad win threshold for even number of votes", 3, testPollTemp.getWinThreshold());
-        testVotes.add(new Vote(7));
+        testVotes.add(new Vote());
         testPollTemp.setVotes(testVotes);
         assertEquals("Bad win threshold for odd number of votes", 3, testPollTemp.getWinThreshold());
     }

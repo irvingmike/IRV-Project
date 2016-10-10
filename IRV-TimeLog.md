@@ -2,6 +2,13 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 10/10/16 | 2 | Last dao test and security auth beginning | |
+| 10/9/16 | 3 | Generic and other daos and test for same added | |
+| 10/7/16 | 6 | Sass presentation | |
+| 10/6/16 | 3 | Sass presentation | |
+| 10/6/16 | 2 | In Class | |
+| 10/4/16 | 1 | Generic Dao for classes | |
+| 10/4/16 | 1.5 | In Class | |
 | 10/3/16 | 1 | Choice Dao with testing | |
 | 10/3/16 | 5.5 | Security exercise and Choice Dao with testing| |
 | 10/3/16 | 1 | Security exercise | |

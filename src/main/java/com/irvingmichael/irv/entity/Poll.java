@@ -165,7 +165,7 @@ public class Poll {
     }
 
     Vote removeChoiceFromVote(int idToRemove, Vote vote) {
-        Vote newVote = new Vote(vote.getVoteId());
+        Vote newVote = new Vote();
         newVote.setVoteRankings(vote.getVoteRankings());
         for (Map.Entry<Integer, Integer> entry : vote.getCurrentRankings().entrySet()) {
             if (entry.getKey() != idToRemove) {
