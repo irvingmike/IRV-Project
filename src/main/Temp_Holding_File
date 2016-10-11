@@ -1,0 +1,1 @@
+<jsp:forward page="voter-access/index.jsp" />

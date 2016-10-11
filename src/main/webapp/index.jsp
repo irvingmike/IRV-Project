@@ -1,53 +1,19 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<% //response.sendRedirect("voter-access"); %>
 
 <%--
   Created by IntelliJ IDEA.
   User: Aaron Anderson
-  Date: 9/25/16
-  Time: 3:37 PM
+  Date: 10/11/16
+  Time: 2:40 PM
+  The acttual HTML content on this page is for testing only.
 --%>
-<c:set var="pagetitle" scope="request" value="Canvass: Your Instant Runoff Voting Systems"/>
-<c:set var="stylesheet" scope="request" value="index.css"/>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-
-<jsp:include page="webparts/head.jsp" />
-
+<head>
+    <title>Test</title>
+</head>
 <body>
-<div class="content">
-    <div id="logo"><img src="images/Canvass_logo_final.png"></div>
-
-    <form id="signin">
-        <h1>Sign In</h1>
-        <div class="question">
-            <input type="text" id="loginuserid" required />
-            <label>Email</label>
-        </div>
-        <div class="question">
-            <input type="password" id="loginpassword" required="" />
-            <label for="loginpassword">Password</label>
-        </div>
-        <div class="submitdiv"><button type="button" id="btnsignin">Submit</button></div>
-    </form>
-
-    <form id="createaccount">
-        <h1>Sign Up</h1>
-        <div class="question">
-            <input type="text" id="signupemail" required="" />
-            <label for="signupemail">Email</label>
-        </div>
-        <div class="question">
-            <input type="password" id="passwordone" required="" />
-            <label for="passwordone">Password</label>
-        </div>
-        <div class="question">
-            <input type="password" id="passwordtwo" required="" />
-            <label>Confirm Password</label>
-        </div>
-        <div class="submitdiv"><button type="button" name="btncreate">Create Account</button></div>
-    </form>
-
-</div>
+<a href="voter-access">Link to Voter Section</a><br />
+<a href="admin-access">Link to Admin Section</a>
 </body>
 </html>

@@ -3,4 +3,34 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <login-config>
+        <realm-name>IRV Project Application</realm-name>
+        <auth-method>FORM</auth-method>
+        <form-login-config>
+            <form-login-page>/login.jsp</form-login-page>
+            <form-error-page>/failedLogin.html</form-error-page>
+        </form-login-config>
+    </login-config>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>adminStd</web-resource-name>
+            <url-pattern>/admin-access/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>adminStd</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>voterStd</web-resource-name>
+            <url-pattern>/voter-access/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>voterStd</role-name>
+            <role-name>adminStd</role-name>
+        </auth-constraint>
+    </security-constraint>
+
 </web-app>
