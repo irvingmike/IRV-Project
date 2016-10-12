@@ -1,6 +1,0 @@
-[2016-10-10 10:37:36,896] HHH000402: Using Hibernate built-in connection pool (not for production use!)
-[2016-10-10 10:37:37,586] SELECT choiceid, rank FROM Votes WHERE voterid = 2 AND pollid = 1ORDER BY choiceid
-[2016-10-10 10:37:37,618] SQL Error: 1064, SQLState: 42000
-[2016-10-10 10:37:37,618] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY choiceid' at line 1
-[2016-10-10 10:38:07,613] HHH000402: Using Hibernate built-in connection pool (not for production use!)
-[2016-10-10 10:38:08,398] SELECT choiceid, rank FROM Votes WHERE voterid = 2 AND pollid = 1 ORDER BY choiceid
