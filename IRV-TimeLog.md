@@ -2,6 +2,8 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 10/11/16 | 3 | Login works, but now I am getting a 403 Access Denied | |
+| 10/11/16 | 2 | Working to solve security login issue | |
 | 10/10/16 | 2 | Last dao test and security auth beginning | |
 | 10/9/16 | 3 | Generic and other daos and test for same added | |
 | 10/7/16 | 6 | Sass presentation | |
