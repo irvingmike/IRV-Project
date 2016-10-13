@@ -21,11 +21,11 @@
     <form id="signin" action="j_security_check" method="GET">
         <h1>Sign In</h1>
         <div class="question">
-            <input type="text" id="loginuserid" name="j_username" value="irvingmichael@gmail.com" required />
+            <input type="text" id="loginuserid" name="j_username" value="admin@fake.com" required />
             <label>Email</label>
         </div>
         <div class="question">
-            <input type="password" id="loginpassword" name="j_password" value="voterpass" required="" />
+            <input type="password" id="loginpassword" name="j_password" value="adminpass" required="" />
             <label for="loginpassword">Password</label>
         </div>
         <div class="submitdiv"><button type="submit" id="btnsignin">Submit</button></div>

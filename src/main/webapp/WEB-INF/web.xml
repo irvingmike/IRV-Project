@@ -19,19 +19,19 @@
     <security-constraint>
 
         <web-resource-collection>
-            <web-resource-name>adminStd</web-resource-name>
-            <url-pattern>/admin-access/*</url-pattern>
-        </web-resource-collection>
-        <auth-constraint>
-            <role-name>adminStd</role-name>
-        </auth-constraint>
-
-        <web-resource-collection>
             <web-resource-name>voterStd</web-resource-name>
             <url-pattern>/voter-access/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>voterStd</role-name>
+            <role-name>adminStd</role-name>
+        </auth-constraint>
+
+        <web-resource-collection>
+            <web-resource-name>adminStd</web-resource-name>
+            <url-pattern>/admin-access/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
             <role-name>adminStd</role-name>
         </auth-constraint>
 
