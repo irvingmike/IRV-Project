@@ -34,15 +34,15 @@
     <form id="createaccount" action="/newVoter" method="POST">
         <h1>Sign Up</h1>
         <div class="question">
-            <input type="text" id="signupemail" name="signupemail" required="" value="newVoter@fake.com"/>
+            <input type="text" id="signupemail" name="j_username" required="" value="newVoter@fake.com"/>
             <label for="signupemail">Email</label>
         </div>
         <div class="question">
-            <input type="password" id="passwordone" name="passwordone" required="" value="newpass" />
+            <input type="password" id="passwordone" name="j_password" required="" value="newpass" />
             <label for="passwordone">Password</label>
         </div>
         <div class="question">
-            <input type="password" id="passwordtwo" required="" value="newpass" />
+            <input type="password" id="passwordconfirm" required="" value="newpass" />
             <label>Confirm Password</label>
         </div>
         <div class="submitdiv"><button type="submit" name="btncreate">Create Account</button></div>

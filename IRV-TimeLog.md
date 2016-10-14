@@ -2,6 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 10/14/16 | 8.5 | Fixed issue with Tomcat and Log4j, also setup new voter creation | |
 | 10/13/16 | 3 | Working on servlet to add new user added Security class to hash passwords (when I get that far). Also trying to setup Tomcat to see if that solves issue wuth log4j.
 | 10/13/16 | 2 | In Class: AUTHENTICATION WORKS!!! Wooo!!! | |
 | 10/12/16 | 3 | ARRGH!!! Aaron smash non-functioning authentication code | |

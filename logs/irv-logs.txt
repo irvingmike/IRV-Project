@@ -18365,3 +18365,15 @@ java.sql.SQLWarning: Column 'email' cannot be null
 [2016-10-14 17:04:37,058] HHH000402: Using Hibernate built-in connection pool (not for production use!)
 [2016-10-14 17:08:42,867] HHH000402: Using Hibernate built-in connection pool (not for production use!)
 [2016-10-14 17:11:16,376] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-14 17:29:31,246] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-14 17:30:46,410] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-10-14 17:30:47,356] SQL Error: 1062, SQLState: 23000
+[2016-10-14 17:30:47,356] Duplicate entry 'newVoter@fake.com' for key 'email_UNIQUE'
+[2016-10-14 17:30:47,358] SQL Warning Code: 1062, SQLState: 23000
+[2016-10-14 17:30:47,358] Duplicate entry 'newVoter@fake.com' for key 'email_UNIQUE'
+[2016-10-14 17:30:47,360] org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-10-14 17:30:47,406] SQL Error: 1062, SQLState: 23000
+[2016-10-14 17:30:47,406] Duplicate entry 'newVoter@fake.com' for key 'PRIMARY'
+[2016-10-14 17:30:47,406] SQL Warning Code: 1062, SQLState: 23000
+[2016-10-14 17:30:47,406] Duplicate entry 'newVoter@fake.com' for key 'PRIMARY'
+[2016-10-14 17:30:47,406] org.hibernate.exception.ConstraintViolationException: could not execute statement
