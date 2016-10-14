@@ -21,31 +21,31 @@
     <form id="signin" action="j_security_check" method="GET">
         <h1>Sign In</h1>
         <div class="question">
-            <input type="text" id="loginuserid" name="j_username" value="admin@fake.com" required />
+            <input type="text" id="email" name="j_username" value="admin@fake.com" required />
             <label>Email</label>
         </div>
         <div class="question">
-            <input type="password" id="loginpassword" name="j_password" value="adminpass" required="" />
+            <input type="password" id="password" name="j_password" value="adminpass" required="" />
             <label for="loginpassword">Password</label>
         </div>
         <div class="submitdiv"><button type="submit" id="btnsignin">Submit</button></div>
     </form>
 
-    <form id="createaccount">
+    <form id="createaccount" action="/newVoter" method="POST">
         <h1>Sign Up</h1>
         <div class="question">
-            <input type="text" id="signupemail" required="" />
+            <input type="text" id="signupemail" name="signupemail" required="" value="newVoter@fake.com"/>
             <label for="signupemail">Email</label>
         </div>
         <div class="question">
-            <input type="password" id="passwordone" required="" />
+            <input type="password" id="passwordone" name="passwordone" required="" value="newpass" />
             <label for="passwordone">Password</label>
         </div>
         <div class="question">
-            <input type="password" id="passwordtwo" required="" />
+            <input type="password" id="passwordtwo" required="" value="newpass" />
             <label>Confirm Password</label>
         </div>
-        <div class="submitdiv"><button type="button" name="btncreate">Create Account</button></div>
+        <div class="submitdiv"><button type="submit" name="btncreate">Create Account</button></div>
     </form>
 
 </div>

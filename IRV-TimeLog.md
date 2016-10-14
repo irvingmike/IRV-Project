@@ -2,6 +2,10 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 10/13/16 | 3 | Working on servlet to add new user added Security class to hash passwords (when I get that far). Also trying to setup Tomcat to see if that solves issue wuth log4j.
+| 10/13/16 | 2 | In Class: AUTHENTICATION WORKS!!! Wooo!!! | |
+| 10/12/16 | 3 | ARRGH!!! Aaron smash non-functioning authentication code | |
+| 10/12/16 | 2 | Trying to solve the authentication issue | |
 | 10/11/16 | 4 | Login works, but now I am getting a 403 Access Denied | |
 | 10/11/16 | 2 | Working to solve security login issue | |
 | 10/10/16 | 2 | Last dao test and security auth beginning | |

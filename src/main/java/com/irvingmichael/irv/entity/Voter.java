@@ -1,9 +1,6 @@
 package com.irvingmichael.irv.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Class to hold information about a specific voter
@@ -16,6 +13,7 @@ import javax.persistence.Table;
 public class Voter {
 
     @Id
+    @GeneratedValue
     @Column(name = "voterid")
     private int voterId;
 
@@ -27,8 +25,17 @@ public class Voter {
 
     @Column(name = "email")
     private String email;
+/*
+    @Column(name = "securedby")
+    private String password;
+*/
+    public  Voter() { this.voterId = -1; };
 
-    public  Voter() {};
+    public Voter(String email) {
+        this();
+        this.email = email;
+        // this.password = password;
+    }
 
     public Voter(String firstName, String lastName, String email) {
         this();
@@ -37,6 +44,11 @@ public class Voter {
         this.email = email;
     }
 
+    public void setVoterId(int voterId) {
+        if (this.voterId == -1) {
+            this.voterId = voterId;
+        }
+    }
     public int getVoterId() {
         return voterId;
     }

@@ -25,6 +25,7 @@
     <mapping class="com.irvingmichael.irv.entity.Vote"/>
     <mapping class="com.irvingmichael.irv.entity.Voter"/>
     <mapping class="com.irvingmichael.irv.entity.Poll"/>
+    <mapping class="com.irvingmichael.irv.entity.AccessRole" />
 
   </session-factory>
 

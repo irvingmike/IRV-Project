@@ -152,7 +152,7 @@ form .question {
     z-index: 2;
     pointer-events: none;
     color: #BBB; }
-  form .question input[type="text"], form .question input[type="password"] {
+  form .question input[type="text"], form .question input[type="email"], form .question input[type="password"] {
     appearance: none;
     background-color: none;
     display: block;
@@ -161,17 +161,17 @@ form .question {
     position: relative;
     z-index: 1;
     outline: none; }
-    form .question input[type="text"]:focus, form .question input[type="text"]:valid, form .question input[type="password"]:focus, form .question input[type="password"]:valid {
+    form .question input[type="text"]:focus, form .question input[type="text"]:valid, form .question input[type="email"]:focus, form .question input[type="email"]:valid, form .question input[type="password"]:focus, form .question input[type="password"]:valid {
       margin-top: 10px; }
-      form .question input[type="text"]:focus ~ label, form .question input[type="text"]:valid ~ label, form .question input[type="password"]:focus ~ label, form .question input[type="password"]:valid ~ label {
+      form .question input[type="text"]:focus ~ label, form .question input[type="text"]:valid ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:focus ~ label, form .question input[type="password"]:valid ~ label {
         text-transform: uppercase;
         -moz-transform: translate(0, -30px) scale(0.6);
         -ms-transform: translate(0, -30px) scale(0.6);
         -webkit-transform: translate(0, -30px) scale(0.6);
         transform: translate(0, -30px) scale(0.6); }
-    form .question input[type="text"]:valid ~ label, form .question input[type="password"]:valid ~ label {
+    form .question input[type="text"]:valid ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:valid ~ label {
       color: #BBB; }
-    form .question input[type="text"]:focus ~ label, form .question input[type="password"]:focus ~ label {
+    form .question input[type="text"]:focus ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="password"]:focus ~ label {
       color: #1C3D78; }
 
 button {

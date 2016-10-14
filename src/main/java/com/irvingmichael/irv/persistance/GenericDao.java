@@ -40,7 +40,7 @@ public class GenericDao<T> {
 
         try {
             tx = session.beginTransaction();
-            id = (Integer) session.save(object);
+            session.save(object);
             tx.commit();
             log.debug("Created " + object.getClass().getName() + " with id " +
                     "of: " + id);

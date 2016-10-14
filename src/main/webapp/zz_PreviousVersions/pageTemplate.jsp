@@ -10,11 +10,11 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<jsp:include page="webparts/head.jsp" />
+<jsp:include page="../webparts/head.jsp" />
 <body>
-    <jsp:include page="webparts/header.jsp" />
+    <jsp:include page="../webparts/header.jsp" />
     <p>Woo check me out!</p>
-    <jsp:include page="webparts/footer.jsp" />
+    <jsp:include page="../webparts/footer.jsp" />
 </body>
 </html>
 <script type="text/javascript">init("${pagetitle}");</script>
