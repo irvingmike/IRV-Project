@@ -21,11 +21,11 @@
     <form id="signin" action="j_security_check" method="GET">
         <h1>Sign In</h1>
         <div class="question">
-            <input type="text" id="email" name="j_username" value="admin@fake.com" required />
+            <input type="email" id="email" name="j_username" value="fake1@fake.com" required />
             <label>Email</label>
         </div>
         <div class="question">
-            <input type="password" id="password" name="j_password" value="adminpass" required="" />
+            <input type="password" id="password" name="j_password" value="voterpass" required="" />
             <label for="loginpassword">Password</label>
         </div>
         <div class="submitdiv"><button type="submit" id="btnsignin">Submit</button></div>
@@ -34,15 +34,15 @@
     <form id="createaccount" action="/newVoter" method="POST">
         <h1>Sign Up</h1>
         <div class="question">
-            <input type="text" id="signupemail" name="j_username" required="" value="newVoter@fake.com"/>
+            <input type="text" id="signupemail" name="j_username" required="" value=""/>
             <label for="signupemail">Email</label>
         </div>
         <div class="question">
-            <input type="password" id="passwordone" name="j_password" required="" value="newpass" />
+            <input type="password" id="passwordone" name="j_password" required="" value="" />
             <label for="passwordone">Password</label>
         </div>
         <div class="question">
-            <input type="password" id="passwordconfirm" required="" value="newpass" />
+            <input type="password" id="passwordconfirm" required="" value="" />
             <label>Confirm Password</label>
         </div>
         <div class="submitdiv"><button type="submit" name="btncreate">Create Account</button></div>

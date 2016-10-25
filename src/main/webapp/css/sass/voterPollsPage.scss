@@ -1,0 +1,80 @@
+@import "main";
+
+div {
+  &.poll {
+    border-bottom: 1px solid #BBB;
+    padding: 1vmin;
+
+    & > div {
+      display: inline-block;
+      padding: 1vmin;
+      margin: 0;
+
+      &:nth-Child(1) {
+        width: 50%;
+      }
+
+      &:nth-Child(2) {
+        width: 38%;
+      }
+
+      &:nth-Child(3) {
+        font-size: 1.75vmin;
+        width: 12%;
+      }
+
+      &.header {
+        font-weight: bold;
+        text-align: center;
+      }
+
+      &.title {
+        font-weight: bold;
+      }
+
+      &.creator {
+        text-align: center;
+      }
+
+      &.status {
+        text-align: center;
+
+        &.initial {
+          color: $pollInitial;
+          background-color: $pollInitialBkgrnd;
+
+          &:after {
+            content: "Initial";
+          }
+        }
+
+        &.open {
+          color: $pollOpen;
+          background-color: $pollOpenBkgrnd;
+
+          &:after {
+            content: "Open";
+          }
+        }
+
+        &.closed {
+          color: $pollClosed;
+          background-color: $pollClosedBkgrnd;
+
+          &:after {
+            content: "Closed";
+          }
+        }
+
+        &.completed {
+          color: $pollCompleted;
+          background-color: $pollCompletedBkgrnd;
+
+          &:after {
+            content: "Completed";
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,22 +1,28 @@
 @charset "UTF-8";
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Oswald:300,400,700';
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Oswald:300,400,700";
 * {
-  margin: 0; }
+  margin: 0;
+}
 
 *, *:before, *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
-  height: 100%; }
+  height: 100%;
+}
 
 body {
-  height: 100%; }
+  height: 100%;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #333333;
   background-color: #F0F0F0;
-  background: url(../images/StrippedBackground.png); }
+  background: url(../images/StrippedBackground.png);
+}
 
 header {
   display: block;
@@ -30,63 +36,99 @@ header {
   color: #333333;
   border-top: 4px solid #BA3D37;
   border-bottom: 4px solid #1C3D78;
-  box-shadow: 0px 3px 9px 0px #999999; }
-  header ol {
-    display: block;
-    float: right;
-    height: 100%;
-    margin: 0; }
-  header img {
-    height: 45px;
-    margin: 3px 25px 10px 25px; }
-  header li {
-    display: flex;
-    float: left;
-    height: inherit;
-    align-items: center;
-    padding: 20px;
-    font-weight: 100; }
-    header li:before {
-      margin-right: 15px;
-      height: 25px; }
-    header li#createpoll:before {
-      content: url(../images/election_icon_k.png);
-      margin-top: -10px; }
-    header li.selected#createpoll:before {
-      content: url(../images/election_icon_w.png);
-      margin-top: -10px; }
-    header li#mypolls:before {
-      content: url(../images/vote_icon_k.png);
-      margin-top: -5px; }
-    header li.selected#mypolls:before {
-      content: url(../images/vote_icon_w.png);
-      margin-top: -5px; }
-    header li#account:before {
-      content: url(../images/login_icon_k.png);
-      margin-top: -5px; }
-    header li.selected#account:before {
-      content: url(../images/login_icon_w.png);
-      margin-top: -5px; }
-    header li#logout:before {
-      content: url(../images/settings_icon_k.png);
-      margin-top: -5px; }
-    header li.selected#logout:before {
-      content: url(../images/settings_icon_w.png);
-      margin-top: -5px; }
-    header li:hover {
-      background-color: #DDD; }
-    header li.selected {
-      background-color: #458FD0;
-      color: #FFF; }
-      header li.selected:hover {
-        background-color: #235b8c; }
+  box-shadow: 0px 3px 9px 0px #999999;
+}
+header ol {
+  display: block;
+  float: right;
+  height: 100%;
+  margin: 0;
+}
+header img {
+  height: 45px;
+  margin: 3px 25px 10px 25px;
+}
+header li {
+  display: flex;
+  float: left;
+  height: inherit;
+  align-items: center;
+  padding: 20px;
+  font-weight: 100;
+}
+header li a {
+  text-decoration: none;
+  color: #333333;
+}
+header li:before {
+  margin-right: 15px;
+  height: 25px;
+}
+header li#createpoll:before {
+  content: url(../images/election_icon_k.png);
+  margin-top: -10px;
+}
+header li.selected#createpoll:before {
+  content: url(../images/election_icon_w.png);
+  margin-top: -10px;
+}
+header li#mypolls:before {
+  content: url(../images/vote_icon_k.png);
+  margin-top: -5px;
+}
+header li.selected#mypolls:before {
+  content: url(../images/vote_icon_w.png);
+  margin-top: -5px;
+}
+header li#account:before {
+  content: url(../images/login_icon_k.png);
+  margin-top: -5px;
+}
+header li.selected#account:before {
+  content: url(../images/login_icon_w.png);
+  margin-top: -5px;
+}
+header li#logout:before {
+  content: url(../images/settings_icon_k.png);
+  margin-top: -5px;
+}
+header li.selected#logout:before {
+  content: url(../images/settings_icon_w.png);
+  margin-top: -5px;
+}
+header li:hover {
+  background-color: #DDD;
+}
+header li.selected {
+  background-color: #458FD0;
+  color: #FFF;
+}
+header li.selected:hover {
+  background-color: #235b8c;
+}
 
 section {
   width: 80%;
   min-height: 100%;
   margin: auto;
   padding-top: 80px;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+}
+
+div.pagecontent {
+  overflow: auto;
+  background-color: #FFF;
+  padding: 3vmin;
+  box-shadow: 0px 0px 2px 0px #999999;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 200%;
+  font-weight: lighter;
+  margin-bottom: 1vmin;
+  color: #BBB;
+}
 
 footer {
   position: relative;
@@ -98,34 +140,43 @@ footer {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   background-color: #1C3D78;
-  color: #FFF; }
-  footer h1 {
-    display: block;
-    float: left;
-    padding: 0vmin 1vmin 0vmin 3vmin;
-    font-size: 100%;
-    font-weight: 400;
-    letter-spacing: 0.01em; }
-  footer li {
-    display: block;
-    float: left;
-    font-weight: 100; }
-    footer li:after {
-      content: "|";
-      margin: 0vmin 1vmin; }
-    footer li:last-child:after {
-      content: none; }
-  footer a {
-    text-decoration: none;
-    color: #FFF; }
-    footer a:hover {
-      text-decoration: underline; }
-  footer div:last-child {
-    float: right;
-    padding-right: 3vmin;
-    text-align: right;
-    font-weight: 100;
-    text-align: center; }
-    footer div:last-child:before {
-      content: "©";
-      margin-right: 1vmin; }
+  color: #FFF;
+}
+footer h1 {
+  display: block;
+  float: left;
+  padding: 0vmin 1vmin 0vmin 3vmin;
+  font-size: 100%;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+footer li {
+  display: block;
+  float: left;
+  font-weight: 100;
+}
+footer li:after {
+  content: "|";
+  margin: 0vmin 1vmin;
+}
+footer li:last-child:after {
+  content: none;
+}
+footer a {
+  text-decoration: none;
+  color: #FFF;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer div:last-child {
+  float: right;
+  padding-right: 3vmin;
+  text-align: right;
+  font-weight: 100;
+  text-align: center;
+}
+footer div:last-child:before {
+  content: "©";
+  margin-right: 1vmin;
+}

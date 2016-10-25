@@ -1,4 +1,4 @@
-<% response.sendRedirect("voter-access"); %>
+<% response.sendRedirect("voter-access/mypolls"); %>
 
 <%--
   Created by IntelliJ IDEA.

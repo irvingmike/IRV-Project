@@ -16,7 +16,7 @@ import java.util.List;
 public class GenericDao<T> {
 
     private Class<T> type;
-    private final Logger log = Logger.getLogger(this.getClass());
+    private final Logger log = Logger.getLogger("debugLogger");
 
     public GenericDao() {}
 
@@ -40,7 +40,7 @@ public class GenericDao<T> {
 
         try {
             tx = session.beginTransaction();
-            session.save(object);
+            id = (Integer) session.save(object);
             tx.commit();
             log.debug("Created " + object.getClass().getName() + " with id " +
                     "of: " + id);

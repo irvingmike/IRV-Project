@@ -15,12 +15,12 @@
 
     <title>Canvass: ${pagetitle}</title>
 
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" type="text/css" href="../css/${stylesheet}">
 
-    <script type="text/javascript" src="js/irv-main.js"></script>
+    <script type="text/javascript" src="../js/irv-main.js"></script>
 
 </head>
 

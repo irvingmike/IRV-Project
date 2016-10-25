@@ -1,22 +1,28 @@
 @charset "UTF-8";
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Oswald:300,400,700';
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Oswald:300,400,700";
 * {
-  margin: 0; }
+  margin: 0;
+}
 
 *, *:before, *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
-  height: 100%; }
+  height: 100%;
+}
 
 body {
-  height: 100%; }
+  height: 100%;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #333333;
   background-color: #F0F0F0;
-  background: url(../images/StrippedBackground.png); }
+  background: url(../images/StrippedBackground.png);
+}
 
 header {
   display: block;
@@ -30,63 +36,99 @@ header {
   color: #333333;
   border-top: 4px solid #BA3D37;
   border-bottom: 4px solid #1C3D78;
-  box-shadow: 0px 3px 9px 0px #999999; }
-  header ol {
-    display: block;
-    float: right;
-    height: 100%;
-    margin: 0; }
-  header img {
-    height: 45px;
-    margin: 3px 25px 10px 25px; }
-  header li {
-    display: flex;
-    float: left;
-    height: inherit;
-    align-items: center;
-    padding: 20px;
-    font-weight: 100; }
-    header li:before {
-      margin-right: 15px;
-      height: 25px; }
-    header li#createpoll:before {
-      content: url(../images/election_icon_k.png);
-      margin-top: -10px; }
-    header li.selected#createpoll:before {
-      content: url(../images/election_icon_w.png);
-      margin-top: -10px; }
-    header li#mypolls:before {
-      content: url(../images/vote_icon_k.png);
-      margin-top: -5px; }
-    header li.selected#mypolls:before {
-      content: url(../images/vote_icon_w.png);
-      margin-top: -5px; }
-    header li#account:before {
-      content: url(../images/login_icon_k.png);
-      margin-top: -5px; }
-    header li.selected#account:before {
-      content: url(../images/login_icon_w.png);
-      margin-top: -5px; }
-    header li#logout:before {
-      content: url(../images/settings_icon_k.png);
-      margin-top: -5px; }
-    header li.selected#logout:before {
-      content: url(../images/settings_icon_w.png);
-      margin-top: -5px; }
-    header li:hover {
-      background-color: #DDD; }
-    header li.selected {
-      background-color: #458FD0;
-      color: #FFF; }
-      header li.selected:hover {
-        background-color: #235b8c; }
+  box-shadow: 0px 3px 9px 0px #999999;
+}
+header ol {
+  display: block;
+  float: right;
+  height: 100%;
+  margin: 0;
+}
+header img {
+  height: 45px;
+  margin: 3px 25px 10px 25px;
+}
+header li {
+  display: flex;
+  float: left;
+  height: inherit;
+  align-items: center;
+  padding: 20px;
+  font-weight: 100;
+}
+header li a {
+  text-decoration: none;
+  color: #333333;
+}
+header li:before {
+  margin-right: 15px;
+  height: 25px;
+}
+header li#createpoll:before {
+  content: url(../images/election_icon_k.png);
+  margin-top: -10px;
+}
+header li.selected#createpoll:before {
+  content: url(../images/election_icon_w.png);
+  margin-top: -10px;
+}
+header li#mypolls:before {
+  content: url(../images/vote_icon_k.png);
+  margin-top: -5px;
+}
+header li.selected#mypolls:before {
+  content: url(../images/vote_icon_w.png);
+  margin-top: -5px;
+}
+header li#account:before {
+  content: url(../images/login_icon_k.png);
+  margin-top: -5px;
+}
+header li.selected#account:before {
+  content: url(../images/login_icon_w.png);
+  margin-top: -5px;
+}
+header li#logout:before {
+  content: url(../images/settings_icon_k.png);
+  margin-top: -5px;
+}
+header li.selected#logout:before {
+  content: url(../images/settings_icon_w.png);
+  margin-top: -5px;
+}
+header li:hover {
+  background-color: #DDD;
+}
+header li.selected {
+  background-color: #458FD0;
+  color: #FFF;
+}
+header li.selected:hover {
+  background-color: #235b8c;
+}
 
 section {
   width: 80%;
   min-height: 100%;
   margin: auto;
   padding-top: 80px;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+}
+
+div.pagecontent {
+  overflow: auto;
+  background-color: #FFF;
+  padding: 3vmin;
+  box-shadow: 0px 0px 2px 0px #999999;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 200%;
+  font-weight: lighter;
+  margin-bottom: 1vmin;
+  color: #BBB;
+}
 
 footer {
   position: relative;
@@ -98,81 +140,118 @@ footer {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   background-color: #1C3D78;
-  color: #FFF; }
-  footer h1 {
-    display: block;
-    float: left;
-    padding: 0vmin 1vmin 0vmin 3vmin;
-    font-size: 100%;
-    font-weight: 400;
-    letter-spacing: 0.01em; }
-  footer li {
-    display: block;
-    float: left;
-    font-weight: 100; }
-    footer li:after {
-      content: "|";
-      margin: 0vmin 1vmin; }
-    footer li:last-child:after {
-      content: none; }
-  footer a {
-    text-decoration: none;
-    color: #FFF; }
-    footer a:hover {
-      text-decoration: underline; }
-  footer div:last-child {
-    float: right;
-    padding-right: 3vmin;
-    text-align: right;
-    font-weight: 100;
-    text-align: center; }
-    footer div:last-child:before {
-      content: "©";
-      margin-right: 1vmin; }
+  color: #FFF;
+}
+footer h1 {
+  display: block;
+  float: left;
+  padding: 0vmin 1vmin 0vmin 3vmin;
+  font-size: 100%;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+footer li {
+  display: block;
+  float: left;
+  font-weight: 100;
+}
+footer li:after {
+  content: "|";
+  margin: 0vmin 1vmin;
+}
+footer li:last-child:after {
+  content: none;
+}
+footer a {
+  text-decoration: none;
+  color: #FFF;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer div:last-child {
+  float: right;
+  padding-right: 3vmin;
+  text-align: right;
+  font-weight: 100;
+  text-align: center;
+}
+footer div:last-child:before {
+  content: "©";
+  margin-right: 1vmin;
+}
 
 form button,
 form .question label,
-form .question input[type="text"] {
+form .question input[type="text"],
+form .question input[type="email"],
+form .question textarea {
   -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
   -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
   -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
-  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5); }
+  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+}
 
 form .question {
   position: relative;
-  padding: 10px 0; }
-  form .question:last-of-type {
-    padding-bottom: 0; }
-  form .question label {
-    transform-origin: left center;
-    padding: 10px 15px;
-    display: block;
-    position: absolute;
-    margin-top: -40px;
-    z-index: 2;
-    pointer-events: none;
-    color: #BBB; }
-  form .question input[type="text"], form .question input[type="email"], form .question input[type="password"] {
-    appearance: none;
-    background-color: none;
-    display: block;
-    width: 100%;
-    padding: 10px 15px;
-    position: relative;
-    z-index: 1;
-    outline: none; }
-    form .question input[type="text"]:focus, form .question input[type="text"]:valid, form .question input[type="email"]:focus, form .question input[type="email"]:valid, form .question input[type="password"]:focus, form .question input[type="password"]:valid {
-      margin-top: 10px; }
-      form .question input[type="text"]:focus ~ label, form .question input[type="text"]:valid ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:focus ~ label, form .question input[type="password"]:valid ~ label {
-        text-transform: uppercase;
-        -moz-transform: translate(0, -30px) scale(0.6);
-        -ms-transform: translate(0, -30px) scale(0.6);
-        -webkit-transform: translate(0, -30px) scale(0.6);
-        transform: translate(0, -30px) scale(0.6); }
-    form .question input[type="text"]:valid ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:valid ~ label {
-      color: #BBB; }
-    form .question input[type="text"]:focus ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="password"]:focus ~ label {
-      color: #1C3D78; }
+  padding: 10px 0;
+}
+form .question:last-of-type {
+  padding-bottom: 0;
+}
+form .question label {
+  transform-origin: left center;
+  padding: 10px 15px;
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  z-index: 2;
+  pointer-events: none;
+  color: #BBB;
+}
+form .question textarea + label {
+  transform-origin: left center;
+  padding: 10px 15px;
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  z-index: 2;
+  pointer-events: none;
+  color: #BBB;
+  margin-top: -50px;
+}
+form .question input[type="text"], form .question input[type="email"], form .question input[type="password"], form .question textarea {
+  appearance: none;
+  background-color: none;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  position: relative;
+  z-index: 1;
+  outline: none;
+}
+form .question input[type="text"]:focus, form .question input[type="text"]:valid, form .question input[type="email"]:focus, form .question input[type="email"]:valid, form .question input[type="password"]:focus, form .question input[type="password"]:valid, form .question textarea:focus, form .question textarea:valid {
+  margin-top: 10px;
+}
+form .question input[type="text"]:focus ~ label, form .question input[type="text"]:valid ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:focus ~ label, form .question input[type="password"]:valid ~ label, form .question textarea:focus ~ label, form .question textarea:valid ~ label {
+  text-transform: uppercase;
+  -moz-transform: translate(0, -30px) scale(0.6);
+  -ms-transform: translate(0, -30px) scale(0.6);
+  -webkit-transform: translate(0, -30px) scale(0.6);
+  transform: translate(0, -30px) scale(0.6);
+}
+form .question input[type="text"]:valid ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:valid ~ label, form .question textarea:valid ~ label {
+  color: #BBB;
+}
+form .question input[type="text"]:focus ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="password"]:focus ~ label, form .question textarea:focus ~ label {
+  color: #1C3D78;
+}
+
+div.submitdiv {
+  clear: both;
+  padding-top: 1vmin;
+  text-align: center;
+}
 
 button {
   display: inline-block;
@@ -187,18 +266,22 @@ button {
   background-color: #cd5c57;
   box-shadow: 0.25vmin 0.25vmin 0.5vmin rgba(0, 0, 0, 0.4);
   border: none;
-  outline: none; }
-  button:hover {
-    background-color: #BA3D37; }
-  button:active {
-    box-shadow: none; }
+  outline: none;
+}
+button:hover {
+  background-color: #BA3D37;
+}
+button:active {
+  box-shadow: none;
+}
 
 body {
   background: url(../images/Index-Bkgrnd.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+}
 
 div.content {
   position: fixed;
@@ -210,19 +293,17 @@ div.content {
   width: 66vmin;
   padding: 2vmin;
   background-color: #FFF;
-  box-shadow: 1vmin 1vmin 2vmin 0.25vmin rgba(0, 0, 0, 0.4); }
+  box-shadow: 1vmin 1vmin 2vmin 0.25vmin rgba(0, 0, 0, 0.4);
+}
 
 form {
   display: block;
   float: left;
-  width: 48%; }
-  form:first-of-type {
-    margin-right: 4%; }
-
-div.submitdiv {
-  clear: both;
-  padding-top: 1vmin;
-  text-align: center; }
+  width: 48%;
+}
+form:first-of-type {
+  margin-right: 4%;
+}
 
 h1 {
   display: block;
@@ -232,10 +313,13 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 150%; }
+  font-size: 150%;
+}
 
 #logo {
   text-align: center;
-  margin-bottom: 0.5vmin; }
-  #logo img {
-    width: 30vmin; }
+  margin-bottom: 0.5vmin;
+}
+#logo img {
+  width: 30vmin;
+}

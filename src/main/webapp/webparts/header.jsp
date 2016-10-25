@@ -8,7 +8,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <header>
-    <img src="images/Canvass_logo_final.png">
+    <a href="/"><img src="../images/Canvass_logo_final.png"></a>
     <ol id="navbaritems"></ol>
 </header>
 <section>

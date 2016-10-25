@@ -19,43 +19,15 @@ function createNavBarItem(itemName, pageIdentifier) {
   var itemId = itemName.replace(/\s/g,'').toLowerCase();
   var newItem = document.createElement("li");
   newItem.id = itemId;
-  newItem.appendChild(document.createTextNode(itemName));
-  console.log("****************");
-  console.log("pageIdentifier: " + pageIdentifier);
-  console.log("itemName: " + itemName);
+
   if (pageIdentifier == itemName) {
-    console.log("Adding selected");
     newItem.className = "selected";
+    newItem.appendChild(document.createTextNode(itemName));
+  } else {
+    var newLink = document.createElement("a");
+    newLink.setAttribute("href", "/voter-access/" + itemId);
+    newLink.appendChild(document.createTextNode(itemName));
+    newItem.appendChild(newLink);
   }
   document.getElementById("navbaritems").appendChild(newItem);
 }
-
-/*
-function init(pageName) {
-
-  resetNavBarClasses();
-  var accountElement = document.getElementById(pageName);
-  accountElement.className = "selected";
-}
-
-function resetNavBarClasses() {
-  var navBarItems = document.getElementById("navbaritems").getElementsByTagName("li");
-
-  for (var i=0; i<navBarItems.length; i++) {
-    removeSelectedClass(navBarItems[i]);
-  }
-}
-
-function removeSelectedClass(item) {
-  var previousClasses = item.className.split(' ');
-  var newClasses = "";
-
-  previousClasses.forEach(function(className) {
-    if (className !== "selected") {
-      newClasses = newClasses + ' ' + className;
-    }
-  });
-
-  item.className = newClasses;
-}
-*/

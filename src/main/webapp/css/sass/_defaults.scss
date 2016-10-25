@@ -1,0 +1,51 @@
+//***** Fonts *******************
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Oswald:300,400,700';
+
+$fontStd: "Open Sans", sans-serif;
+$fontBold: "Oswald", sans-serif;
+
+//***** Colors *******************
+$mainRed: #BA3D37;
+$mainBlue: #1C3D78;
+$lightRed: #EB6B5B;
+$lightBlue: #458FD0;
+
+$textColor: #333333;
+$h1color: #BBB;
+
+$selectedColor: #DDD;
+$shadowColor: #999999;
+$backgroundColor: #F0F0F0;
+$navbarbackground: #FFF;
+
+$pageContentBackgroundColor: #FFF;
+
+$pollInitial: #9F0296;
+$pollOpen: #1D9F02;
+$pollClosed: #9F0202;
+$pollCompleted: #BBB;
+
+$pollInitialBkgrnd: lighten($pollInitial, 50%);
+$pollOpenBkgrnd: lighten($pollOpen, 50%);
+$pollClosedBkgrnd: lighten($pollClosed, 50%);
+$pollCompletedBkgrnd: lighten($pollCompleted, 50%);
+
+$footerText: #FFF;
+$footerLink: #FFF;
+
+* {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}

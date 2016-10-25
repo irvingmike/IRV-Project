@@ -1,0 +1,14 @@
+@import "main";
+@import "forms";
+
+form div.column {
+    float: left;
+    width: 50%;
+    margin: 0;
+    background-color: pink;
+    padding: 1vmin;
+
+    textarea {
+      height: 40%;
+    }
+}

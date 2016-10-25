@@ -2,6 +2,16 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 10/22/16 | 8 | Setup Digital Ocean account, got tomcat loading on port 80, pointed my domain at DO server, configured my DNS to work with mailgun API, got basic functionality added to voter polls page | |
+| 10/21/16 | 7 | 3 hours: Hashing passwords (gave up), 4 Hours: Polls servlet and jsp | |
+| 10/20/16 | 1 | Hashing passwords | |
+| 10/20/16 | 1.5 | In Class: Code Reviews | |
+| 10/20/16 | 2 | Hashing passwords | |
+| 10/19/16 | 2 | Soup Activity | |
+| 10/18/16 | 1 | Soup Activity | |
+| 10/18/16 | 2 | In-Class - Group project | |
+| 10/17/16 | 5 | Working on moving classes to group project | |
+| 10/15/16 | 2 | Created repo for group project and setup private slack channel for easy communication on project | |
 | 10/14/16 | 8.5 | Fixed issue with Tomcat and Log4j, also setup new voter creation | |
 | 10/13/16 | 3 | Working on servlet to add new user added Security class to hash passwords (when I get that far). Also trying to setup Tomcat to see if that solves issue wuth log4j.
 | 10/13/16 | 2 | In Class: AUTHENTICATION WORKS!!! Wooo!!! | |

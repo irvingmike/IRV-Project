@@ -1,0 +1,36 @@
+div.poll > div {
+  display: inline-block;
+  padding: 1vmin;
+  margin: 0;
+  height: 100%;
+
+  &.title {
+    width: 50%;
+    background-color: #F9F;
+  }
+
+  &.creator {
+    width: 30%;
+    background-color: #FF9;
+  }
+
+  &.status {
+    width: 20%;
+    text-align: center;
+
+    background-color: #9FF;
+
+    &.open {
+      color: $pollOpen;
+      background-color: lighten($pollOpen, 80%);
+      content: "Open";
+    }
+
+    &.closed {
+      color: $pollClosed;
+      background-color: lighten($pollClosed, 80%);
+      content: "Closed";
+    }
+  }
+
+}
