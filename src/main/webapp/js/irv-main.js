@@ -1,5 +1,11 @@
 function init(pageIdentifier) {
   createNavBar(pageIdentifier);
+
+  switch(pageIdentifier) {
+  case "createpoll":
+    createPollFunction();
+    break;
+  }
 }
 
 function createNavBar(pageIdentifier) {
@@ -30,4 +36,8 @@ function createNavBarItem(itemName, pageIdentifier) {
     newItem.appendChild(newLink);
   }
   document.getElementById("navbaritems").appendChild(newItem);
+}
+
+function createPollFunction() {
+
 }
