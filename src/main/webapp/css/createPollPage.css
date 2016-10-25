@@ -275,11 +275,41 @@ button:active {
   box-shadow: none;
 }
 
+table.formInput {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 110%;
+}
+table.formInput tr {
+  border-bottom: 2px solid #DDD;
+}
+table.formInput tr:last-child {
+  border-bottom: none;
+}
+table.formInput tr:last-child td {
+  color: #1D9F02;
+}
+table.formInput th {
+  font-weight: 150%;
+  font-weight: bold;
+  padding-bottom: 1vmin;
+}
+table.formInput td {
+  font-weight: lighter;
+  padding: 1vmin 1em;
+}
+table.formInput td:last-child {
+  width: 3em;
+  padding-left: 0;
+  text-align: center;
+  font-weight: bolder;
+  color: #9F0202;
+}
+
 form div.column {
   float: left;
   width: 50%;
   margin: 0;
-  background-color: pink;
   padding: 1vmin;
 }
 form div.column textarea {
