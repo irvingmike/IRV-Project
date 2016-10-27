@@ -2,6 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 10/26/16 | 1 | Updated classes with changes from personal project | |
 | 10/26/16 | 2 | Organizing API project and write code reviews | |
 | 10/25/16 | 2 | Hashed password and updating DigOcn instance | |
 | 10/25/16 | 2 | In Class: Custom tags activity | |

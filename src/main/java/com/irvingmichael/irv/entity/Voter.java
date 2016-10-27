@@ -31,7 +31,6 @@ public class Voter {
     public Voter(String email) {
         this();
         this.email = email;
-        // this.password = password;
     }
 
     public Voter(String firstName, String lastName, String email) {
