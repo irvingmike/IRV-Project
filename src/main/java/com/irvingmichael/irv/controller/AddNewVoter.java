@@ -6,6 +6,7 @@ import com.irvingmichael.irv.persistance.GenericDao;
 import com.irvingmichael.irv.persistance.VoterDao;
 import com.irvingmichael.irv.util.CustomHeaderHttpRequest;
 import com.irvingmichael.irv.util.SecurityTools;
+import org.apache.catalina.realm.RealmBase;
 import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
@@ -31,7 +32,7 @@ public class AddNewVoter extends HttpServlet {
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String email = request.getParameter("j_password");
-        String password = request.getParameter("j_password");
+        String password = RealmBase.Digest(request.getParameter("j_password"), "Sha-256", "UTF-8");
 
         Voter newVoter = new Voter("", "", email);
         VoterDao<Voter> voterDao = new VoterDao<>();

@@ -1,62 +1,318 @@
-/*
-Error: Invalid CSS after "  }": expected selector or at-rule, was "}"
-        on line 142 of sass/_forms.scss
-        from line 2 of sass/createPollPage.scss
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Oswald:300,400,700";
+* {
+  margin: 0;
+}
 
-137:         background-color: lighten($goColor, 50%);
-138:         box-shadow: none;
-139:       }
-140:     }
-141:   }
-142: }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-Backtrace:
-sass/_forms.scss:142
-sass/createPollPage.scss:2
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:42:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:312:in `to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"  }\": expected selector or at-rule, was \"}\"\A         on line 142 of sass/_forms.scss\A         from line 2 of sass/createPollPage.scss\A \A 137:         background-color: lighten($goColor, 50%);\A 138:         box-shadow: none;\A 139:       }\A 140:     }\A 141:   }\A 142: }"; }
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  background-color: #F0F0F0;
+  background: url(../images/StrippedBackground.png);
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 65px;
+  background-color: #FFF;
+  color: #333333;
+  border-top: 4px solid #BA3D37;
+  border-bottom: 4px solid #1C3D78;
+  box-shadow: 0px 3px 9px 0px #999999;
+}
+header ol {
+  display: block;
+  float: right;
+  height: 100%;
+  margin: 0;
+}
+header img {
+  height: 45px;
+  margin: 3px 25px 10px 25px;
+}
+header li {
+  display: flex;
+  float: left;
+  height: inherit;
+  align-items: center;
+  padding: 20px;
+  font-weight: 100;
+}
+header li a {
+  text-decoration: none;
+  color: #333333;
+}
+header li:before {
+  margin-right: 15px;
+  height: 25px;
+}
+header li#createpoll:before {
+  content: url(../images/election_icon_k.png);
+  margin-top: -10px;
+}
+header li.selected#createpoll:before {
+  content: url(../images/election_icon_w.png);
+  margin-top: -10px;
+}
+header li#mypolls:before {
+  content: url(../images/vote_icon_k.png);
+  margin-top: -5px;
+}
+header li.selected#mypolls:before {
+  content: url(../images/vote_icon_w.png);
+  margin-top: -5px;
+}
+header li#account:before {
+  content: url(../images/login_icon_k.png);
+  margin-top: -5px;
+}
+header li.selected#account:before {
+  content: url(../images/login_icon_w.png);
+  margin-top: -5px;
+}
+header li#logout:before {
+  content: url(../images/settings_icon_k.png);
+  margin-top: -5px;
+}
+header li.selected#logout:before {
+  content: url(../images/settings_icon_w.png);
+  margin-top: -5px;
+}
+header li:hover {
+  background-color: #DDD;
+}
+header li.selected {
+  background-color: #458FD0;
+  color: #FFF;
+}
+header li.selected:hover {
+  background-color: #235b8c;
+}
+
+section {
+  width: 80%;
+  min-height: 100%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+div.pagecontent {
+  overflow: auto;
+  background-color: #FFF;
+  padding: 3vmin;
+  box-shadow: 0px 0px 2px 0px #999999;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 200%;
+  font-weight: lighter;
+  margin-bottom: 1vmin;
+  color: #BBB;
+}
+
+footer {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  clear: both;
+  margin-top: -45px;
+  padding-top: 1vmin;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  background-color: #1C3D78;
+  color: #FFF;
+}
+footer h1 {
+  display: block;
+  float: left;
+  padding: 0vmin 1vmin 0vmin 3vmin;
+  font-size: 100%;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+footer li {
+  display: block;
+  float: left;
+  font-weight: 100;
+}
+footer li:after {
+  content: "|";
+  margin: 0vmin 1vmin;
+}
+footer li:last-child:after {
+  content: none;
+}
+footer a {
+  text-decoration: none;
+  color: #FFF;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer div:last-child {
+  float: right;
+  padding-right: 3vmin;
+  text-align: right;
+  font-weight: 100;
+  text-align: center;
+}
+footer div:last-child:before {
+  content: "©";
+  margin-right: 1vmin;
+}
+
+form button,
+form .question label,
+form .question input[type="text"],
+form .question input[type="email"],
+form .question textarea {
+  -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+}
+
+form .question {
+  position: relative;
+  padding: 10px 0;
+}
+form .question:last-of-type {
+  padding-bottom: 0;
+}
+form .question label {
+  transform-origin: left center;
+  padding: 10px 15px;
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  z-index: 2;
+  pointer-events: none;
+  color: #BBB;
+}
+form .question textarea + label {
+  transform-origin: left center;
+  padding: 10px 15px;
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  z-index: 2;
+  pointer-events: none;
+  color: #BBB;
+  margin-top: -50px;
+}
+form .question input[type="text"], form .question input[type="email"], form .question input[type="password"], form .question textarea {
+  appearance: none;
+  background-color: none;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  position: relative;
+  z-index: 1;
+  outline: none;
+}
+form .question input[type="text"]:focus, form .question input[type="text"]:valid, form .question input[type="email"]:focus, form .question input[type="email"]:valid, form .question input[type="password"]:focus, form .question input[type="password"]:valid, form .question textarea:focus, form .question textarea:valid {
+  margin-top: 10px;
+}
+form .question input[type="text"]:focus ~ label, form .question input[type="text"]:valid ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:focus ~ label, form .question input[type="password"]:valid ~ label, form .question textarea:focus ~ label, form .question textarea:valid ~ label {
+  text-transform: uppercase;
+  -moz-transform: translate(0, -30px) scale(0.6);
+  -ms-transform: translate(0, -30px) scale(0.6);
+  -webkit-transform: translate(0, -30px) scale(0.6);
+  transform: translate(0, -30px) scale(0.6);
+}
+form .question input[type="text"]:valid ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:valid ~ label, form .question textarea:valid ~ label {
+  color: #BBB;
+}
+form .question input[type="text"]:focus ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="password"]:focus ~ label, form .question textarea:focus ~ label {
+  color: #1C3D78;
+}
+
+div.submitdiv {
+  clear: both;
+  padding-top: 1vmin;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  width: 18vmin;
+  height: 4vmin;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 105%;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  background-color: #cd5c57;
+  box-shadow: 0.25vmin 0.25vmin 0.5vmin rgba(0, 0, 0, 0.4);
+  border: none;
+  outline: none;
+}
+button:hover {
+  background-color: #BA3D37;
+}
+button:active {
+  box-shadow: none;
+}
+
+table.formInput {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 110%;
+}
+table.formInput tr {
+  border-bottom: 2px solid #DDD;
+}
+table.formInput tr:last-child {
+  border-bottom: none;
+}
+table.formInput tr:last-child td {
+  color: #1D9F02;
+}
+table.formInput th {
+  font-weight: 150%;
+  font-weight: bold;
+  padding-bottom: 1vmin;
+}
+table.formInput td {
+  font-weight: lighter;
+  padding: 1vmin 1em;
+}
+table.formInput td:last-child button {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: #1D9F02;
+  background-color: #b2fea2;
+  box-shadow: none;
+}
+
+form div.column {
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 1vmin;
+}
+form div.column textarea {
+  height: 40%;
+}

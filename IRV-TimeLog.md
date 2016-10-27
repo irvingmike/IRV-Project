@@ -2,6 +2,9 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 10/26/16 | 1 | Organizing API project | |
+| 10/25/16 | 2 | Hashed password and updating DigOcn instance | |
+| 10/25/16 | 2 | In Class: Custom tags activity | |
 | 10/24/16 | 5 | Building create poll page and debugging enum problem | |
 | 10/24/16 | 1.5 | Started building the create a poll page | ||
 | 10/22/16 | 8 | Setup Digital Ocean account, got tomcat loading on port 80, pointed my domain at DO server, configured my DNS to work with mailgun API, got basic functionality added to voter polls page | |
