@@ -2,7 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
-| 10/26/16 | 1 | Organizing API project | |
+| 10/26/16 | 2 | Organizing API project and write code reviews | |
 | 10/25/16 | 2 | Hashed password and updating DigOcn instance | |
 | 10/25/16 | 2 | In Class: Custom tags activity | |
 | 10/24/16 | 5 | Building create poll page and debugging enum problem | |
