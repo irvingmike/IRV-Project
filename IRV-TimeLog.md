@@ -2,6 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 10/28/16 | 8 | Added several services to API, wrote a couple of support classes, added JavaDoc to many of the classes | |
 | 10/27/16 | 3 | Developed AuthToken class for validating requests to API | |
 | 10/27/16 | 1 | Working with Vang on his system setup and branch setup | |
 | 10/26/16 | 1 | Updated classes with changes from personal project | |

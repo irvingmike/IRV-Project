@@ -66,3 +66,33 @@
 [2016-Oct-24 19:06:35,212] DEBUG - Test poll status: completed
 [2016-Oct-25 14:58:59,824] DEBUG - 1
 [2016-Oct-25 14:58:59,826] DEBUG - Test poll status: completed
+[2016-Oct-28 10:27:22,839] DEBUG - ***** Vote Counting *****
+[2016-Oct-28 10:27:22,856] DEBUG - Key: 1, Value: 3
+[2016-Oct-28 10:27:22,857] DEBUG - Key: 2, Value: 4
+[2016-Oct-28 10:27:22,857] DEBUG - Key: 3, Value: 2
+[2016-Oct-28 10:27:22,857] DEBUG - Key: 4, Value: 1
+[2016-Oct-28 10:27:24,023] DEBUG - 1
+[2016-Oct-28 10:29:22,598] DEBUG - ***** Vote Counting *****
+[2016-Oct-28 10:29:22,599] DEBUG - Key: 1, Value: 3
+[2016-Oct-28 10:29:22,599] DEBUG - Key: 2, Value: 4
+[2016-Oct-28 10:29:22,600] DEBUG - Key: 3, Value: 2
+[2016-Oct-28 10:29:22,600] DEBUG - Key: 4, Value: 1
+[2016-Oct-28 10:29:23,702] DEBUG - 1
+[2016-Oct-28 10:30:14,730] DEBUG - ***** Vote Counting *****
+[2016-Oct-28 10:30:14,731] DEBUG - Key: 1, Value: 3
+[2016-Oct-28 10:30:14,731] DEBUG - Key: 2, Value: 4
+[2016-Oct-28 10:30:14,731] DEBUG - Key: 3, Value: 2
+[2016-Oct-28 10:30:14,731] DEBUG - Key: 4, Value: 1
+[2016-Oct-28 10:30:15,934] DEBUG - 1
+[2016-Oct-28 10:36:57,415] DEBUG - ***** Vote Counting *****
+[2016-Oct-28 10:36:57,417] DEBUG - Key: 1, Value: 3
+[2016-Oct-28 10:36:57,417] DEBUG - Key: 2, Value: 4
+[2016-Oct-28 10:36:57,417] DEBUG - Key: 3, Value: 2
+[2016-Oct-28 10:36:57,417] DEBUG - Key: 4, Value: 1
+[2016-Oct-28 10:36:58,519] DEBUG - 1
+[2016-Oct-28 10:41:18,813] DEBUG - ***** Vote Counting *****
+[2016-Oct-28 10:41:18,814] DEBUG - Key: 1, Value: 3
+[2016-Oct-28 10:41:18,814] DEBUG - Key: 2, Value: 4
+[2016-Oct-28 10:41:18,814] DEBUG - Key: 3, Value: 2
+[2016-Oct-28 10:41:18,815] DEBUG - Key: 4, Value: 1
+[2016-Oct-28 10:41:20,080] DEBUG - 1
