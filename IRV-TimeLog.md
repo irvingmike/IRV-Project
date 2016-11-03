@@ -2,6 +2,10 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 11/2/16 | 3 | Api/creat new poll and why my pollCode test stopped passing | |
+| 11/2/16 | 3 | Working on api creating a new poll | |
+| 11/1/16 | 1 | Mostly making bad choices about what and how to code so that is enough for today. | |
+| 11/1/16 | 2 | In Class - Multithreading | |
 | 10/28/16 | 8 | Added several services to API, wrote a couple of support classes, added JavaDoc to many of the classes | |
 | 10/27/16 | 3 | Developed AuthToken class for validating requests to API | |
 | 10/27/16 | 1 | Working with Vang on his system setup and branch setup | |
