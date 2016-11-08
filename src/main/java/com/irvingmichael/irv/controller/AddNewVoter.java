@@ -2,22 +2,16 @@ package com.irvingmichael.irv.controller;
 
 import com.irvingmichael.irv.entity.AccessRole;
 import com.irvingmichael.irv.entity.Voter;
-import com.irvingmichael.irv.persistance.GenericDao;
 import com.irvingmichael.irv.persistance.VoterDao;
-import com.irvingmichael.irv.util.CustomHeaderHttpRequest;
 import com.irvingmichael.irv.util.Secure;
-import com.irvingmichael.irv.util.SecurityTools;
-import org.apache.catalina.realm.RealmBase;
 import org.apache.log4j.Logger;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Servlet to receive new voter information and create a new voter in the database

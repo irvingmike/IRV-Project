@@ -3,7 +3,9 @@
 <head>
   <title>Page Template</title>
   <link rel="stylesheet" type="text/css" href="../css/createPollPage.css">
-  <script type="text/javascript" src="../js/irv-main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/irv-navbar.js"></script>
+  <script type="text/javascript" src="../js/createPoll.js"></script>
 </head>
 <body>
   <header>
@@ -24,26 +26,34 @@
       <form>
       <div class="column">
         <div class="question">
-          <input type="text" name="title"  id="title" value="" required />
+          <input type="text" name="title"  id="title" value="TestTitle" required />
           <label for="title">Title</lable>
         </div>
         <div class="question">
-          <textarea name="desc" id="desc" required></textarea>
+          <textarea name="desc" id="desc" required>This is a place holder description. Bacon.</textarea>
           <label for="description">Description</label>
         </div>
-        <div class="submitdiv"><button type="submit" id="btnsignin">Create Poll</button></div>
+        <div class="submitdiv"><button type="button" id="btnCreatePoll">Create Poll</button></div>
       </div>
-      <div class="column">
+      <div class="question column">
         <table class="formInput">
           <tr>
-            <th colspan="2">Options</th>
+            <th colspan="2">Choices</th>
           </tr>
           <tr>
-            <td contenteditable='true'>Option name</td>
-            <td>x</td>
+            <td contenteditable='true'>Choice 1</td>
+            <td class="deleteBtn">x</td>
           </tr>
           <tr>
-            <td></td>
+            <td contenteditable='true'>Choice 2</td>
+            <td class="deleteBtn">x</td>
+          </tr>
+          <tr>
+            <td contenteditable='true'>Choice 3</td>
+            <td class="deleteBtn">x</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="newChoiceItem" placeholder="New Choice"></td>
             <td><button type="button" id="addChoice">+</button></td>
           </tr>
         </table>
@@ -51,6 +61,8 @@
       </form>
     </div>
   </section>
+
+
   <footer>
     <h1>Want to know more:</h1>
     <ul>

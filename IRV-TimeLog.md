@@ -2,6 +2,15 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 11/8/16 | 1.5 | Figuring out passing information between javascript and java | |
+| 11/7/16 | 5.5 | Working on Create a poll page | |
+| 11/7/16 | 1 | Administrative/Cleanup work | |
+| 11/6/16 | 2 | Multithreading exercise | |
+| 11/5/16 | 2 | Multithreading exercise | |
+| 11/4/16 | 4 | Tags and multithreading exercises | |
+| 11/3/16 | 1.5 | Record vote for poll is done | |
+| 11/3/16 | 2 | In Class: Code review with instructor and getting Vang's database setup | |
+| 11/3/16 | 2 | API: Create New Poll and Get Poll By Id are done | |
 | 11/2/16 | 3 | Api/creat new poll and why my pollCode test stopped passing | |
 | 11/2/16 | 3 | Working on api creating a new poll | |
 | 11/1/16 | 1 | Mostly making bad choices about what and how to code so that is enough for today. | |

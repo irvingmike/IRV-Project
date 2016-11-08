@@ -209,6 +209,9 @@ form .question label {
   pointer-events: none;
   color: #BBB;
 }
+form .question textarea {
+  height: 200px;
+}
 form .question textarea + label {
   transform-origin: left center;
   padding: 10px 15px;
@@ -218,7 +221,7 @@ form .question textarea + label {
   z-index: 2;
   pointer-events: none;
   color: #BBB;
-  margin-top: -50px;
+  margin-top: -200px;
 }
 form .question input[type="text"], form .question input[type="email"], form .question input[type="password"], form .question textarea {
   appearance: none;
@@ -281,13 +284,21 @@ table.formInput {
   font-size: 110%;
 }
 table.formInput tr {
+  display: flex;
   border-bottom: 2px solid #DDD;
+  align-items: stretch;
+  justify-content: space-between;
+}
+table.formInput tr:first-child {
+  align-items: center;
+  justify-content: center;
 }
 table.formInput tr:last-child {
   border-bottom: none;
 }
-table.formInput tr:last-child td {
+table.formInput tr:last-child td:last-child {
   color: #1D9F02;
+  background-color: #b2fea2;
 }
 table.formInput th {
   font-weight: 150%;
@@ -297,14 +308,30 @@ table.formInput th {
 table.formInput td {
   font-weight: lighter;
   padding: 1vmin 1em;
+  margin-right: 1vmin;
+  flex-grow: 1;
 }
-table.formInput td:last-child button {
+table.formInput td input {
+  margin: 2px !important;
+}
+table.formInput td:last-child {
   display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3vmin;
+  padding: 0;
+  margin: 0;
+  background-color: #F77;
+  color: #900;
+  cursor: pointer;
+}
+table.formInput td:last-child > button {
   width: 100%;
-  height: 100%;
   color: #1D9F02;
-  background-color: #b2fea2;
+  background-color: transparent;
   box-shadow: none;
+  cursor: pointer;
 }
 
 form div.column {
@@ -312,7 +339,4 @@ form div.column {
   width: 50%;
   margin: 0;
   padding: 1vmin;
-}
-form div.column textarea {
-  height: 40%;
 }

@@ -54,11 +54,12 @@ public class Poll {
         this();
         this.title = title;
         winner = -1;
+        available = false;
         choices = new ArrayList<Choice>();
         votes = new ArrayList<Vote>();
         voteCounts = new HashMap<Integer, Integer>();
-        pollCode = "";
         status = PollStatus.INITIAL;
+        getPollCode();
     }
 
     public int getPollid() {
@@ -143,7 +144,7 @@ public class Poll {
     }
 
     String getPollCode() {
-        if (pollCode.length() != 8) {
+        if (pollCode == null || pollCode.length() != 8) {
             pollCode = RandomStringUtils.random(8, true, true);
         }
         return pollCode;
