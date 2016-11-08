@@ -10,6 +10,9 @@ $mainBlue: #1C3D78;
 $lightRed: #EB6B5B;
 $lightBlue: #458FD0;
 
+$stopColor: #9F0202;
+$goColor: #1D9F02;
+
 $textColor: #333333;
 $h1color: #BBB;
 
@@ -21,8 +24,8 @@ $navbarbackground: #FFF;
 $pageContentBackgroundColor: #FFF;
 
 $pollInitial: #9F0296;
-$pollOpen: #1D9F02;
-$pollClosed: #9F0202;
+$pollOpen: $goColor;
+$pollClosed: $stopColor;
 $pollCompleted: #BBB;
 
 $pollInitialBkgrnd: lighten($pollInitial, 50%);

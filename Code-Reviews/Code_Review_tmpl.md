@@ -1,17 +1,17 @@
-# Design/Code Review 1
+# Design/Code Review 2
 
-## Project:
+## Project: Programming Language Translator
 
-### Developer:
+### Developer: Vang Lee
 
-#### Reviewer:
+#### Reviewer: Aaron Anderson
 
 |Criteria|Rating/Comments|
 |---|---------------|
 |**Problem Statement**| **Comments** |
-| Does it exist?| |
-|Does the problem statement accurately describe project purpose?| |
-|Is the problem statement professional? Think of prospective employers viewing this as part of the developer's portfolio.| |
+| Does it exist?| Yes |
+|Does the problem statement accurately describe project purpose?| Yes |
+|Is the problem statement professional? Think of prospective employers viewing this as part of the developer's portfolio.| Yes |
 |What is good?| |
 |What could be improved?| |
 |**Design Documentation**||
