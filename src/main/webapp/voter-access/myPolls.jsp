@@ -15,18 +15,26 @@
 <body>
 <jsp:include page="../webparts/header.jsp" />
 
+<section>
 <div class="pagecontent">
+
     <h1>Your Polls</h1>
+    <form action="/voter-access/usepollcode" id="usepollcode">
+        <div class="question">
+            <input type="text" name="newpollcode" id="newpollcode" required /><label>Enter Poll Code</label><button type="submit">+</button>
+        </div>
+    </form>
     <div class="poll">
         <div class="header">Poll Title</div><div class="header">Poll Creator</div><div class="header">Poll</div>
     </div>
     <c:forEach var="poll" items="${polls}">
         <div class="poll">
-            <div class="title">${poll.title}</div><div class="creator">${poll.creator}</div><div class="status ${poll.status.getClassString()}"></div>
+            <div class="title"><a href="viewpoll?pollid=${poll.pollid}">${poll.title}</a></div><div class="creator">${poll.creator}</div><div class="status ${poll.status.getStatusString()}"></div>
         </div>
     </c:forEach>
-</div>
 
+</div>
+</section>
 <jsp:include page="../webparts/footer.jsp" />
 </body>
 </html>

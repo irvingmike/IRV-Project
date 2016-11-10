@@ -15,6 +15,7 @@ html {
 
 body {
   height: 100%;
+  color: #333333;
 }
 
 body {
@@ -179,4 +180,36 @@ footer div:last-child {
 footer div:last-child:before {
   content: "©";
   margin-right: 1vmin;
+}
+
+.initial {
+  color: #9F0296;
+  background-color: #b2fea2;
+}
+.initial:after {
+  content: "Initial";
+}
+
+.open {
+  color: #1D9F02;
+  background-color: #b2fea2;
+}
+.open:after {
+  content: "Open";
+}
+
+.closed {
+  color: #9F0202;
+  background-color: #fea2a2;
+}
+.closed:after {
+  content: "Closed";
+}
+
+.completed {
+  color: #BBB;
+  background-color: white;
+}
+.completed:after {
+  content: "Completed";
 }

@@ -1,7 +1,7 @@
 package com.irvingmichael.irv.controller;
 
 import com.irvingmichael.irv.entity.Poll;
-import com.irvingmichael.irv.entity.VoterPollsPage;
+import com.irvingmichael.irv.entity.Voter;
 import com.irvingmichael.irv.persistance.PollDao;
 import com.irvingmichael.irv.persistance.VoterDao;
 import org.apache.log4j.Logger;
@@ -13,25 +13,24 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 /**
- * Created by Aaron Anderson on 10/21/16.
+ * Created by Aaron Anderson on 11/9/16.
  */
-
-@WebServlet(
-        name = "mypolls",
-        urlPatterns = { "/voter-access/mypolls" }
-)
-public class MyPolls extends HttpServlet {
+@WebServlet( name = "usepollcode", urlPatterns = { "/voter-access/usepollcode" } )
+public class UsePollCode extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<Poll> polls = VoterPollsPage.getPollsForCurrentVoter(request);
-        log.debug("Test poll status: " + polls.get(0).getStatus().getStatusString());
-        request.setAttribute("polls", polls);
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/myPolls.jsp");
+
+        VoterDao voterDao = new VoterDao();
+        Voter voter = voterDao.getVoterByEmail(request.getRemoteUser());
+
+        PollDao pollDao = new PollDao();
+        pollDao.registerVoterForPoll(request.getParameter("newpollcode"), voter.getVoterId());
+
+        RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/mypolls");
         rd.forward(request, response);
 
     }

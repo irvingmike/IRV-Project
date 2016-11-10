@@ -149,8 +149,8 @@ public class PollTest {
 
     @Test
     public void getPollCode() throws Exception {
-        String pollCode = poll.getPollCode();
-        String pollCodeVerify = poll.getPollCode();
+        String pollCode = poll.getPollcode();
+        String pollCodeVerify = poll.getPollcode();
 
         assertEquals("Poll code generated at incorrect size", 8, pollCode.length());
         assertTrue(pollCode == pollCodeVerify);

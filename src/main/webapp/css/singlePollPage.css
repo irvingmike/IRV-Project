@@ -367,51 +367,32 @@ table.formInput td:last-child > button {
   cursor: pointer;
 }
 
-body {
-  background: url(../images/Index-Bkgrnd.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+div.itemRow {
+  display: flex;
+  align-item: stretch;
+  margin-bottom: 1vmin;
 }
-
-div.content {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -22vmin;
-  margin-left: -33vmin;
-  height: 44vmin;
-  width: 66vmin;
-  padding: 2vmin;
-  background-color: #FFF;
-  box-shadow: 1vmin 1vmin 2vmin 0.25vmin rgba(0, 0, 0, 0.4);
+div.itemRow:last-of-type {
+  margin-bottom: 3vmin;
 }
-
-form {
-  display: block;
-  float: left;
-  width: 48%;
-}
-form:first-of-type {
-  margin-right: 4%;
-}
-
-h1 {
-  display: block;
-  margin: 0;
-  margin-top: 0.5vmin;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
+div.itemRow div.itemType {
+  width: 25%;
+  text-align: right;
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 150%;
+  padding: 1vmin;
+  background-color: #DDD;
+}
+div.itemRow div.itemContent {
+  width: 75%;
+  text-align: left;
+  font-weight: lighter;
+  padding: 1vmin 2vmin;
+  background-color: #f1f1f1;
 }
 
-#logo {
-  text-align: center;
-  margin-bottom: 0.5vmin;
+button {
+  margin-right: 2vmin;
 }
-#logo img {
-  width: 30vmin;
+button:last-of-type {
+  margin-right: 0;
 }

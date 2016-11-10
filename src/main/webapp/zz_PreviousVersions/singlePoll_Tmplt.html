@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title Poll</title>
+    <link rel="stylesheet" type="text/css" href="../css/singlePollPage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/irv-navbar.js"></script>
+    <script type="text/javascript" src="../js/singlePoll.js"></script>
+</head>
+<body>
+<header>
+    <img src="../images/Canvass_logo_final.png">
+    <ol id="navbaritems">
+        <!--
+          <li id="mypolls">My Polls</li>
+          <li id="createpoll">Create Poll</li>
+          <li id="account">Account</li>
+          <li id="logout">Log Out</li>
+        -->
+    </ol>
+</header>
+<section>
+    <div class="pagecontent">
+
+        <h1>Poll Details: Name of Poll</h1>
+        <div class="itemRow">
+            <div class="itemType">Title</div>
+            <div class="itemContent">Name of the poll</div>
+        </div>
+        <div class="itemRow">
+            <div class="itemType">Description</div>
+            <div class="itemContent">This is the description of the poll, telling you all the things you need to know to vote in the poll. Mayb also explains a bit about the various choices.</div>
+        </div>
+        <div class="itemRow">
+            <div class="itemType">Choices</div>
+            <div class="itemContent">
+                <ul>
+                    <li>Choice 1</li>
+                    <li>Choice 2</li>
+                    <li>Choice 3</li>
+                    <li>Choice 4</li>
+                </ul>
+            </div>
+        </div>
+        <div class="itemRow">
+            <div class="itemType">Poll Code</div>
+            <div class="itemContent">abcDE123</div>
+        </div>
+        <div class="itemRow">
+            <div class="itemType">Status</div>
+            <div class="itemContent initial"></div>
+        </div>
+        <div class="itemRow">
+            <div class="itemType">Winner</div>
+            <div class="itemContent">Name of winning choice</div>
+        </div>
+        <button type="button" id="btnOpenClose">Open Poll</button>
+        <button type="button" id="btnDetermineWin">Determine winner</button>
+        <button type="button" id="btnVote">Vote in Poll</button>
+    </div>
+</section>
+
+
+<footer>
+    <h1>Want to know more:</h1>
+    <ul>
+        <li><a href="http://instantrunoff.com/instant-runoff-home/" target="_blank">InstantRunOff.com</a></li>
+        <li><a href="http://www.fairvote.org/rcv#rcvbenefits" target="_blank">FairVote.org's Ranked Choice Voting</a></li>
+        <li><a href="https://www.youtube.com/watch?v=_5SLQXNpzsk" target="_blank">An Excellent Minute and a Half Video Explination</a></li>
+    </ul>
+
+    <div>Copyright 2016 Irving Michael Development, Madison, Wi</div>
+</footer>
+</body>
+</html>
+<script type="text/javascript">init("Create Poll");</script>
+

@@ -15,6 +15,7 @@ html {
 
 body {
   height: 100%;
+  color: #333333;
 }
 
 body {
@@ -181,6 +182,197 @@ footer div:last-child:before {
   margin-right: 1vmin;
 }
 
+.initial {
+  color: #9F0296;
+  background-color: #b2fea2;
+}
+.initial:after {
+  content: "Initial";
+}
+
+.open {
+  color: #1D9F02;
+  background-color: #b2fea2;
+}
+.open:after {
+  content: "Open";
+}
+
+.closed {
+  color: #9F0202;
+  background-color: #fea2a2;
+}
+.closed:after {
+  content: "Closed";
+}
+
+.completed {
+  color: #BBB;
+  background-color: white;
+}
+.completed:after {
+  content: "Completed";
+}
+
+form button,
+form .question label,
+form .question input[type="text"],
+form .question input[type="email"],
+form .question textarea {
+  -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+}
+
+form .question {
+  position: relative;
+  padding: 10px 0;
+}
+form .question:last-of-type {
+  padding-bottom: 0;
+}
+form .question label {
+  transform-origin: left center;
+  padding: 10px 15px;
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  z-index: 2;
+  pointer-events: none;
+  color: #BBB;
+}
+form .question textarea {
+  height: 200px;
+}
+form .question textarea + label {
+  transform-origin: left center;
+  padding: 10px 15px;
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  z-index: 2;
+  pointer-events: none;
+  color: #BBB;
+  margin-top: -200px;
+}
+form .question input[type="text"], form .question input[type="email"], form .question input[type="password"], form .question textarea {
+  appearance: none;
+  background-color: none;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  position: relative;
+  z-index: 1;
+  outline: none;
+}
+form .question input[type="text"]:focus, form .question input[type="text"]:valid, form .question input[type="email"]:focus, form .question input[type="email"]:valid, form .question input[type="password"]:focus, form .question input[type="password"]:valid, form .question textarea:focus, form .question textarea:valid {
+  margin-top: 10px;
+}
+form .question input[type="text"]:focus ~ label, form .question input[type="text"]:valid ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:focus ~ label, form .question input[type="password"]:valid ~ label, form .question textarea:focus ~ label, form .question textarea:valid ~ label {
+  text-transform: uppercase;
+  -moz-transform: translate(0, -30px) scale(0.6);
+  -ms-transform: translate(0, -30px) scale(0.6);
+  -webkit-transform: translate(0, -30px) scale(0.6);
+  transform: translate(0, -30px) scale(0.6);
+}
+form .question input[type="text"]:valid ~ label, form .question input[type="email"]:valid ~ label, form .question input[type="password"]:valid ~ label, form .question textarea:valid ~ label {
+  color: #BBB;
+}
+form .question input[type="text"]:focus ~ label, form .question input[type="email"]:focus ~ label, form .question input[type="password"]:focus ~ label, form .question textarea:focus ~ label {
+  color: #1C3D78;
+}
+
+div.submitdiv {
+  clear: both;
+  padding-top: 1vmin;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  width: 18vmin;
+  height: 4vmin;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 105%;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  background-color: #cd5c57;
+  box-shadow: 0.25vmin 0.25vmin 0.5vmin rgba(0, 0, 0, 0.4);
+  border: none;
+  outline: none;
+}
+button:hover {
+  background-color: #BA3D37;
+}
+button:active {
+  box-shadow: none;
+}
+
+table.formInput {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 110%;
+}
+table.formInput tr {
+  display: flex;
+  border-bottom: 2px solid #DDD;
+  align-items: stretch;
+  justify-content: space-between;
+}
+table.formInput tr:first-child {
+  align-items: center;
+  justify-content: center;
+}
+table.formInput tr:last-child {
+  border-bottom: none;
+}
+table.formInput tr:last-child td:last-child {
+  color: #1D9F02;
+  background-color: #b2fea2;
+}
+table.formInput th {
+  font-weight: 150%;
+  font-weight: bold;
+  padding-bottom: 1vmin;
+}
+table.formInput td {
+  font-weight: lighter;
+  padding: 1vmin 1em;
+  margin-right: 1vmin;
+  flex-grow: 1;
+}
+table.formInput td input {
+  margin: 2px !important;
+}
+table.formInput td:last-child {
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3vmin;
+  padding: 0;
+  margin: 0;
+  background-color: #F77;
+  color: #900;
+  cursor: pointer;
+}
+table.formInput td:last-child > button {
+  width: 100%;
+  color: #1D9F02;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+div.pagecontent h1 {
+  display: inline-block;
+  width: 79%;
+  margin: 0;
+}
+
 div.poll {
   border-bottom: 1px solid #BBB;
   padding: 1vmin;
@@ -220,24 +412,18 @@ div.poll > div.status.initial {
 div.poll > div.status.initial:after {
   content: "Initial";
 }
-div.poll > div.status.open {
-  color: #1D9F02;
-  background-color: #b2fea2;
+
+div.pagecontent form#usepollcode {
+  display: inline-block;
+  width: 20%;
+  margin: 0;
 }
-div.poll > div.status.open:after {
-  content: "Open";
+div.pagecontent form#usepollcode input {
+  display: inline-block;
+  width: 80%;
 }
-div.poll > div.status.closed {
-  color: #9F0202;
-  background-color: #fea2a2;
-}
-div.poll > div.status.closed:after {
-  content: "Closed";
-}
-div.poll > div.status.completed {
-  color: #BBB;
-  background-color: white;
-}
-div.poll > div.status.completed:after {
-  content: "Completed";
+div.pagecontent form#usepollcode button {
+  display: inline-block;
+  width: 15%;
+  margin-left: 5px;
 }

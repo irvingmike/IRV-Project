@@ -19,18 +19,6 @@ div.poll > div {
     text-align: center;
 
     background-color: #9FF;
-
-    &.open {
-      color: $pollOpen;
-      background-color: lighten($pollOpen, 80%);
-      content: "Open";
-    }
-
-    &.closed {
-      color: $pollClosed;
-      background-color: lighten($pollClosed, 80%);
-      content: "Closed";
-    }
   }
 
 }

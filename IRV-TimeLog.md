@@ -2,8 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
-<<<<<<< HEAD
-=======
+| 11/9/16 | 5 | Adding view poll page and adding pollcode use on mypolls page | |
 | 11/8/16 | 1.5 | Figuring out passing information between javascript and java | |
 | 11/7/16 | 5.5 | Working on Create a poll page | |
 | 11/7/16 | 1 | Administrative/Cleanup work | |
@@ -17,7 +16,6 @@
 | 11/2/16 | 3 | Working on api creating a new poll | |
 | 11/1/16 | 1 | Mostly making bad choices about what and how to code so that is enough for today. | |
 | 11/1/16 | 2 | In Class - Multithreading | |
->>>>>>> createPollPage
 | 10/28/16 | 8 | Added several services to API, wrote a couple of support classes, added JavaDoc to many of the classes | |
 | 10/27/16 | 3 | Developed AuthToken class for validating requests to API | |
 | 10/27/16 | 1 | Working with Vang on his system setup and branch setup | |

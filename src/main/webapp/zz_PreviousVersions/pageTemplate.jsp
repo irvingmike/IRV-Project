@@ -7,14 +7,21 @@
 --%>
 <c:set var="pagetitle" scope="request" value="My Polls"/>
 <c:set var="stylesheet" scope="request" value="stdPage.css"/>
+<c:set var="jsFile" scope="request" value="createPoll.js"/>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <jsp:include page="../webparts/head.jsp" />
 <body>
-    <jsp:include page="../webparts/header.jsp" />
+<jsp:include page="../webparts/header.jsp" />
+<section>
+<div class="pagecontent">
+
     <p>Woo check me out!</p>
-    <jsp:include page="../webparts/footer.jsp" />
+
+</div>
+</section>
+<jsp:include page="../webparts/footer.jsp" />
 </body>
 </html>
 <script type="text/javascript">init("${pagetitle}");</script>

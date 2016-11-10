@@ -1,0 +1,36 @@
+@import "main";
+@import "forms";
+
+div.itemRow {
+    display: flex;
+    align-item: stretch;
+    margin-bottom: 1vmin;
+
+    &:last-of-type {
+        margin-bottom: 3vmin;
+    }
+
+    div.itemType {
+        width: 25%;
+        text-align: right;
+        font-weight: bold;
+        padding: 1vmin;
+        background-color: $selectedColor;
+    }
+
+    div.itemContent {
+        width: 75%;
+        text-align: left;
+        font-weight: lighter;
+        padding: 1vmin 2vmin;
+        background-color: lighten($selectedColor, 8%);
+    }
+}
+
+button {
+    margin-right: 2vmin;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}

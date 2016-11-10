@@ -1,8 +1,11 @@
 package com.irvingmichael.irv.persistance;
 
 import com.irvingmichael.irv.entity.Poll;
+import com.irvingmichael.irv.entity.Voter;
 import org.apache.log4j.Logger;
+import org.hibernate.SQLQuery;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 
@@ -29,6 +32,33 @@ public class PollDao extends GenericDao {
         session.close();
         log.debug(polls.size());
         return polls;
+    }
+
+    public Poll getPollByPollcode(String pollcode) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        return (Poll) session.createCriteria(Poll.class)
+                .add(Restrictions.eq("pollcode", pollcode))
+                .list()
+                .get(0);
+    }
+
+    public Boolean registerVoterForPoll(String pollcode, int voterId) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        List<Poll> polls  = session.createCriteria(Poll.class)
+                .add(Restrictions.eq("pollcode", pollcode))
+                .list();
+        if (polls.size() > 0) {
+            Poll poll  = polls.get(0);
+            Transaction tx = session.beginTransaction();
+            SQLQuery sql = session.createSQLQuery("INSERT INTO VotersPolls (`voterid`, `pollid`) VALUES (:voter, :poll)");
+            sql.setParameter("voter", voterId);
+            sql.setParameter("poll", poll.getPollid());
+            sql.executeUpdate();
+            tx.commit();
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public List<Poll> getAllPollsByEmail(String email) {

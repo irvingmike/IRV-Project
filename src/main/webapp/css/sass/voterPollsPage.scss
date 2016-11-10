@@ -1,4 +1,11 @@
 @import "main";
+@import "forms";
+
+div.pagecontent h1 {
+  display: inline-block;
+  width: 79%;
+  margin: 0;
+}
 
 div {
   &.poll {
@@ -47,34 +54,24 @@ div {
             content: "Initial";
           }
         }
-
-        &.open {
-          color: $pollOpen;
-          background-color: $pollOpenBkgrnd;
-
-          &:after {
-            content: "Open";
-          }
-        }
-
-        &.closed {
-          color: $pollClosed;
-          background-color: $pollClosedBkgrnd;
-
-          &:after {
-            content: "Closed";
-          }
-        }
-
-        &.completed {
-          color: $pollCompleted;
-          background-color: $pollCompletedBkgrnd;
-
-          &:after {
-            content: "Completed";
-          }
-        }
       }
     }
+  }
+}
+
+div.pagecontent form#usepollcode {
+  display: inline-block;
+  width: 20%;
+  margin: 0;
+
+  input {
+    display: inline-block;
+    width: 80%;
+  }
+
+  button {
+    display: inline-block;
+    width: 15%;
+    margin-left: 5px;
   }
 }

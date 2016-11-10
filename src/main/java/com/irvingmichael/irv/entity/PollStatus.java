@@ -10,7 +10,7 @@ public enum PollStatus {
     CLOSED,
     COMPLETED;
 
-    public String getClassString() {
+    public String getStatusString() {
         String classString = null;
         switch (this) {
             case INITIAL: { classString = "initial"; }

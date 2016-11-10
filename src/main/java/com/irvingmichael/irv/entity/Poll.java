@@ -44,7 +44,7 @@ public class Poll {
     private int winner;
 
     @Column(name="pollcode")
-    private String pollCode;
+    private String pollcode;
 
     private PollStatus status;
 
@@ -59,7 +59,7 @@ public class Poll {
         votes = new ArrayList<Vote>();
         voteCounts = new HashMap<Integer, Integer>();
         status = PollStatus.INITIAL;
-        getPollCode();
+        getPollcode();
     }
 
     public int getPollid() {
@@ -143,11 +143,11 @@ public class Poll {
         this.status = status;
     }
 
-    String getPollCode() {
-        if (pollCode == null || pollCode.length() != 8) {
-            pollCode = RandomStringUtils.random(8, true, true);
+    public String getPollcode() {
+        if (pollcode == null || pollcode.length() != 8) {
+            pollcode = RandomStringUtils.random(8, true, true);
         }
-        return pollCode;
+        return pollcode;
     }
 
     int getWinThreshold() {

@@ -190,3 +190,39 @@ footer {
     }
   }
 }
+
+.initial  {
+  color: $pollInitial;
+  background-color: $pollOpenBkgrnd;
+
+  &:after {
+    content: "Initial";
+  }
+}
+
+.open {
+  color: $pollOpen;
+  background-color: $pollOpenBkgrnd;
+
+  &:after {
+    content: "Open";
+  }
+}
+
+.closed {
+  color: $pollClosed;
+  background-color: $pollClosedBkgrnd;
+
+  &:after {
+    content: "Closed";
+  }
+}
+
+.completed {
+  color: $pollCompleted;
+  background-color: $pollCompletedBkgrnd;
+
+  &:after {
+    content: "Completed";
+  }
+}

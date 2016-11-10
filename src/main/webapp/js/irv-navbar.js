@@ -21,7 +21,11 @@ function createNavBarItem(itemName, pageIdentifier) {
     newItem.appendChild(document.createTextNode(itemName));
   } else {
     var newLink = document.createElement("a");
-    newLink.setAttribute("href", "/voter-access/" + itemId);
+    if (itemId == "logout") {
+      newLink.setAttribute("href", "/" + itemId);
+    } else {
+      newLink.setAttribute("href", "/voter-access/" + itemId);
+    }
     newLink.appendChild(document.createTextNode(itemName));
     newItem.appendChild(newLink);
   }

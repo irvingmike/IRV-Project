@@ -20,22 +20,27 @@
   <section>
 
     <div class="pagecontent">
-        <h1>Your Polls</h1>
-        <div class="poll">
-          <div class="header">Poll Title</div><div class="header">Poll Creator</div><div class="header">Poll</div>
+      <h1>Your Polls</h1>
+      <form action="/voter-access/usepollcode" id="usepollcode">
+        <div class="question">
+          <input type="text" name="newpollcode" id="newpollcode" required /><label>Enter Poll Code</label><button type="submit">+</button>
         </div>
-        <div class="poll">
-            <div class="title">Poll Title</div><div class="creator">Poll Creator</div><div class="status initial"></div>
-        </div>
-        <div class="poll">
-            <div class="title">Poll Title</div><div class="creator">Poll Creator</div><div class="status open"></div>
-        </div>
-        <div class="poll">
-            <div class="title">Poll Title</div><div class="creator">Poll Creator</div><div class="status closed"></div>
-        </div>
-        <div class="poll">
-            <div class="title">Poll Title</div><div class="creator">Poll Creator</div><div class="status completed"></div>
-        </div>
+      </form>
+      <div class="poll">
+        <div class="header">Poll Title</div><div class="header">Poll Creator</div><div class="header">Poll</div>
+      </div>
+      <div class="poll">
+          <div class="title">Poll Title</div><div class="creator">Poll Creator</div><div class="status initial"></div>
+      </div>
+      <div class="poll">
+          <div class="title">Poll Title</div><div class="creator">Poll Creator</div><div class="status open"></div>
+      </div>
+      <div class="poll">
+          <div class="title">Poll Title</div><div class="creator">Poll Creator</div><div class="status closed"></div>
+      </div>
+      <div class="poll">
+          <div class="title">Poll Title</div><div class="creator">Poll Creator</div><div class="status completed"></div>
+      </div>
     </div>
 
   </section>

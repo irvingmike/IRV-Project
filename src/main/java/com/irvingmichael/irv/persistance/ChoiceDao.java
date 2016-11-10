@@ -25,7 +25,7 @@ public class ChoiceDao extends GenericDao {
      * Returns a list of all choices in the database
      * @return
      */
-    List<Choice> getAllChoicesForPoll(int pollid) {
+    public List<Choice> getAllChoicesForPoll(int pollid) {
         List<Choice> choices;
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         choices = session.createCriteria(Choice.class)
