@@ -2,6 +2,9 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 11/10/16 | 3 | Getting things working on DO | |
+| 11/10/16 | 1 | Setting up passwordless login | |
+| 11/10/16 | 2 | In Class: Getting digitial ocean setup how I want it | |
 | 11/9/16 | 5 | Adding view poll page and adding pollcode use on mypolls page | |
 | 11/8/16 | 1.5 | Figuring out passing information between javascript and java | |
 | 11/7/16 | 5.5 | Working on Create a poll page | |
