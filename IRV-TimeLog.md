@@ -2,6 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 11/21/16 | 2 | Move API back in to project | |
 | 11/20/16 | 4 | 2nd presentation prep | |
 | 11/18/16 | 2 | 2nd presentation prep | |
 | 11/17/16 | 2 | In Class: Group presentations | |
