@@ -1,25 +1,37 @@
 package com.irvingmichael.irv.persistance;
 
 import com.irvingmichael.irv.entity.Vote;
+import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.apache.log4j.Logger;
+import org.hibernate.Transaction;
 
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
- * Created by Aaron Anderson on 10/9/16.
+ * @author Aaron Anderson
  */
 public class VoteDao extends GenericDao {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
+    /**
+     * Empty constructor
+     */
     public VoteDao() {
         super(Vote.class);
     }
 
+    /**
+     * Get a vote for a specified user in a specified poll
+     * @param voterId Id of voter to get vote for
+     * @param pollId Id of poll the vote is in
+     * @return Specified vote
+     */
     public Vote getVoteByVoterIdPollId(int voterId, int pollId) {
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Vote vote = new Vote(voterId, pollId);
 
         LinkedHashMap<Integer, Integer> tempMap = new LinkedHashMap<Integer, Integer>();
@@ -38,6 +50,31 @@ public class VoteDao extends GenericDao {
         vote.setVoteRankings(tempMap);
 
         return vote;
+    }
+
+    /**
+     * Store supplied vote in the database
+     * @param vote Vote to store in database
+     * @return True if vote is stored in database
+     */
+    public Boolean recordRankingsInDatabase(Vote vote) {
+        Boolean success = false;
+        try {
+            for (Map.Entry<Integer, Integer> entry : vote.getVoteRankings().entrySet()) {
+                Transaction tx = session.beginTransaction();
+                SQLQuery sql = session.createSQLQuery("INSERT INTO Votes (`voterid`, `pollid`, `choiceid`, `rank`) VALUES (:voter, :poll, :choice, :rank)");
+                sql.setParameter("voter", vote.getVoterId());
+                sql.setParameter("poll", vote.getPollId());
+                sql.setParameter("choice", entry.getKey());
+                sql.setParameter("rank", entry.getValue());
+                sql.executeUpdate();
+                tx.commit();
+                success = true;
+            }
+        } catch (Exception e) {
+            log.error(e);
+        }
+        return success;
     }
 
 }

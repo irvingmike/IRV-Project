@@ -19,14 +19,18 @@ public class PollTest {
     private static Poll poll;
     private final Logger log = Logger.getLogger("debugLogger");
 
+    public PollTest() {
+        poll = new TestPollSetup().testPoll;
+        poll.setCurrentChoices();
+    }
+
     @BeforeClass
     public static void setup() {
         poll = new TestPollSetup().testPoll;
     }
     @Test
     public void countVotes() throws Exception {
-        log.debug("***** Vote Counting *****");
-        poll = new TestPollSetup().testPoll;
+        poll.setVotesCountsToZero();
         poll.countVotes();
         for (Map.Entry<Integer, Integer> entry : poll.getVoteCounts().entrySet()) {
             log.debug("Key: " + entry.getKey() + ", Value: " + entry.getValue());
@@ -48,7 +52,7 @@ public class PollTest {
     }
     @Test
     public void resetChoiceCounts() throws Exception {
-        poll.resetChoiceCounts();
+        poll.setVotesCountsToZero();
         for (Map.Entry<Integer, Integer> entry : poll.getVoteCounts().entrySet()) {
             assertEquals("Vote count not se to zero", (Integer) 0, entry.getValue());
         }
@@ -137,9 +141,9 @@ public class PollTest {
     @Test
     public void setVotesCountsToZero() throws Exception {
         poll.setVoteCounts(new HashMap<Integer, Integer>() {{
-                put(1,1);
-                put(2,2);
-                put(3,3);
+            put(1,1);
+            put(2,2);
+            put(3,3);
         }});
         poll.setVotesCountsToZero();
         assertEquals("Vote count 1 didn't set to zero", (Integer) 0, poll.getVoteCounts().get(1));
@@ -149,12 +153,8 @@ public class PollTest {
 
     @Test
     public void getPollCode() throws Exception {
-        String pollCode = poll.getPollcode();
-        String pollCodeVerify = poll.getPollcode();
-
+        String pollCode = new Poll().getPollCode();
         assertEquals("Poll code generated at incorrect size", 8, pollCode.length());
-        assertTrue(pollCode == pollCodeVerify);
-
     }
 
     @Test

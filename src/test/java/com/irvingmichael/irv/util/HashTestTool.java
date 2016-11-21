@@ -17,12 +17,12 @@ public class HashTestTool {
 
         // Voter password hashing
         String toHash = "voterpass";
-        String hashedString = RealmBase.Digest(toHash, "sha-256", "Base64");
+        String hashedString = Secure.hash(toHash);
         assertEquals("Bad Hash", "1cf311c819be2d73ab4a3c8cb5327418c4f9e30cb17adb4c9330272fcc8e984c", hashedString);
 
         // Admin password hashing
         toHash = "adminpass";
-        hashedString = RealmBase.Digest(toHash, "sha-256", "UTF-8");
+        hashedString = Secure.hash(toHash);
         assertEquals("Bad Hash", "713bfda78870bf9d1b261f565286f85e97ee614efe5f0faf7c34e7ca4f65baca", hashedString);
     }
 }

@@ -55,7 +55,7 @@ public class GenericDao<T> {
     }
 
     public List<T> getAll() {
-        return (ArrayList<T>)getSession().createCriteria(type).list();
+        return (ArrayList<T>) getSession().createCriteria(type).list();
     }
 
     public T getById(int id) {

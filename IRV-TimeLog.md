@@ -2,6 +2,12 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 11/20/16 | 4 | 2nd presentation prep | |
+| 11/18/16 | 2 | 2nd presentation prep | |
+| 11/17/16 | 2 | In Class: Group presentations | |
+| 11/16/16 | 3 | Attended the Madison Area Software Devlopers Group  and note taking | |
+| 11/15/16 | 2 | In Class: Working on deploy and team coordination | |
+| 11/11/16 | 7 | Getting group API documentation done, code cleanup | |
 | 11/10/16 | 3 | Getting things working on DO | |
 | 11/10/16 | 1 | Setting up passwordless login | |
 | 11/10/16 | 2 | In Class: Getting digitial ocean setup how I want it | |

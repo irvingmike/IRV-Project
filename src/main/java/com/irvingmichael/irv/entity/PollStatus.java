@@ -10,6 +10,10 @@ public enum PollStatus {
     CLOSED,
     COMPLETED;
 
+    /**
+     * Returns the name of the Status
+     * @return  name of status
+     */
     public String getStatusString() {
         String classString = null;
         switch (this) {

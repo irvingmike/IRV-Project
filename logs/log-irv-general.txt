@@ -1030,3 +1030,963 @@
 [2016-11-10 00:22:19,735] HHH000397: Using ASTQueryTranslatorFactory
 [2016-11-10 00:22:20,204] 2
 [2016-11-10 00:22:20,204] Test poll status: completed
+[2016-11-14 12:27:13,721] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-14 12:27:13,738] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-14 12:27:13,742] HHH000206: hibernate.properties not found
+[2016-11-14 12:27:13,744] HHH000021: Bytecode provider name : javassist
+[2016-11-14 12:27:13,780] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:13,781] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:13,880] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,018] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,031] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,032] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,032] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,033] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,475] ***** Vote Counting *****
+[2016-11-14 12:27:14,477] Key: 1, Value: 3
+[2016-11-14 12:27:14,479] Key: 2, Value: 4
+[2016-11-14 12:27:14,479] Key: 3, Value: 2
+[2016-11-14 12:27:14,479] Key: 4, Value: 1
+[2016-11-14 12:27:14,490] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,491] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,505] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,514] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,515] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,515] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,517] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,519] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,533] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,534] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,544] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,552] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,555] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,556] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,557] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,559] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,571] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,573] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,583] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,587] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,588] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,588] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,588] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,589] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,608] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,609] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,615] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,620] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,622] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,624] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,624] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,625] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,635] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,635] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,641] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,669] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,670] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,670] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,671] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,672] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,672] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,675] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,676] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,676] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,681] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,682] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,682] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,693] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,701] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,702] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,703] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,704] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,704] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,719] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,721] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,754] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,761] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,763] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,764] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,765] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,765] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,791] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,792] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,815] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,820] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,821] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,822] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,822] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,825] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,842] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,843] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,848] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,852] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,853] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,853] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,854] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,854] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,871] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,872] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,876] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,880] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,881] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,882] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,882] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,882] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,891] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,892] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,935] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,938] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,938] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,938] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,938] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,939] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 12:27:14,947] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,948] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 12:27:14,959] HHH000041: Configured SessionFactory: null
+[2016-11-14 12:27:14,962] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 12:27:14,962] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 12:27:14,963] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 12:27:14,963] HHH000006: Autocommit mode: false
+[2016-11-14 12:27:14,964] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:52,905] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-14 17:56:52,928] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-14 17:56:52,936] HHH000206: hibernate.properties not found
+[2016-11-14 17:56:52,940] HHH000021: Bytecode provider name : javassist
+[2016-11-14 17:56:52,988] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:52,989] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:53,177] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:53,383] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:53,401] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:53,403] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:53,404] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:53,407] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,112] ***** Vote Counting *****
+[2016-11-14 17:56:54,117] Key: 1, Value: 3
+[2016-11-14 17:56:54,119] Key: 2, Value: 4
+[2016-11-14 17:56:54,120] Key: 3, Value: 2
+[2016-11-14 17:56:54,121] Key: 4, Value: 1
+[2016-11-14 17:56:54,138] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,139] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,152] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,169] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,170] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,171] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,172] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,173] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,196] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,198] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,209] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,219] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,220] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,221] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,222] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,222] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,236] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,237] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,251] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,261] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,262] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,263] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,264] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,265] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,282] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,283] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,293] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,299] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,299] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,299] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,300] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,301] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,313] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,314] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,320] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,357] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,357] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,359] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,359] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,359] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,362] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,367] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,368] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,368] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,370] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,373] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,373] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,384] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,388] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,389] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,390] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,390] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,390] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,419] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,419] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,438] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,443] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,446] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,447] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,448] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,449] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,466] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,466] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,543] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,547] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,547] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,547] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,547] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,548] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,563] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,563] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,569] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,571] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,572] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,572] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,573] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,573] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,587] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,589] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,601] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,603] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,604] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,605] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,606] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,608] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,624] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,624] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,628] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,631] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,631] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,632] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,637] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,637] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:56:54,642] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,644] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:56:54,652] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:56:54,655] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:56:54,655] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:56:54,655] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:56:54,656] HHH000006: Autocommit mode: false
+[2016-11-14 17:56:54,656] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:40,766] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-14 17:57:40,772] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-14 17:57:40,774] HHH000206: hibernate.properties not found
+[2016-11-14 17:57:40,776] HHH000021: Bytecode provider name : javassist
+[2016-11-14 17:57:40,790] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:40,790] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:40,847] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:40,914] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:40,919] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:40,919] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:40,920] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:40,921] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,192] ***** Vote Counting *****
+[2016-11-14 17:57:41,193] Key: 1, Value: 3
+[2016-11-14 17:57:41,194] Key: 2, Value: 4
+[2016-11-14 17:57:41,194] Key: 3, Value: 2
+[2016-11-14 17:57:41,194] Key: 4, Value: 1
+[2016-11-14 17:57:41,199] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,199] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,205] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,210] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,211] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,211] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,211] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,212] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,217] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,218] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,222] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,226] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,226] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,226] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,227] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,227] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,232] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,232] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,237] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,243] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,243] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,243] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,244] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,244] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,248] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,249] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,254] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,260] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,261] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,261] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,261] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,262] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,265] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,265] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,269] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,282] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,283] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,283] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,283] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,283] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,290] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,291] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,292] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,292] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,298] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,309] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,309] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,316] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,332] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,333] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,333] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,333] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,333] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,355] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,355] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,360] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,381] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,382] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,382] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,383] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,383] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,396] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,397] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,404] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,419] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,420] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,420] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,421] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,424] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,438] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,439] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,448] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,450] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,450] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,451] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,451] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,451] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,458] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,458] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,462] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,464] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,464] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,464] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,464] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,464] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,468] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,468] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,475] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,477] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,482] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,483] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,483] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,484] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-14 17:57:41,490] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,490] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-14 17:57:41,497] HHH000041: Configured SessionFactory: null
+[2016-11-14 17:57:41,500] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-14 17:57:41,500] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-14 17:57:41,500] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-14 17:57:41,500] HHH000006: Autocommit mode: false
+[2016-11-14 17:57:41,500] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:30,585] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 10:49:30,594] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 10:49:30,597] HHH000206: hibernate.properties not found
+[2016-11-21 10:49:30,598] HHH000021: Bytecode provider name : javassist
+[2016-11-21 10:49:30,642] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:30,644] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:30,806] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:30,963] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:30,971] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:30,971] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:30,972] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:30,973] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,326] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,334] ***** Vote Counting *****
+[2016-11-21 10:49:31,344] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,344] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,356] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,362] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,363] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,363] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,363] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,363] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,372] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,372] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,382] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,387] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,388] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,388] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,389] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,389] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,395] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,396] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,403] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,409] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,409] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,410] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,410] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,410] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,416] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,416] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,420] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,425] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,425] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,425] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,425] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,426] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,429] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,429] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,434] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,437] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,437] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,437] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,437] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,438] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,441] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,441] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,448] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,450] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,450] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,450] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,450] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,451] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,455] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,455] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,464] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,469] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,469] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,469] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,469] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,469] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,476] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,476] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,483] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,492] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,494] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,494] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,494] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,494] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,499] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,499] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,503] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,504] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,505] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,505] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,505] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,505] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,509] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,509] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,513] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,515] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,515] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,516] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,516] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,516] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,519] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,519] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,523] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,525] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,526] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,526] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,526] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,526] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:49:31,529] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,529] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:49:31,536] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:49:31,540] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:49:31,541] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:49:31,542] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:49:31,542] HHH000006: Autocommit mode: false
+[2016-11-21 10:49:31,543] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:02,960] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 10:55:02,967] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 10:55:02,968] HHH000206: hibernate.properties not found
+[2016-11-21 10:55:02,970] HHH000021: Bytecode provider name : javassist
+[2016-11-21 10:55:02,984] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:02,985] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,049] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,133] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,139] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,140] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,140] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,141] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,549] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,554] ***** Vote Counting *****
+[2016-11-21 10:55:03,571] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,573] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,583] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,588] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,588] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,589] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,589] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,589] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,595] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,595] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,607] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,620] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,621] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,622] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,622] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,622] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,628] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,630] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,646] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,663] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,663] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,664] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,669] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,669] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,689] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,691] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,729] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,735] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,735] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,736] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,736] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,736] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,744] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,746] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,753] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,756] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,757] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,757] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,757] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,758] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,765] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,765] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,776] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,780] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,781] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,781] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,782] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,784] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,794] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,794] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,801] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,804] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,805] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,805] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,805] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,805] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,829] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,829] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,843] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,847] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,847] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,848] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,849] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,849] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,862] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,862] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,880] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,889] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,890] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,890] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,891] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,891] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,950] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,950] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,961] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,966] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,967] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,967] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,967] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,967] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:03,983] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,983] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:03,987] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:03,994] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:03,995] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:03,996] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:03,996] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:03,996] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:55:04,005] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:55:04,006] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:55:04,047] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:55:04,049] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:55:04,049] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:55:04,050] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:55:04,050] HHH000006: Autocommit mode: false
+[2016-11-21 10:55:04,050] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,107] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 10:58:00,112] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 10:58:00,114] HHH000206: hibernate.properties not found
+[2016-11-21 10:58:00,115] HHH000021: Bytecode provider name : javassist
+[2016-11-21 10:58:00,132] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,133] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,221] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,301] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,307] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,307] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,308] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,309] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,646] HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,650] ***** Vote Counting *****
+[2016-11-21 10:58:00,657] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,658] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,665] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,671] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,672] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,672] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,672] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,673] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,684] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,684] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,693] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,699] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,700] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,700] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,701] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,701] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,710] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,710] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,715] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,719] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,719] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,719] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,720] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,720] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,725] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,725] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,729] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,732] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,732] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,732] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,732] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,732] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,737] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,738] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,742] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,746] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,746] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,747] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,747] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,747] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,760] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,760] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,766] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,773] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,774] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,774] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,774] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,774] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,780] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,780] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,784] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,786] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,786] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,787] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,787] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,787] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,802] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,803] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,807] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,809] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,810] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,810] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,810] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,811] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,821] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,822] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,829] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,833] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,833] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,834] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,834] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,835] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,853] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,854] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,866] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,871] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,872] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,873] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,873] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,874] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,890] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,890] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,899] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,908] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,908] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,909] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,909] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,909] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 10:58:00,918] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,919] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 10:58:00,928] HHH000041: Configured SessionFactory: null
+[2016-11-21 10:58:00,932] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 10:58:00,933] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 10:58:00,933] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 10:58:00,933] HHH000006: Autocommit mode: false
+[2016-11-21 10:58:00,933] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:47,949] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 11:02:47,956] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 11:02:47,957] HHH000206: hibernate.properties not found
+[2016-11-21 11:02:47,959] HHH000021: Bytecode provider name : javassist
+[2016-11-21 11:02:47,973] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:47,974] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,044] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,112] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,118] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,118] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,119] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,120] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,512] ***** Vote Counting *****
+[2016-11-21 11:02:48,524] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,524] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,533] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,540] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,540] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,541] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,541] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,541] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,551] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,552] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,561] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,566] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,574] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,575] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,575] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,576] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,592] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,592] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,599] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,607] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,608] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,608] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,609] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,609] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,626] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,627] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,635] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,639] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,639] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,639] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,640] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,640] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,644] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,645] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,668] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,686] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,686] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,687] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,687] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,688] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,695] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,696] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,701] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,713] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,714] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,714] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,715] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,715] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,724] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,724] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,735] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,742] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,742] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,743] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,743] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,743] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,756] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,756] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,763] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,775] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,775] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,776] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,776] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,777] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,790] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,790] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,819] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,829] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,830] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,831] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,831] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,831] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,842] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,842] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,850] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,853] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,853] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,854] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,854] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,854] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,887] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,889] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,905] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,913] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,914] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,914] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,914] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,914] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:02:48,919] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,920] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:02:48,924] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:02:48,926] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:02:48,927] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:02:48,928] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:02:48,928] HHH000006: Autocommit mode: false
+[2016-11-21 11:02:48,928] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:08:21,270] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 11:08:21,277] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 11:08:21,279] HHH000206: hibernate.properties not found
+[2016-11-21 11:08:21,280] HHH000021: Bytecode provider name : javassist
+[2016-11-21 11:08:21,295] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:08:21,295] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:08:21,359] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:08:21,439] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:08:21,444] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:08:21,445] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:08:21,445] HHH000006: Autocommit mode: false
+[2016-11-21 11:08:21,446] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:08:21,835] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-11-21 11:08:22,005] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-11-21 11:08:22,013] HHH000397: Using ASTQueryTranslatorFactory
+[2016-11-21 11:08:22,401] Created com.irvingmichael.irv.entity.AccessRole with id of: 121
+[2016-11-21 11:08:22,413] ***** Vote Counting *****
+[2016-11-21 11:08:22,507] Created com.irvingmichael.irv.entity.Choice with id of: 84
+[2016-11-21 11:08:22,524] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@1b73be9f
+[2016-11-21 11:08:22,530] Created com.irvingmichael.irv.entity.Choice with id of: 85
+[2016-11-21 11:08:22,550] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@3bcbb589
+[2016-11-21 11:08:22,569] Created com.irvingmichael.irv.entity.Choice with id of: 86
+[2016-11-21 11:08:22,576] Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@39a8312f
+[2016-11-21 11:08:22,588] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@39a8312f
+[2016-11-21 11:08:22,595] 2
+[2016-11-21 11:12:49,713] ***** Vote Counting *****
+[2016-11-21 11:14:22,977] ***** Vote Counting *****
+[2016-11-21 11:21:38,960] Key: 1, Value: 3
+[2016-11-21 11:21:38,960] Key: 2, Value: 4
+[2016-11-21 11:21:38,960] Key: 3, Value: 2
+[2016-11-21 11:21:38,960] Key: 4, Value: 1
+[2016-11-21 11:21:43,837] Key: 1, Value: 3
+[2016-11-21 11:21:43,839] Key: 2, Value: 4
+[2016-11-21 11:21:43,840] Key: 3, Value: 2
+[2016-11-21 11:21:43,840] Key: 4, Value: 1
+[2016-11-21 11:29:56,423] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 11:29:56,429] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 11:29:56,430] HHH000206: hibernate.properties not found
+[2016-11-21 11:29:56,432] HHH000021: Bytecode provider name : javassist
+[2016-11-21 11:29:56,448] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:29:56,448] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:29:56,512] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:29:56,624] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:29:56,631] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:29:56,632] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:29:56,632] HHH000006: Autocommit mode: false
+[2016-11-21 11:29:56,633] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:29:57,085] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-11-21 11:29:57,239] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-11-21 11:29:57,242] HHH000397: Using ASTQueryTranslatorFactory
+[2016-11-21 11:29:57,591] Created com.irvingmichael.irv.entity.AccessRole with id of: 122
+[2016-11-21 11:29:57,599] Key: 1, Value: 3
+[2016-11-21 11:29:57,600] Key: 2, Value: 4
+[2016-11-21 11:29:57,600] Key: 3, Value: 2
+[2016-11-21 11:29:57,600] Key: 4, Value: 1
+[2016-11-21 11:29:57,696] Created com.irvingmichael.irv.entity.Choice with id of: 87
+[2016-11-21 11:29:57,715] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@52851b44
+[2016-11-21 11:29:57,718] Created com.irvingmichael.irv.entity.Choice with id of: 88
+[2016-11-21 11:29:57,736] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@373ebf74
+[2016-11-21 11:29:57,757] Created com.irvingmichael.irv.entity.Choice with id of: 89
+[2016-11-21 11:29:57,763] Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@59f63e24
+[2016-11-21 11:29:57,775] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@59f63e24
+[2016-11-21 11:29:57,781] 2
+[2016-11-21 11:30:25,648] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 11:30:25,652] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 11:30:25,653] HHH000206: hibernate.properties not found
+[2016-11-21 11:30:25,654] HHH000021: Bytecode provider name : javassist
+[2016-11-21 11:30:25,672] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:30:25,672] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:30:25,731] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:30:25,819] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:30:25,825] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:30:25,826] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:30:25,826] HHH000006: Autocommit mode: false
+[2016-11-21 11:30:25,827] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:30:26,204] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-11-21 11:30:26,332] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-11-21 11:30:26,336] HHH000397: Using ASTQueryTranslatorFactory
+[2016-11-21 11:30:26,718] Created com.irvingmichael.irv.entity.AccessRole with id of: 123
+[2016-11-21 11:30:26,727] Key: 1, Value: 3
+[2016-11-21 11:30:26,727] Key: 2, Value: 4
+[2016-11-21 11:30:26,727] Key: 3, Value: 2
+[2016-11-21 11:30:26,727] Key: 4, Value: 1
+[2016-11-21 11:30:26,805] Created com.irvingmichael.irv.entity.Choice with id of: 90
+[2016-11-21 11:30:26,819] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@52851b44
+[2016-11-21 11:30:26,822] Created com.irvingmichael.irv.entity.Choice with id of: 91
+[2016-11-21 11:30:26,839] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@373ebf74
+[2016-11-21 11:30:26,861] Created com.irvingmichael.irv.entity.Choice with id of: 92
+[2016-11-21 11:30:26,868] Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@59f63e24
+[2016-11-21 11:30:26,879] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@59f63e24
+[2016-11-21 11:30:26,886] 2
+[2016-11-21 11:34:48,871] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 11:34:48,883] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 11:34:48,887] HHH000206: hibernate.properties not found
+[2016-11-21 11:34:48,889] HHH000021: Bytecode provider name : javassist
+[2016-11-21 11:34:48,922] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:34:48,923] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:34:49,015] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:34:49,117] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:34:49,122] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:34:49,122] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:34:49,123] HHH000006: Autocommit mode: false
+[2016-11-21 11:34:49,124] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:34:49,530] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-11-21 11:34:49,709] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-11-21 11:34:49,719] HHH000397: Using ASTQueryTranslatorFactory
+[2016-11-21 11:34:50,178] 2
+[2016-11-21 11:35:02,732] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 11:35:02,738] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 11:35:02,742] HHH000206: hibernate.properties not found
+[2016-11-21 11:35:02,744] HHH000021: Bytecode provider name : javassist
+[2016-11-21 11:35:02,777] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:35:02,778] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:35:02,851] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:35:02,931] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:35:02,939] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:35:02,940] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:35:02,940] HHH000006: Autocommit mode: false
+[2016-11-21 11:35:02,942] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:35:03,376] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-11-21 11:35:03,538] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-11-21 11:35:03,544] HHH000397: Using ASTQueryTranslatorFactory
+[2016-11-21 11:35:03,907] 2
+[2016-11-21 11:35:30,001] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 11:35:30,009] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 11:35:30,010] HHH000206: hibernate.properties not found
+[2016-11-21 11:35:30,011] HHH000021: Bytecode provider name : javassist
+[2016-11-21 11:35:30,028] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:35:30,029] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:35:30,120] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:35:30,215] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:35:30,223] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:35:30,224] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:35:30,224] HHH000006: Autocommit mode: false
+[2016-11-21 11:35:30,226] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:35:30,622] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-11-21 11:35:30,771] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-11-21 11:35:30,777] HHH000397: Using ASTQueryTranslatorFactory
+[2016-11-21 11:35:31,125] 2
+[2016-11-21 11:35:54,492] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-11-21 11:35:54,497] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-11-21 11:35:54,498] HHH000206: hibernate.properties not found
+[2016-11-21 11:35:54,499] HHH000021: Bytecode provider name : javassist
+[2016-11-21 11:35:54,513] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-11-21 11:35:54,513] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-11-21 11:35:54,570] HHH000041: Configured SessionFactory: null
+[2016-11-21 11:35:54,659] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-11-21 11:35:54,664] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-11-21 11:35:54,664] HHH000046: Connection properties: {user=irvapp, password=****}
+[2016-11-21 11:35:54,665] HHH000006: Autocommit mode: false
+[2016-11-21 11:35:54,666] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-11-21 11:35:55,053] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-11-21 11:35:55,238] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-11-21 11:35:55,245] HHH000397: Using ASTQueryTranslatorFactory
+[2016-11-21 11:35:55,631] Created com.irvingmichael.irv.entity.AccessRole with id of: 124
+[2016-11-21 11:35:55,640] Key: 1, Value: 3
+[2016-11-21 11:35:55,641] Key: 2, Value: 4
+[2016-11-21 11:35:55,641] Key: 3, Value: 2
+[2016-11-21 11:35:55,641] Key: 4, Value: 1
+[2016-11-21 11:35:55,712] Created com.irvingmichael.irv.entity.Choice with id of: 93
+[2016-11-21 11:35:55,728] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@52851b44
+[2016-11-21 11:35:55,731] Created com.irvingmichael.irv.entity.Choice with id of: 94
+[2016-11-21 11:35:55,749] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@373ebf74
+[2016-11-21 11:35:55,764] Created com.irvingmichael.irv.entity.Choice with id of: 95
+[2016-11-21 11:35:55,769] Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@59f63e24
+[2016-11-21 11:35:55,781] Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@59f63e24
+[2016-11-21 11:35:55,789] 2
