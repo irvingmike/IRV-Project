@@ -10,7 +10,7 @@ source ~/.profile
 # Terminal prompt configuration
 # --------------------------------------------------
 
-export PS1="\n---------- \d, \t ----------------------------------------------------------------------------------------------------\n[\u@\h]:\w\n\[$(tput bold)\]\[\033[38;5;34m\]---\[$(tput sgr0)\]\[\033[38;5;21m\]\$git_branch\$git_dirty\[$(tput sgr0)\]\[\033[38;5;34m\]->\[$(tput sgr0)\] "
+export PS1="\n---------- \d, \t --------------------------------------------------------------------\n[\u@\h]:\w\n\[$(tput bold)\]\[\033[38;5;34m\]---\[$(tput sgr0)\]\[\033[38;5;21m\]\$git_branch\$git_dirty\[$(tput sgr0)\]\[\033[38;5;34m\]->\[$(tput sgr0)\] "
 
 # --------------------------------------------------
 # Adding the git variables
@@ -54,4 +54,5 @@ alias cdtomcat='cd /opt/tomcat'
 alias cdsql='cd /usr/local/mysql/bin'
 alias tcup='/opt/tomcat/bin/startup.sh'
 alias tcdown='/opt/tomcat/bin/shutdown.sh'
+alias installsql='mysql irv_project -u root -p < ~/irv.sql'
 

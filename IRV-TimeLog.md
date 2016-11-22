@@ -2,6 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 11/21/16 | 4 | Fixing issue with Digital Ocean droplet where Tomcat won't come up | |
 | 11/21/16 | 2 | Move API back in to project | |
 | 11/20/16 | 4 | 2nd presentation prep | |
 | 11/18/16 | 2 | 2nd presentation prep | |
