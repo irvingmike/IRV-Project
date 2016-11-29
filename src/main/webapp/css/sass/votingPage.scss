@@ -1,0 +1,84 @@
+@import "main";
+@import "forms";
+
+div.column:first-of-type div {
+
+    margin: 3vmin 0vmin;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    & > p {
+
+        text-align: right;
+
+        &:first-child {
+            text-transform: uppercase;
+            color: $h1color;
+            font-size: 80%;
+        }
+
+        &:last-child {
+            color: $textColor;
+            font-size: 150%;
+        }
+    }
+
+}
+
+button {
+    margin-top: 2vmin;
+}
+
+/* Dragable List CSS */
+ul#choices {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    list-style-type: none;
+
+    .placeholder {
+        height: 5vmin;
+        line-height: 1.2em;
+        margin: 1vmin 0vmin;
+        visibility: visible;
+        background-color: $draggedItemPlaceholderBackground;
+        border: 1px solid $draggedItemPlaceholder;
+    }
+}
+
+li.choice {
+    display: flex;
+    flex: 0 0 100%;
+    margin: 1vmin 0vmin;
+    border: 1px solid $h1color;
+
+    /* Makes text unselectable */
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    &.over {
+        border: 2px solid $mainRed;
+    }
+}
+
+div.rank, div.hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vmin;
+    height: 5vmin;
+    font-weight: bold;
+    background-color: $h1color;
+}
+
+div.choiceName {
+    display: flex;
+    align-items: center;
+    height: 5vmin;
+    padding-left: 2vmin;
+    flex-grow: 1;
+}

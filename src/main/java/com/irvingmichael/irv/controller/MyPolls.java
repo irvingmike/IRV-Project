@@ -29,7 +29,6 @@ public class MyPolls extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Poll> polls = VoterPollsPage.getPollsForCurrentVoter(request);
-        log.debug("Test poll status: " + polls.get(0).getStatus().getStatusString());
         request.setAttribute("polls", polls);
         RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/myPolls.jsp");
         rd.forward(request, response);

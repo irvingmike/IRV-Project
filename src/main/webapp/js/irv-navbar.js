@@ -6,6 +6,10 @@ function init(pageIdentifier) {
     "Log out"
   ];
 
+  switch(pageIdentifier) {
+  case "Vote In Poll": pageIdentifier = "My Polls";
+  }
+
   navBarListItems.forEach(function(itemName) {
     createNavBarItem(itemName, pageIdentifier);
   });

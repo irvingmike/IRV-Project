@@ -51,5 +51,6 @@ public class GenerateNewPoll extends HttpServlet {
 
         PollDao pollDao = new PollDao();
         pollDao.create(poll);
+        pollDao.registerVoterForPoll(poll.getPollCode(), poll.getCreator());
     }
 }

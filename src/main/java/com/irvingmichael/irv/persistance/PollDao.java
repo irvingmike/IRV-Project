@@ -9,6 +9,7 @@ import org.hibernate.Transaction;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,6 +18,7 @@ import java.util.List;
 public class PollDao extends GenericDao {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
     /**
      * Empty constructor
@@ -31,14 +33,12 @@ public class PollDao extends GenericDao {
      * @return List of polls for the specified voter
      */
     public List<Poll> getAllPollsByVoterId(int voterId) {
-        List<Poll> polls;
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        polls = session.createCriteria(Poll.class)
-                .add(Restrictions.eq("creator", voterId))
-                .addOrder(Order.desc("pollid"))
-                .list();
-        session.close();
-        log.debug(polls.size());
+        List<Integer> pollIdsToGet = pollsVoterIsRegisterFor(voterId);
+        List<Poll> polls = new ArrayList<Poll>();
+
+        for (int pollid : pollIdsToGet) {
+            polls.add((Poll) this.getById(pollid));
+        }
         return polls;
     }
 
@@ -59,7 +59,6 @@ public class PollDao extends GenericDao {
      * @return True if it succeeds
      */
     public Boolean registerVoterForPoll(String pollcode, int voterId) {
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
         List<Poll> polls  = session.createCriteria(Poll.class)
                 .add(Restrictions.eq("pollCode", pollcode))
                 .list();
@@ -75,5 +74,18 @@ public class PollDao extends GenericDao {
         } else {
             return false;
         }
+    }
+
+    public Boolean isVoterRegisterdForPoll(int voterid, int pollid) {
+        return pollsVoterIsRegisterFor(voterid).contains(pollid);
+    }
+
+    public List<Integer> pollsVoterIsRegisterFor(int voterId) {
+        Transaction tx = session.beginTransaction();
+        SQLQuery sql = session.createSQLQuery("SELECT pollid FROM VotersPolls WHERE voterId=:voterId");
+        sql.setParameter("voterId", voterId);
+        List<Integer> pollList = sql.list();
+        tx.commit();
+        return pollList;
     }
 }

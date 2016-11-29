@@ -37,7 +37,7 @@
     </div>
     <div class="itemRow">
         <div class="itemType">Poll Code</div>
-        <div class="itemContent">${poll.pollcode}</div>
+        <div class="itemContent">${poll.pollCode}</div>
     </div>
     <div class="itemRow">
         <div class="itemType">Status</div>
@@ -48,16 +48,18 @@
         <div class="itemContent">${winner}</div>
     </div>
     <c:choose>
-        <c:when test="${poll.status} == 'OPEN'">
+        <c:when test="${poll.status == 'OPEN'}">
             <button type="button" id="btnClose">Close Poll</button>
         </c:when>
-        <c:when test="${poll.status} == 'INITIAL' || ${poll.status}=='CLOSED'">
+        <c:when test="${poll.status == 'INITIAL' || poll.status == 'CLOSED'}">
             <button type="button" id="btnOpen">Open Poll</button>
         </c:when>
     </c:choose>
-    <c:if test="${poll.status}!=='COMPLETED'">
+    <c:if test="${poll.status != 'COMPLETED'}">
         <button type="button" id="btnDetermineWin">Determine winner</button>
-        <button type="button" id="btnVote">Vote in Poll</button>
+        <c:if test="${votable == 'true'}">
+            <a href="voteinpoll?pollid=${poll.pollid}" class="button" id="btnVote">Vote in Poll</a>
+        </c:if>
     </c:if>
 
 </div>

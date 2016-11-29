@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="irv_project@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="irv_project">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="ajax"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="SAMPLE"/>
+    <schema id="8" parent="1" name="securityExrc"/>
+    <schema id="9" parent="1" name="sys"/>
+    <schema id="10" parent="1" name="ToDo"/>
+    <table id="11" parent="2" name="AccessRoles"/>
+    <table id="12" parent="2" name="AuthTokens"/>
+    <table id="13" parent="2" name="Choices"/>
+    <table id="14" parent="2" name="Polls"/>
+    <table id="15" parent="2" name="Voters"/>
+    <table id="16" parent="2" name="VotersPolls"/>
+    <table id="17" parent="2" name="Votes"/>
+    <column id="18" parent="11" name="email">
+      <Position>1</Position>
+      <DataType>varchar(254)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="11" name="accessrole">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;voterStd&apos;</DefaultExpression>
+    </column>
+    <column id="20" parent="11" name="accessroleid">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <index id="21" parent="11" name="fk_accessroles_voteremail_idx">
+      <ColNames>email</ColNames>
+    </index>
+    <key id="22" parent="11" name="PRIMARY">
+      <ColNames>accessroleid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="23" parent="11" name="fk_accessroles_voteremail">
+      <ColNames>email</ColNames>
+      <RefSchemaName>irv_project</RefSchemaName>
+      <RefTableName>Voters</RefTableName>
+      <RefColNames>email</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <column id="24" parent="12" name="Token">
+      <Position>1</Position>
+      <DataType>char(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="12" name="TokenId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="26" parent="12" name="Created">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="27" parent="12" name="AuthTokens_TokenId_uindex">
+      <ColNames>TokenId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="28" parent="12" name="PRIMARY">
+      <ColNames>TokenId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="29" parent="12" name="AuthTokens_TokenId_uindex">
+      <ColNames>TokenId</ColNames>
+      <UnderlyingIndexName>AuthTokens_TokenId_uindex</UnderlyingIndexName>
+    </key>
+    <column id="30" parent="13" name="choiceid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="31" parent="13" name="name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="13" name="description">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="33" parent="13" name="pollid">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="34" parent="13" name="fk_pollid_choices_idx">
+      <ColNames>pollid</ColNames>
+    </index>
+    <key id="35" parent="13" name="PRIMARY">
+      <ColNames>choiceid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="36" parent="13" name="fk_pollid_choices">
+      <ColNames>pollid</ColNames>
+      <RefSchemaName>irv_project</RefSchemaName>
+      <RefTableName>Polls</RefTableName>
+      <RefColNames>pollid</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <column id="37" parent="14" name="pollid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="38" parent="14" name="title">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="14" name="description">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="40" parent="14" name="pollcode">
+      <Position>4</Position>
+      <DataType>char(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="14" name="available">
+      <Position>5</Position>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="42" parent="14" name="votingopen">
+      <Position>6</Position>
+      <DataType>timestamp|0</DataType>
+    </column>
+    <column id="43" parent="14" name="votingclosed">
+      <Position>7</Position>
+      <DataType>timestamp|0</DataType>
+    </column>
+    <column id="44" parent="14" name="creator">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="45" parent="14" name="winner">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;-1&apos;</DefaultExpression>
+    </column>
+    <column id="46" parent="14" name="status">
+      <Position>10</Position>
+      <DataType>int(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="47" parent="14" name="fk_voterid_polls_idx">
+      <ColNames>creator</ColNames>
+    </index>
+    <key id="48" parent="14" name="PRIMARY">
+      <ColNames>pollid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="49" parent="14" name="fk_voterid_polls">
+      <ColNames>creator</ColNames>
+      <RefSchemaName>irv_project</RefSchemaName>
+      <RefTableName>Voters</RefTableName>
+      <RefColNames>voterid</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <column id="50" parent="15" name="voterid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="51" parent="15" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="52" parent="15" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="53" parent="15" name="email">
+      <Position>4</Position>
+      <DataType>varchar(254)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="15" name="securedby">
+      <Position>5</Position>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <index id="55" parent="15" name="email_UNIQUE">
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="56" parent="15" name="index_email">
+      <ColNames>email</ColNames>
+    </index>
+    <key id="57" parent="15" name="PRIMARY">
+      <ColNames>voterid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="58" parent="15" name="email_UNIQUE">
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>email_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="59" parent="16" name="voterid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="16" name="pollid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="16" name="notify">
+      <Position>3</Position>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="62" parent="16" name="fk_pollid_polls_idx">
+      <ColNames>pollid</ColNames>
+    </index>
+    <index id="63" parent="16" name="fk_voterid_voters_idx">
+      <ColNames>voterid</ColNames>
+    </index>
+    <key id="64" parent="16" name="PRIMARY">
+      <ColNames>pollid
+voterid
+notify</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="65" parent="16" name="fk_voterid_voters">
+      <ColNames>voterid</ColNames>
+      <RefSchemaName>irv_project</RefSchemaName>
+      <RefTableName>Voters</RefTableName>
+      <RefColNames>voterid</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <foreign-key id="66" parent="16" name="fk_pollid_polls">
+      <ColNames>pollid</ColNames>
+      <RefSchemaName>irv_project</RefSchemaName>
+      <RefTableName>Polls</RefTableName>
+      <RefColNames>pollid</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <column id="67" parent="17" name="voteid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="68" parent="17" name="pollid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="69" parent="17" name="voterid">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="70" parent="17" name="choiceid">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="71" parent="17" name="rank">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="17" name="votecast">
+      <Position>6</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="73" parent="17" name="fk_choice-id_choices_idx">
+      <ColNames>choiceid</ColNames>
+    </index>
+    <index id="74" parent="17" name="fk_poll-id_choices_idx">
+      <ColNames>pollid</ColNames>
+    </index>
+    <index id="75" parent="17" name="fk_voter-id_choices_idx">
+      <ColNames>voterid</ColNames>
+    </index>
+    <key id="76" parent="17" name="PRIMARY">
+      <ColNames>voteid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="77" parent="17" name="fk_pollid_votes">
+      <ColNames>pollid</ColNames>
+      <RefSchemaName>irv_project</RefSchemaName>
+      <RefTableName>Polls</RefTableName>
+      <RefColNames>pollid</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <foreign-key id="78" parent="17" name="fk_voterid_votes">
+      <ColNames>voterid</ColNames>
+      <RefSchemaName>irv_project</RefSchemaName>
+      <RefTableName>Voters</RefTableName>
+      <RefColNames>voterid</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <foreign-key id="79" parent="17" name="fk_choiceid_votes">
+      <ColNames>choiceid</ColNames>
+      <RefSchemaName>irv_project</RefSchemaName>
+      <RefTableName>Choices</RefTableName>
+      <RefColNames>choiceid</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

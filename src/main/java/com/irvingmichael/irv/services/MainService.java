@@ -153,6 +153,8 @@ public class MainService {
                 choiceDao.create(choice);
             }
 
+            pollDao.registerVoterForPoll(poll.getPollCode(), poll.getCreator());
+
             jsonToReturn = gson.toJson(poll);
             status = Status.OK;
 

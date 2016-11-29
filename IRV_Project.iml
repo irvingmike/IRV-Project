@@ -18,8 +18,8 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="Local:hibernate.cfg.xml" />
-          <unit-entry name="Remote:hibernate.cfg.xml" />
+          <unit-entry name="Local:hibernate.cfg.xml" value="975674b8-097a-44f8-9b2c-720304c326dc" />
+          <unit-entry name="Remote:hibernate.cfg.xml" value="0bc2c1b6-f04a-48e9-98d9-cac402cd2649" />
           <unit-entry name="hibernate.cfg.xml" value="261b870f-bb28-4068-95dd-dc239ea76f63" />
         </datasource-map>
         <naming-strategy-map />

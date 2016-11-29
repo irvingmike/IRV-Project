@@ -381,32 +381,74 @@ table.formInput td:last-child > button {
   cursor: pointer;
 }
 
-div.itemRow {
-  display: flex;
-  align-item: stretch;
-  margin-bottom: 1vmin;
+div.column:first-of-type div {
+  margin: 3vmin 0vmin;
 }
-div.itemRow:last-of-type {
-  margin-bottom: 3vmin;
+div.column:first-of-type div:last-child {
+  margin-bottom: 0;
 }
-div.itemRow div.itemType {
-  width: 25%;
+div.column:first-of-type div > p {
   text-align: right;
-  font-weight: bold;
-  padding: 1vmin;
-  background-color: #DDD;
 }
-div.itemRow div.itemContent {
-  width: 75%;
-  text-align: left;
-  font-weight: lighter;
-  padding: 1vmin 2vmin;
-  background-color: #f1f1f1;
+div.column:first-of-type div > p:first-child {
+  text-transform: uppercase;
+  color: #BBB;
+  font-size: 80%;
+}
+div.column:first-of-type div > p:last-child {
+  color: #333333;
+  font-size: 150%;
 }
 
 button {
-  margin-right: 2vmin;
+  margin-top: 2vmin;
 }
-button:last-of-type {
-  margin-right: 0;
+
+/* Dragable List CSS */
+ul#choices {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  list-style-type: none;
+}
+ul#choices .placeholder {
+  height: 5vmin;
+  line-height: 1.2em;
+  margin: 1vmin 0vmin;
+  visibility: visible;
+  background-color: #fcf5f4;
+  border: 1px solid #BA3D37;
+}
+
+li.choice {
+  display: flex;
+  flex: 0 0 100%;
+  margin: 1vmin 0vmin;
+  border: 1px solid #BBB;
+  /* Makes text unselectable */
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+li.choice.over {
+  border: 2px solid #BA3D37;
+}
+
+div.rank, div.hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5vmin;
+  height: 5vmin;
+  font-weight: bold;
+  background-color: #BBB;
+}
+
+div.choiceName {
+  display: flex;
+  align-items: center;
+  height: 5vmin;
+  padding-left: 2vmin;
+  flex-grow: 1;
 }

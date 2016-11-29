@@ -36,6 +36,10 @@ $pollCompletedBkgrnd: lighten($pollCompleted, 50%);
 $footerText: #FFF;
 $footerLink: #FFF;
 
+$draggedItemPlaceholder: $mainRed;
+$draggedItemPlaceholderBackground: lighten($draggedItemPlaceholder, 50%);
+
+
 * {
   margin: 0;
 }

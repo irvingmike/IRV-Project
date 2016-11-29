@@ -108,6 +108,13 @@ header li.selected:hover {
   background-color: #235b8c;
 }
 
+div.column {
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 1vmin;
+}
+
 section {
   width: 80%;
   min-height: 100%;
@@ -129,6 +136,35 @@ h1 {
   font-weight: lighter;
   margin-bottom: 1vmin;
   color: #BBB;
+}
+
+button, .button {
+  display: inline-block;
+  width: 18vmin;
+  height: 4vmin;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  font-size: 105%;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  background-color: #cd5c57;
+  box-shadow: 0.25vmin 0.25vmin 0.5vmin rgba(0, 0, 0, 0.4);
+  border: none;
+  outline: none;
+  margin-top: 0;
+}
+button:hover, .button:hover {
+  background-color: #BA3D37;
+}
+button:active, .button:active {
+  box-shadow: none;
+}
+
+.button {
+  padding-top: .5em;
+  text-decoration: none;
 }
 
 footer {

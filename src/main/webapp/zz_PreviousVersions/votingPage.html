@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Template</title>
+
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="../css/votingPage.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="../js/irv-navbar.js"></script>
+  <script type="text/javascript" src="../js/votingPage.js"></script>
+
+</head>
+<body>
+  <header>
+    <img src="../images/Canvass_logo_final.png">
+    <ol id="navbaritems">
+    <!--
+      <li id="mypolls">My Polls</li>
+      <li id="createpoll">Create Poll</li>
+      <li id="account">Account</li>
+      <li id="logout">Log Out</li>
+    -->
+    </ol>
+  </header>
+  <section>
+    <div class="pagecontent">
+      <div class="column">
+        <div>
+          <p>Title:</p>
+          <p>Test Tile</p>
+        </div>
+        <div>
+          <p>Description:</p>
+          <p>Test Description</p>
+        </div>
+      </div>
+      <div class="column">
+      <form action="castVote">
+        <ul id="choices">
+          <li class="choice">
+              <div class="rank">1</div>
+              <div class="choiceName">Choice One</div>
+              <div class="hamburger"><i class="material-icons">drag_handle</i></div>
+              <input type="hidden" name="1" value="1">
+          </li>
+          <li class="choice">
+              <div class="rank">2</div>
+              <div class="choiceName">Choice Two</div>
+              <div class="hamburger"><i class="material-icons">drag_handle</i></div>
+              <input type="hidden" name="2" value="2">
+          </li>
+          <li class="choice">
+              <div class="rank">3</div>
+              <div class="choiceName">Choice Three</div>
+              <div class="hamburger"><i class="material-icons">drag_handle</i></div>
+              <input type="hidden" name="3" value="3">
+          </li>
+        </ul>
+        <button>Vote!</button>
+
+      </form>
+       </div>
+    </div>
+  </section>
+  <footer>
+    <h1>Want to know more:</h1>
+    <ul>
+      <li><a href="http://instantrunoff.com/instant-runoff-home/" target="_blank">InstantRunOff.com</a></li>
+      <li><a href="http://www.fairvote.org/rcv#rcvbenefits" target="_blank">FairVote.org's Ranked Choice Voting</a></li>
+      <li><a href="https://www.youtube.com/watch?v=_5SLQXNpzsk" target="_blank">An Excellent Minute and a Half Video Explination</a></li>
+    </ul>
+
+    <div>Copyright 2016 Irving Michael Development, Madison, Wi</div>
+  </footer>
+</body>
+</html>
+<script type="text/javascript">init("Vote In Poll");</script>
+

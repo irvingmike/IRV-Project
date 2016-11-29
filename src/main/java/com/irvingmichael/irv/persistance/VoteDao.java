@@ -40,6 +40,8 @@ public class VoteDao extends GenericDao {
 
         List<Object[]> rows = session.createSQLQuery(sqlQuery).list();
 
+        if (rows.size() == 0) { return null; }
+
         for (Object[] row : rows) {
             int choiceId = (int) row[0];
             int rank = (int) row[1];

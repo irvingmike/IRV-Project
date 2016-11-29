@@ -107,6 +107,13 @@ header {
   }
 }
 
+div.column {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 1vmin;
+}
+
 // Main content section styling
 section {
   width: 80%;
@@ -129,6 +136,39 @@ h1 {
   font-weight: lighter;
   margin-bottom: 1vmin;
   color: $h1color;
+}
+
+button, .button {
+  display: inline-block;
+  width: 18vmin;
+  height: 4vmin;
+
+  font-family: $fontBold;
+  font-weight: 800;
+  font-size: 105%;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFF;
+
+  background-color: lighten($mainRed, 10%);
+  box-shadow: 0.25vmin 0.25vmin 0.5vmin rgba(0, 0, 0, 0.4);
+  border: none;
+  outline: none;
+  margin-top: 0;
+
+  &:hover {
+    background-color: $mainRed;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.button {
+  padding-top: .5em;
+  text-decoration: none;
 }
 
 // Footer for everypage

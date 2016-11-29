@@ -83,30 +83,6 @@ div.submitdiv {
   text-align: center;
 }
 
-button {
-  display: inline-block;
-  width: 18vmin;
-  height: 4vmin;
-  font-family: $fontBold;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 105%;
-  letter-spacing: 0.1em;
-  color: #FFF;
-  background-color: lighten($mainRed, 10%);
-  box-shadow: 0.25vmin 0.25vmin 0.5vmin rgba(0, 0, 0, 0.4);
-  border: none;
-  outline: none;
-
-  &:hover {
-    background-color: $mainRed;
-  }
-
-  &:active {
-    box-shadow: none;
-  }
-}
-
 table.formInput {
   width: 100%;
   border-collapse: collapse;

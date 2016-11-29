@@ -1,9 +1,6 @@
 package com.irvingmichael.irv.controller;
 
-import com.irvingmichael.irv.entity.Choice;
-import com.irvingmichael.irv.entity.Poll;
-import com.irvingmichael.irv.entity.Voter;
-import com.irvingmichael.irv.entity.VoterPollsPage;
+import com.irvingmichael.irv.entity.*;
 import com.irvingmichael.irv.persistance.ChoiceDao;
 import com.irvingmichael.irv.persistance.PollDao;
 import com.irvingmichael.irv.persistance.VoteDao;
@@ -44,6 +41,15 @@ public class ViewPoll extends HttpServlet {
             VoterDao voterDao = new VoterDao();
             Voter winner = (Voter) voterDao.getById(poll.getWinner());
             request.setAttribute("winner", winner.getFirstName() + " " + winner.getLastName());
+        }
+
+        request.setAttribute("votable", false);
+        VoterDao voterDao = new VoterDao();
+        Voter voter = voterDao.getVoterByEmail(request.getRemoteUser());
+        VoteDao voteDao = new VoteDao();
+        Vote vote = voteDao.getVoteByVoterIdPollId(voter.getVoterId(), poll.getPollid());
+        if (vote == null) {
+            request.setAttribute("votable", true);
         }
 
         request.setAttribute("poll", poll);

@@ -469,3 +469,371 @@
 [2016-Nov-21 11:35:55,769] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@59f63e24
 [2016-Nov-21 11:35:55,781] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@59f63e24
 [2016-Nov-21 11:35:55,789] DEBUG - 2
+[2016-Nov-27 16:46:23,137] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 127
+[2016-Nov-27 16:46:23,153] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 16:46:23,154] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 16:46:23,154] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 16:46:23,155] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 16:46:23,234] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 102
+[2016-Nov-27 16:46:23,248] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 16:46:23,252] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 103
+[2016-Nov-27 16:46:23,262] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 16:46:23,274] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 104
+[2016-Nov-27 16:46:23,276] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 16:46:23,284] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 16:46:23,294] DEBUG - 2
+[2016-Nov-27 16:51:41,283] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 128
+[2016-Nov-27 16:51:41,295] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 16:51:41,297] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 16:51:41,297] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 16:51:41,298] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 16:51:41,402] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 105
+[2016-Nov-27 16:51:41,427] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@66fdec9
+[2016-Nov-27 16:51:41,430] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 106
+[2016-Nov-27 16:51:41,452] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@52066604
+[2016-Nov-27 16:51:41,479] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 107
+[2016-Nov-27 16:51:41,489] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@6b3e12b5
+[2016-Nov-27 16:51:41,503] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@6b3e12b5
+[2016-Nov-27 16:51:41,513] DEBUG - 2
+[2016-Nov-27 16:51:49,512] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 129
+[2016-Nov-27 16:51:49,518] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 16:51:49,518] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 16:51:49,519] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 16:51:49,519] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 16:51:49,605] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 108
+[2016-Nov-27 16:51:49,629] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@66fdec9
+[2016-Nov-27 16:51:49,632] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 109
+[2016-Nov-27 16:51:49,647] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@52066604
+[2016-Nov-27 16:51:49,674] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 110
+[2016-Nov-27 16:51:49,683] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@6b3e12b5
+[2016-Nov-27 16:51:49,695] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@6b3e12b5
+[2016-Nov-27 16:51:49,704] DEBUG - 2
+[2016-Nov-27 16:52:42,176] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 130
+[2016-Nov-27 16:52:42,182] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 16:52:42,182] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 16:52:42,182] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 16:52:42,182] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 16:52:42,253] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 111
+[2016-Nov-27 16:52:42,271] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@66fdec9
+[2016-Nov-27 16:52:42,276] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 112
+[2016-Nov-27 16:52:42,292] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@52066604
+[2016-Nov-27 16:52:42,319] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 113
+[2016-Nov-27 16:52:42,327] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@6b3e12b5
+[2016-Nov-27 16:52:42,338] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@6b3e12b5
+[2016-Nov-27 16:52:42,348] DEBUG - 2
+[2016-Nov-27 16:58:46,398] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 131
+[2016-Nov-27 16:58:46,406] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 16:58:46,406] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 16:58:46,407] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 16:58:46,407] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 16:58:46,479] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 114
+[2016-Nov-27 16:58:46,496] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 16:58:46,501] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 115
+[2016-Nov-27 16:58:46,516] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 16:58:46,528] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 116
+[2016-Nov-27 16:58:46,531] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 16:58:46,535] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 16:58:46,539] DEBUG - 2
+[2016-Nov-27 16:59:01,037] DEBUG - 2
+[2016-Nov-27 16:59:01,038] DEBUG - Test poll status: completed
+[2016-Nov-27 16:59:03,851] DEBUG - Choices found: 0
+[2016-Nov-27 17:01:22,598] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 132
+[2016-Nov-27 17:01:22,609] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 17:01:22,609] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 17:01:22,609] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 17:01:22,610] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 17:01:22,691] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 117
+[2016-Nov-27 17:01:22,705] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 17:01:22,707] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 118
+[2016-Nov-27 17:01:22,720] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 17:01:22,736] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 119
+[2016-Nov-27 17:01:22,740] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:01:22,749] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:01:22,754] DEBUG - 2
+[2016-Nov-27 17:01:35,712] DEBUG - 2
+[2016-Nov-27 17:01:35,713] DEBUG - Test poll status: completed
+[2016-Nov-27 17:01:38,124] DEBUG - Choices found: 0
+[2016-Nov-27 17:02:28,707] DEBUG - Choices found: 0
+[2016-Nov-27 17:02:36,293] DEBUG - Choices found: 4
+[2016-Nov-27 17:06:51,352] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 133
+[2016-Nov-27 17:06:51,362] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 17:06:51,362] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 17:06:51,362] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 17:06:51,362] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 17:06:51,432] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 120
+[2016-Nov-27 17:06:51,449] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 17:06:51,454] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 121
+[2016-Nov-27 17:06:51,467] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 17:06:51,485] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 122
+[2016-Nov-27 17:06:51,489] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:06:51,501] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:06:51,508] DEBUG - 2
+[2016-Nov-27 17:07:04,342] DEBUG - 2
+[2016-Nov-27 17:07:04,342] DEBUG - Test poll status: completed
+[2016-Nov-27 17:07:18,920] DEBUG - Choices found: 4
+[2016-Nov-27 17:07:52,181] DEBUG - Choices found: 4
+[2016-Nov-27 17:07:56,479] DEBUG - Choices found: 4
+[2016-Nov-27 17:08:01,260] DEBUG - 2
+[2016-Nov-27 17:08:01,260] DEBUG - Test poll status: completed
+[2016-Nov-27 17:08:05,667] DEBUG - Choices found: 4
+[2016-Nov-27 17:09:01,226] DEBUG - Choices found: 4
+[2016-Nov-27 17:09:05,873] DEBUG - Choices found: 4
+[2016-Nov-27 17:10:56,957] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 134
+[2016-Nov-27 17:10:56,964] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 17:10:56,964] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 17:10:56,964] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 17:10:56,964] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 17:10:57,036] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 123
+[2016-Nov-27 17:10:57,047] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 17:10:57,051] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 124
+[2016-Nov-27 17:10:57,063] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 17:10:57,077] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 125
+[2016-Nov-27 17:10:57,080] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:10:57,087] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:10:57,096] DEBUG - 2
+[2016-Nov-27 17:12:15,638] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 135
+[2016-Nov-27 17:12:15,646] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 17:12:15,646] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 17:12:15,646] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 17:12:15,646] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 17:12:15,727] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 126
+[2016-Nov-27 17:12:15,735] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 17:12:15,738] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 127
+[2016-Nov-27 17:12:15,754] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 17:12:15,768] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 128
+[2016-Nov-27 17:12:15,771] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:12:15,778] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:12:15,783] DEBUG - 2
+[2016-Nov-27 17:12:29,047] DEBUG - 2
+[2016-Nov-27 17:12:29,047] DEBUG - Test poll status: completed
+[2016-Nov-27 17:12:50,336] DEBUG - Choices found: 4
+[2016-Nov-27 17:13:56,918] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 136
+[2016-Nov-27 17:13:56,930] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 17:13:56,930] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 17:13:56,930] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 17:13:56,930] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 17:13:57,001] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 129
+[2016-Nov-27 17:13:57,016] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 17:13:57,019] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 130
+[2016-Nov-27 17:13:57,031] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 17:13:57,047] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 131
+[2016-Nov-27 17:13:57,052] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:13:57,058] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:13:57,065] DEBUG - 2
+[2016-Nov-27 17:14:10,913] DEBUG - 2
+[2016-Nov-27 17:14:10,914] DEBUG - Test poll status: completed
+[2016-Nov-27 17:14:22,449] DEBUG - Choices found: 4
+[2016-Nov-27 17:22:03,703] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 137
+[2016-Nov-27 17:22:03,712] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 17:22:03,712] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 17:22:03,712] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 17:22:03,712] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 17:22:03,783] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 132
+[2016-Nov-27 17:22:03,794] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 17:22:03,799] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 133
+[2016-Nov-27 17:22:03,818] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 17:22:03,832] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 134
+[2016-Nov-27 17:22:03,837] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:22:03,844] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:22:03,852] DEBUG - 2
+[2016-Nov-27 17:22:17,946] DEBUG - 2
+[2016-Nov-27 17:22:17,947] DEBUG - Test poll status: completed
+[2016-Nov-27 17:22:26,818] DEBUG - Choices found: 4
+[2016-Nov-27 17:25:46,101] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 138
+[2016-Nov-27 17:25:46,111] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 17:25:46,111] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 17:25:46,111] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 17:25:46,111] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 17:25:46,184] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 135
+[2016-Nov-27 17:25:46,197] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 17:25:46,201] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 136
+[2016-Nov-27 17:25:46,213] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 17:25:46,240] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 137
+[2016-Nov-27 17:25:46,243] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:25:46,249] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:25:46,252] DEBUG - 2
+[2016-Nov-27 17:25:57,519] DEBUG - 2
+[2016-Nov-27 17:25:57,520] DEBUG - Test poll status: completed
+[2016-Nov-27 17:26:02,021] DEBUG - Choices found: 4
+[2016-Nov-27 17:27:28,571] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 139
+[2016-Nov-27 17:27:28,586] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 17:27:28,586] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 17:27:28,586] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 17:27:28,586] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 17:27:28,651] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 138
+[2016-Nov-27 17:27:28,665] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 17:27:28,670] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 139
+[2016-Nov-27 17:27:28,684] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 17:27:28,697] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 140
+[2016-Nov-27 17:27:28,701] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:27:28,709] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:27:28,715] DEBUG - 2
+[2016-Nov-27 17:27:40,197] DEBUG - 2
+[2016-Nov-27 17:27:40,197] DEBUG - Test poll status: completed
+[2016-Nov-27 17:27:42,861] DEBUG - Choices found: 4
+[2016-Nov-27 17:28:16,498] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 140
+[2016-Nov-27 17:28:16,508] DEBUG - Key: 1, Value: 3
+[2016-Nov-27 17:28:16,509] DEBUG - Key: 2, Value: 4
+[2016-Nov-27 17:28:16,509] DEBUG - Key: 3, Value: 2
+[2016-Nov-27 17:28:16,509] DEBUG - Key: 4, Value: 1
+[2016-Nov-27 17:28:16,588] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 141
+[2016-Nov-27 17:28:16,599] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-27 17:28:16,601] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 142
+[2016-Nov-27 17:28:16,614] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-27 17:28:16,624] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 143
+[2016-Nov-27 17:28:16,631] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:28:16,635] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-27 17:28:16,638] DEBUG - 2
+[2016-Nov-27 17:28:27,744] DEBUG - 2
+[2016-Nov-27 17:28:27,744] DEBUG - Test poll status: completed
+[2016-Nov-27 17:28:35,673] DEBUG - Choices found: 4
+[2016-Nov-28 15:35:00,502] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 141
+[2016-Nov-28 15:35:00,517] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 15:35:00,518] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 15:35:00,518] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 15:35:00,518] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 15:35:00,625] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 84
+[2016-Nov-28 15:35:00,644] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 15:35:00,646] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 85
+[2016-Nov-28 15:35:00,657] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 15:35:00,675] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 86
+[2016-Nov-28 15:35:00,680] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 15:35:00,691] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 15:35:00,708] DEBUG - 2
+[2016-Nov-28 15:35:18,758] DEBUG - 2
+[2016-Nov-28 15:35:18,758] DEBUG - Test poll status: completed
+[2016-Nov-28 15:35:31,084] DEBUG - Choices found: 4
+[2016-Nov-28 15:36:46,955] ERROR - org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-Nov-28 15:36:46,979] DEBUG - 2
+[2016-Nov-28 15:36:46,979] DEBUG - Test poll status: completed
+[2016-Nov-28 15:36:51,149] DEBUG - 2
+[2016-Nov-28 15:36:51,149] DEBUG - Test poll status: completed
+[2016-Nov-28 17:53:40,683] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 142
+[2016-Nov-28 17:53:40,695] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 17:53:40,695] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 17:53:40,695] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 17:53:40,696] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 17:53:40,791] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 84
+[2016-Nov-28 17:53:40,802] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 17:53:40,806] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 85
+[2016-Nov-28 17:53:40,831] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 17:53:40,852] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 86
+[2016-Nov-28 17:53:40,858] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 17:53:40,867] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 17:53:40,872] DEBUG - 2
+[2016-Nov-28 17:55:42,039] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 143
+[2016-Nov-28 17:55:42,066] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 17:55:42,067] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 17:55:42,067] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 17:55:42,068] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 17:55:42,182] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 87
+[2016-Nov-28 17:55:42,196] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 17:55:42,201] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 88
+[2016-Nov-28 17:55:42,245] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 17:55:42,292] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 89
+[2016-Nov-28 17:55:42,300] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 17:55:42,311] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 17:55:42,323] DEBUG - 2
+[2016-Nov-28 17:56:03,210] DEBUG - 2
+[2016-Nov-28 17:56:03,210] DEBUG - Test poll status: completed
+[2016-Nov-28 18:08:00,964] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 144
+[2016-Nov-28 18:08:00,976] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 18:08:00,976] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 18:08:00,977] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 18:08:00,977] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 18:08:01,083] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 90
+[2016-Nov-28 18:08:01,101] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 18:08:01,106] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 91
+[2016-Nov-28 18:08:01,118] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 18:08:01,133] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 92
+[2016-Nov-28 18:08:01,136] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 18:08:01,147] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 18:22:12,252] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 145
+[2016-Nov-28 18:22:12,264] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 18:22:12,265] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 18:22:12,265] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 18:22:12,265] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 18:22:12,356] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 93
+[2016-Nov-28 18:22:12,370] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 18:22:12,372] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 94
+[2016-Nov-28 18:22:12,386] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 18:22:12,403] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 95
+[2016-Nov-28 18:22:12,407] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 18:22:12,412] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 18:22:32,828] DEBUG - Test poll status: completed
+[2016-Nov-28 18:22:51,554] DEBUG - Choices found: 0
+[2016-Nov-28 18:22:59,533] DEBUG - Choices found: 0
+[2016-Nov-28 18:23:03,046] DEBUG - Choices found: 4
+[2016-Nov-28 18:23:08,689] DEBUG - Choices found: 0
+[2016-Nov-28 20:33:09,886] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 146
+[2016-Nov-28 20:33:09,900] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 20:33:09,901] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 20:33:09,901] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 20:33:09,902] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 20:33:09,993] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 96
+[2016-Nov-28 20:33:10,005] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 20:33:10,008] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 97
+[2016-Nov-28 20:33:10,023] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 20:33:10,036] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 98
+[2016-Nov-28 20:33:10,041] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:33:10,054] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:33:34,301] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 147
+[2016-Nov-28 20:33:34,316] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 20:33:34,316] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 20:33:34,317] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 20:33:34,317] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 20:33:34,434] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 99
+[2016-Nov-28 20:33:34,450] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 20:33:34,452] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 100
+[2016-Nov-28 20:33:34,466] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 20:33:34,497] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 101
+[2016-Nov-28 20:33:34,504] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:33:34,520] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:34:00,870] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 148
+[2016-Nov-28 20:34:00,887] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 20:34:00,888] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 20:34:00,888] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 20:34:00,888] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 20:34:00,987] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 102
+[2016-Nov-28 20:34:01,003] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 20:34:01,008] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 103
+[2016-Nov-28 20:34:01,027] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 20:34:01,045] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 104
+[2016-Nov-28 20:34:01,049] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:34:01,060] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:35:04,330] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 149
+[2016-Nov-28 20:35:04,344] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 20:35:04,344] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 20:35:04,344] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 20:35:04,344] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 20:35:04,434] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 105
+[2016-Nov-28 20:35:04,453] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 20:35:04,459] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 106
+[2016-Nov-28 20:35:04,479] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 20:35:04,500] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 107
+[2016-Nov-28 20:35:04,504] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:35:04,515] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:36:31,098] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 150
+[2016-Nov-28 20:36:31,115] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 20:36:31,116] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 20:36:31,116] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 20:36:31,116] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 20:36:31,211] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 108
+[2016-Nov-28 20:36:31,230] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 20:36:31,236] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 109
+[2016-Nov-28 20:36:31,250] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 20:36:31,268] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 110
+[2016-Nov-28 20:36:31,273] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:36:31,282] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:38:47,192] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 151
+[2016-Nov-28 20:38:47,214] DEBUG - Key: 1, Value: 3
+[2016-Nov-28 20:38:47,220] DEBUG - Key: 2, Value: 4
+[2016-Nov-28 20:38:47,220] DEBUG - Key: 3, Value: 2
+[2016-Nov-28 20:38:47,220] DEBUG - Key: 4, Value: 1
+[2016-Nov-28 20:38:47,323] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 111
+[2016-Nov-28 20:38:47,344] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@340b9973
+[2016-Nov-28 20:38:47,350] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 112
+[2016-Nov-28 20:38:47,374] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@674bd420
+[2016-Nov-28 20:38:47,407] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 113
+[2016-Nov-28 20:38:47,416] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
+[2016-Nov-28 20:38:47,432] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@43b6123e
