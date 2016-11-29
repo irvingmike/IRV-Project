@@ -19,7 +19,7 @@ public class PollDaoTest {
         assertTrue(polls.size() > 0);
 
         Poll poll = polls.get(polls.size() - 1);
-        assertEquals("Bad polls status", PollStatus.CLOSED, poll.getStatus());
+        assertEquals("Bad polls status", PollStatus.OPEN, poll.getStatus());
         assertEquals("Bad poll name returned for oldest poll", "Test Poll", poll.getTitle());
     }
 
