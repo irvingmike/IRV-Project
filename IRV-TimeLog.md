@@ -2,6 +2,10 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 11/29/16 | 5 | Fixed login, finialized creating poll, set up casting vote | |
+| 11/29/16 | 2 | In Class: VR Presentation and trouble shooting site login | |
+| 11/29/16 | 2 | Still can't log in to site. | |
+| 11/28/16 | 2 | Can't log in to site.
 | 11/28/16 | 3 | Trouble shooting mysql db hanging and why enums are not working again (sigh) | |
 | 11/27/16 | 3 | Continued updating app to get vote casting working. | |
 | 11/23/16 | 2 | Continue to work on page to cast vote and upgrading tother pages | |

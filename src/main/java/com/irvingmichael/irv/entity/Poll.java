@@ -189,7 +189,7 @@ public class Poll {
     void setCurrentChoices() {
         currentChoices = new ArrayList<>();
         for (Choice choice : choices) {
-            currentChoices.add(choice.getId());
+            currentChoices.add(choice.getChoiceid());
         }
     }
     /**
@@ -453,7 +453,7 @@ public class Poll {
      */
     String getChoiceNameById(int id) {
         for (Choice choice : choices) {
-            if (choice.getId() == id) {
+            if (choice.getChoiceid() == id) {
                 return choice.getName();
             }
         }

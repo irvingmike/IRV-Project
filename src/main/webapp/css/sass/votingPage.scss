@@ -50,7 +50,6 @@ ul#choices {
 
 li.choice {
     display: flex;
-    flex: 0 0 100%;
     margin: 1vmin 0vmin;
     border: 1px solid $h1color;
 
@@ -82,3 +81,4 @@ div.choiceName {
     padding-left: 2vmin;
     flex-grow: 1;
 }
+

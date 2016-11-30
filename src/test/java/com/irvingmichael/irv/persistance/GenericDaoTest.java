@@ -3,7 +3,6 @@ package com.irvingmichael.irv.persistance;
 import com.irvingmichael.irv.entity.Choice;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -16,8 +15,8 @@ public class GenericDaoTest {
     public void testCreate() throws Exception {
         GenericDao<Choice> choiceDao = new GenericDao<>(Choice.class);
         Choice testChoice = new Choice("testChoice", 1);
-        testChoice.setId(choiceDao.create(testChoice));
-        assertTrue(testChoice.getId() > 1);
+        testChoice.setChoiceid(choiceDao.create(testChoice));
+        assertTrue(testChoice.getChoiceid() > 1);
         choiceDao.delete(testChoice);
     }
 
@@ -41,10 +40,10 @@ public class GenericDaoTest {
     public void testUpdate() throws Exception {
         GenericDao<Choice> choiceDao = new GenericDao<>(Choice.class);
         Choice testChoice = new Choice("Test Choice", 1);
-        testChoice.setId(choiceDao.create(testChoice));
+        testChoice.setChoiceid(choiceDao.create(testChoice));
         testChoice.setName("Renamed Choice");
         choiceDao.update(testChoice);
-        Choice confirmChoice = choiceDao.getById(testChoice.getId());
+        Choice confirmChoice = choiceDao.getById(testChoice.getChoiceid());
         assertEquals("Bad name update on Choice", "Renamed Choice", confirmChoice.getName());
         choiceDao.delete(testChoice);
     }

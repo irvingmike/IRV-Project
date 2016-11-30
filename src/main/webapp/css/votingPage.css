@@ -422,7 +422,6 @@ ul#choices .placeholder {
 
 li.choice {
   display: flex;
-  flex: 0 0 100%;
   margin: 1vmin 0vmin;
   border: 1px solid #BBB;
   /* Makes text unselectable */

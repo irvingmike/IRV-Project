@@ -1,7 +1,5 @@
 package com.irvingmichael.irv.entity;
 
-import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 
 /**
@@ -17,7 +15,7 @@ public class Choice {
     @Id
     @GeneratedValue
     @Column(name = "choiceid")
-    private int id;
+    private int choiceid;
 
     @Column(name = "name")
     private String name;
@@ -41,10 +39,10 @@ public class Choice {
 
     /**
      * This constructor is for testing only. Id should always be from database.
-     * @param id    the Choice id
+     * @param choiceid    the Choice id
      * @param name  the Choice name
      */
-    Choice(int id, String name) {this(name); this.setId(id); }
+    Choice(int choiceid, String name) {this(name); this.setChoiceid(choiceid); }
 
     /**
      * Constructor for Choice class
@@ -66,13 +64,13 @@ public class Choice {
      *
      * @param id    an id
      */
-    public void setId(int id) { this.id = id; }
+    public void setChoiceid(int id) { this.choiceid = id; }
 
     /**
      * Returns Choice's id
      */
-    public int getId() {
-        return id;
+    public int getChoiceid() {
+        return choiceid;
     }
 
     /**

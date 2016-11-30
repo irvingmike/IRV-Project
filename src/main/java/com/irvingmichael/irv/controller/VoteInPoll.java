@@ -34,7 +34,7 @@ public class VoteInPoll  extends HttpServlet {
 
         request.setAttribute("poll", poll);
 
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/viewPoll.jsp");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/votingInPoll.jsp");
         rd.forward(request, response);
 
     }

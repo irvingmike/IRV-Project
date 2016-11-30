@@ -28,14 +28,15 @@
             </div>
         </div>
         <div class="column">
-            <form action="castVote">
+            <form action="castvote">
+                <input type="hidden" name="pollid" value="${poll.pollid}">
                 <ul id="choices">
                     <c:forEach var="choice" items="${poll.choices}" varStatus="loop">
                         <li class="choice">
-                            <div class="rank">${loop.index}</div>
+                            <div class="rank">${loop.index + 1}</div>
                             <div class="choiceName">${choice.name}</div>
                             <div class="hamburger"><i class="material-icons">drag_handle</i></div>
-                            <input type="hidden" name="${choice.choiceid}" value="${loop.index}">
+                            <input type="hidden" name="${choice.choiceid}" value="${loop.index + 1}">
                         </li>
                     </c:forEach>
                 </ul>
