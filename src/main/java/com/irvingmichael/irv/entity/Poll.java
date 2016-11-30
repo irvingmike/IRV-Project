@@ -1,10 +1,9 @@
 package com.irvingmichael.irv.entity;
 
-import org.apache.log4j.Logger;
-
 import java.util.*;
 
 import org.apache.commons.lang.RandomStringUtils;
+import org.apache.log4j.Logger;
 
 import javax.persistence.*;
 
@@ -48,15 +47,19 @@ public class Poll {
     private int winner;
 
     @Column(name="pollcode")
-    private String pollCode;
+    private String pollcode;
 
     private PollStatus status;
+
+    @Transient
+    private final Logger log = Logger.getLogger("debugLogger");
 
     /**
      * Empty constructor, build code for poll. Code can be replaced for existing polls.
      */
     public Poll() {
-        pollCode = RandomStringUtils.random(8, true, true);
+        pollcode = RandomStringUtils.random(8, true, true);
+        available = false;
         status = PollStatus.INITIAL;
         currentChoices = new ArrayList<>();
     }
@@ -72,7 +75,6 @@ public class Poll {
         choices = new ArrayList<Choice>();
         votes = new ArrayList<Vote>();
         voteCounts = new HashMap<Integer, Integer>();
-        pollCode = "";
         status = PollStatus.INITIAL;
     }
 
@@ -266,14 +268,14 @@ public class Poll {
      *
      * @param pollCode the code of the poll
      */
-    void setPollCode(String pollCode) { this.pollCode = pollCode; }
+    void setPollcode(String pollCode) { this.pollcode = pollCode; }
 
     /**
      * Returns a poll code
      *
      * @return  the code of the poll
      */
-    public String getPollCode() { return pollCode; }
+    public String getPollcode() { return pollcode; }
 
     /**
      * Determines the win threshold based on the number of choice in the poll

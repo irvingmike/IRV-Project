@@ -146,18 +146,18 @@
             unpackWARs="true" autoDeploy="true">
 
         <Context path="/IRV-Project/" docBase="IRV-Project" debug="0" reloadable="true">
-              <Realm className="org.apache.catalina.realm.JDBCRealm"
-                driverName="com.mysql.jdbc.Driver"
-                connectionURL="jdbc:mysql://localhost:3306/irv_project?user=tomcat&amp;password=tomcatpass"
-                userTable="Voters"
-                userNameCol="email"
-                userCredCol="securedby"
-                userRoleTable="AccessRoles"
-                roleNameCol="accessrole">
-                <CredentialHandler
-                  className="org.apache.catalina.realm.MessageDigestCredentialHandler"
-                  algorithm="sha-256" />
-              </Realm>
+          <Realm className="org.apache.catalina.realm.JDBCRealm"
+            driverName="com.mysql.jdbc.Driver"
+            connectionURL="jdbc:mysql://localhost:3306/irv_project?user=tomcat&amp;password=tomcatpass"
+            userTable="Voters"
+            userNameCol="email"
+            userCredCol="securedby"
+            userRoleTable="AccessRoles"
+            roleNameCol="accessrole">
+            <CredentialHandler
+              className="org.apache.catalina.realm.MessageDigestCredentialHandler"
+              algorithm="sha-256" />
+          </Realm>
         </Context>
 
         <!-- SingleSignOn valve, share authentication between web applications

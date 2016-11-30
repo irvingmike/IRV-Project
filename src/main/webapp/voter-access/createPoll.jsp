@@ -15,7 +15,7 @@
 <jsp:include page="../webparts/head.jsp" />
 <body>
 <jsp:include page="../webparts/header.jsp" />
-
+<section>
 <div class="pagecontent">
 
     <h1>Create a New Poll</h1>
@@ -44,5 +44,8 @@
         </div>
     </form>
 </div>
+</section>
+<jsp:include page="../webparts/footer.jsp" />
 </body>
 </html>
+<script type="text/javascript">init("${pagetitle}");</script>

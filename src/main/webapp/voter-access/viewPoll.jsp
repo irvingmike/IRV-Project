@@ -13,7 +13,7 @@
 <jsp:include page="../webparts/head.jsp" />
 <body>
 <jsp:include page="../webparts/header.jsp" />
-
+<section>
 <div class="pagecontent">
 
     <h1>Poll Details</h1>
@@ -37,7 +37,7 @@
     </div>
     <div class="itemRow">
         <div class="itemType">Poll Code</div>
-        <div class="itemContent">${poll.pollCode}</div>
+        <div class="itemContent">${poll.pollcode}</div>
     </div>
     <div class="itemRow">
         <div class="itemType">Status</div>
@@ -63,7 +63,7 @@
     </c:if>
 
 </div>
-
+</section>
 <jsp:include page="../webparts/footer.jsp" />
 </body>
 </html>

@@ -50,4 +50,3 @@
 </body>
 </html>
 <script type="text/javascript">init("${pagetitle}");</script>
-

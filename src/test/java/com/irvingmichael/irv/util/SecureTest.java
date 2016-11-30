@@ -11,6 +11,7 @@ public class SecureTest {
     @Test
     public void hash() throws Exception {
         System.out.println(Secure.hash("voterpass"));
+        System.out.println(Secure.hash("adminpass"));
     }
 
 }

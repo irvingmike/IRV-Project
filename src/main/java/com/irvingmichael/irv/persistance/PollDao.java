@@ -1,12 +1,10 @@
 package com.irvingmichael.irv.persistance;
 
 import com.irvingmichael.irv.entity.Poll;
-import com.irvingmichael.irv.entity.Voter;
 import org.apache.log4j.Logger;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 
 import java.util.ArrayList;
@@ -60,7 +58,7 @@ public class PollDao extends GenericDao {
      */
     public Boolean registerVoterForPoll(String pollcode, int voterId) {
         List<Poll> polls  = session.createCriteria(Poll.class)
-                .add(Restrictions.eq("pollCode", pollcode))
+                .add(Restrictions.eq("pollcode", pollcode))
                 .list();
         if (polls.size() > 0) {
             Poll poll  = polls.get(0);

@@ -11,4 +11,3 @@
     <a href="/"><img src="../images/Canvass_logo_final.png"></a>
     <ol id="navbaritems"></ol>
 </header>
-<section>

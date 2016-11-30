@@ -1,6 +1,5 @@
 package com.irvingmichael.irv.entity;
 
-import com.irvingmichael.irv.entity.*;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
@@ -153,7 +152,7 @@ public class PollTest {
 
     @Test
     public void getPollCode() throws Exception {
-        String pollCode = new Poll().getPollCode();
+        String pollCode = new Poll().getPollcode();
         assertEquals("Poll code generated at incorrect size", 8, pollCode.length());
     }
 
