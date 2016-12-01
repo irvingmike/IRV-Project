@@ -893,3 +893,33 @@
 [2016-11-30 21:15:55,322] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 [2016-11-30 21:15:55,461] HHH000399: Using default transaction strategy (direct JDBC transactions)
 [2016-11-30 21:15:55,465] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-01 12:58:13,997] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-01 12:58:14,008] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-01 12:58:14,011] HHH000206: hibernate.properties not found
+[2016-12-01 12:58:14,013] HHH000021: Bytecode provider name : javassist
+[2016-12-01 12:58:14,029] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-01 12:58:14,029] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-01 12:58:14,107] HHH000041: Configured SessionFactory: null
+[2016-12-01 12:58:14,187] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-01 12:58:14,195] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-01 12:58:14,195] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-01 12:58:14,195] HHH000006: Autocommit mode: false
+[2016-12-01 12:58:14,197] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-01 12:58:14,581] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-01 12:58:14,769] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-01 12:58:14,775] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-01 13:18:41,500] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-01 13:18:41,509] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-01 13:18:41,511] HHH000206: hibernate.properties not found
+[2016-12-01 13:18:41,512] HHH000021: Bytecode provider name : javassist
+[2016-12-01 13:18:41,533] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-01 13:18:41,533] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-01 13:18:41,573] HHH000041: Configured SessionFactory: null
+[2016-12-01 13:18:41,690] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-01 13:18:41,695] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-01 13:18:41,696] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-01 13:18:41,696] HHH000006: Autocommit mode: false
+[2016-12-01 13:18:41,698] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-01 13:18:41,936] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-01 13:18:42,078] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-01 13:18:42,084] HHH000397: Using ASTQueryTranslatorFactory

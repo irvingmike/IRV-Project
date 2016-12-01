@@ -426,3 +426,16 @@
 [2016-Nov-29 23:50:50,172] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@7cbc3762
 [2016-Nov-29 23:50:50,185] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@7cbc3762
 [2016-Nov-29 23:51:51,156] DEBUG - Choices found: 3
+[2016-Dec-01 12:58:15,211] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 234
+[2016-Dec-01 12:58:15,227] DEBUG - Key: 1, Value: 3
+[2016-Dec-01 12:58:15,227] DEBUG - Key: 2, Value: 4
+[2016-Dec-01 12:58:15,227] DEBUG - Key: 3, Value: 2
+[2016-Dec-01 12:58:15,227] DEBUG - Key: 4, Value: 1
+[2016-Dec-01 12:58:15,406] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 345
+[2016-Dec-01 12:58:15,430] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@424ebba3
+[2016-Dec-01 12:58:15,436] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 346
+[2016-Dec-01 12:58:15,461] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@655ef322
+[2016-Dec-01 12:58:15,489] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 347
+[2016-Dec-01 12:58:15,496] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@349c1daf
+[2016-Dec-01 12:58:15,509] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@349c1daf
+[2016-Dec-01 13:22:13,094] INFO - In generate new poll servlet
