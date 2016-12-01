@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import com.irvingmichael.irv.entity.Poll;
+import com.irvingmichael.irv.factories.PollFactory;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -22,5 +24,17 @@ public class Experiments {
         for (JsonElement choice : choices) {
             System.out.println(choice.getAsString());
         }
+    }
+
+    @Test
+    public void pollStatusDBTesting() {
+        Poll poll = PollFactory.getPoll(1);
+        System.out.println(poll.getStatus());
+
+        poll = PollFactory.getPoll(26);
+        System.out.println(poll.getStatus());
+
+        poll = PollFactory.getPoll(2);
+        System.out.println(poll.getStatus());
     }
 }

@@ -26,10 +26,8 @@ import java.util.TreeMap;
  * Created by aaron on 11/29/16.
  */
 
-@WebServlet(
-        name = "castvote",
-        urlPatterns = { "/voter-access/castvote" }
-)public class CastVote extends HttpServlet {
+@WebServlet( name = "castvote", urlPatterns = { "/voter-access/castvote" })
+public class CastVote extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
 

@@ -426,3 +426,5 @@
 [2016-Nov-29 23:50:50,172] DEBUG - Updated com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@7cbc3762
 [2016-Nov-29 23:50:50,185] DEBUG - Deleted com.irvingmichael.irv.entity.Choice: com.irvingmichael.irv.entity.Choice@7cbc3762
 [2016-Nov-29 23:51:51,156] DEBUG - Choices found: 3
+[2016-Nov-30 23:40:34,224] INFO - In generate new poll servlet
+[2016-Nov-30 23:47:13,069] INFO - In generate new poll servlet

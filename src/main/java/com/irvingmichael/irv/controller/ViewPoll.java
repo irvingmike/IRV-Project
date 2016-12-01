@@ -48,7 +48,9 @@ public class ViewPoll extends HttpServlet {
         Voter voter = voterDao.getVoterByEmail(request.getRemoteUser());
         VoteDao voteDao = new VoteDao();
         Vote vote = voteDao.getVoteByVoterIdPollId(voter.getVoterId(), poll.getPollid());
-        if (vote == null) {
+        if (poll.getStatus() == PollStatus.OPEN &&
+                vote == null &&
+                pollDao.isVoterRegisterdForPoll(voter.getVoterId(), poll.getPollid())) {
             request.setAttribute("votable", true);
         }
 

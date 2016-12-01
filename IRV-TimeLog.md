@@ -2,6 +2,7 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 11/30/16 | 5 | Got open/close poll button working, completing poll done | |
 | 11/29/16 | 5 | Fixed login, finialized creating poll, set up casting vote | |
 | 11/29/16 | 2 | In Class: VR Presentation and trouble shooting site login | |
 | 11/29/16 | 2 | Still can't log in to site. | |

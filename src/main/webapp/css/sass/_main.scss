@@ -233,7 +233,7 @@ footer {
 
 .initial  {
   color: $pollInitial;
-  background-color: $pollOpenBkgrnd;
+  background-color: $pollInitialBkgrnd;
 
   &:after {
     content: "Initial";

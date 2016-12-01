@@ -7,6 +7,7 @@
 --%>
 <c:set var="pagetitle" scope="request" value="My Polls"/>
 <c:set var="stylesheet" scope="request" value="singlePollPage.css"/>
+<c:set var="jsFile" scope="request" value="singlePoll.js"/>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -41,7 +42,7 @@
     </div>
     <div class="itemRow">
         <div class="itemType">Status</div>
-        <div class="itemContent ${poll.status.getStatusString()}"></div>
+        <div class="itemContent">${poll.status}</div>
     </div>
     <div class="itemRow">
         <div class="itemType">Winner</div>
@@ -56,11 +57,22 @@
         </c:when>
     </c:choose>
     <c:if test="${poll.status != 'COMPLETED'}">
-        <button type="button" id="btnDetermineWin">Determine winner</button>
+        <c:if test="${poll.winner == -1}">
+            <button type="button" id="btnDetermineWin">Determine winner</button>
+        </c:if>
         <c:if test="${votable == 'true'}">
-            <a href="voteinpoll?pollid=${poll.pollid}" class="button" id="btnVote">Vote in Poll</a>
+            <button type="button" id="btnVote">Vote in Poll</button>
         </c:if>
     </c:if>
+    <c:choose>
+        <c:when test="${!notify}">
+            <button type="button" id="btnAddNotify">Notify Me</button>
+        </c:when>
+        <c:when test="${notify}">
+            <button type="button" id="btnRemoveNotify">Cancel Notify</button>
+        </c:when>
+    </c:choose>
+    <pollid hidden>${poll.pollid}</pollid>
 
 </div>
 </section>

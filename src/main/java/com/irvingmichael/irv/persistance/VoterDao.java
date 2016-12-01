@@ -86,10 +86,21 @@ public class VoterDao<T> extends GenericDao {
     public Boolean validateVoterId(int voterId) {
         Transaction tx = session.beginTransaction();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        SQLQuery sql = session.createSQLQuery("SELECT * FROM Voters WHERE voterId=:id");
+        SQLQuery sql = session.createSQLQuery("SELECT * FROM Voters WHERE voterid=:id");
         sql.setParameter("id", voterId);
         Object valid = sql.uniqueResult();
         tx.commit();
         return Objects.nonNull(valid);
+    }
+
+    public Boolean checkNotifyVoterForPoll(int voterid, int pollid) {
+        Transaction tx = session.beginTransaction();
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        SQLQuery sql = session.createSQLQuery("SELECT `notify` FROM VotersPolls WHERE voterid=:idvoter AND pollid=:idpoll");
+        sql.setParameter("idvoter", voterid);
+        sql.setParameter("idpoll", pollid);
+        int result = sql.getFirstResult();
+        return Boolean.
+
     }
 }
