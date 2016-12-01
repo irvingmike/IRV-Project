@@ -1,11 +1,13 @@
 package com.irvingmichael.irv.persistance;
 
 import com.irvingmichael.irv.entity.Vote;
+import com.irvingmichael.irv.factories.SessionFactoryProvider;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.apache.log4j.Logger;
 import org.hibernate.Transaction;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -52,6 +54,17 @@ public class VoteDao extends GenericDao {
         vote.setVoteRankings(tempMap);
 
         return vote;
+    }
+
+    public ArrayList<Vote> getAllVotesForPoll(int pollid) {
+        ArrayList<Vote> votes = new ArrayList<>();
+        String sqlQuery = "SELECT DISTINCT `voterid` FROM Votes WHERE pollid = " + pollid;
+        List<Integer> voters = session.createSQLQuery(sqlQuery).list();
+
+        for (int voterid : voters) {
+            votes.add(getVoteByVoterIdPollId(voterid, pollid));
+        }
+        return votes;
     }
 
     /**

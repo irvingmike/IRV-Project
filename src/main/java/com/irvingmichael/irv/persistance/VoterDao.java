@@ -1,16 +1,12 @@
 package com.irvingmichael.irv.persistance;
 
-import com.irvingmichael.irv.entity.Choice;
 import com.irvingmichael.irv.entity.Voter;
-import com.irvingmichael.irv.persistance.SessionFactoryProvider;
-import org.apache.log4j.Logger;
+import com.irvingmichael.irv.factories.SessionFactoryProvider;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 

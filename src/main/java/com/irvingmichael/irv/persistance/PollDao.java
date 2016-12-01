@@ -1,6 +1,7 @@
 package com.irvingmichael.irv.persistance;
 
 import com.irvingmichael.irv.entity.Poll;
+import com.irvingmichael.irv.factories.SessionFactoryProvider;
 import org.apache.log4j.Logger;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;

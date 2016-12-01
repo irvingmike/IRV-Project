@@ -1,6 +1,6 @@
 package com.irvingmichael.irv.util;
 
-import com.irvingmichael.irv.persistance.SessionFactoryProvider;
+import com.irvingmichael.irv.factories.SessionFactoryProvider;
 import org.apache.commons.lang.RandomStringUtils;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;

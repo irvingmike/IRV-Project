@@ -1,5 +1,6 @@
 package com.irvingmichael.irv.persistance;
 
+import com.irvingmichael.irv.factories.SessionFactoryProvider;
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
