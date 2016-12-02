@@ -332,9 +332,11 @@ public class Poll {
      *  Completes Poll and determines the winner
      */
     public void completePoll() {
-        this.status = PollStatus.COMPLETED;
-        determineWinner();
-        NotifyUsers.byEmail(pollid);
+        if (votes.size() > 0) {
+            this.status = PollStatus.COMPLETED;
+            determineWinner();
+            NotifyUsers.byEmail(pollid);
+        }
     }
 
     /**
