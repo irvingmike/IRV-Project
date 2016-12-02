@@ -30,6 +30,7 @@ import java.util.TreeMap;
 public class CastVote extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private final static String TARGET = "mypolls";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -56,6 +57,6 @@ public class CastVote extends HttpServlet {
         VoteDao voteDao = new VoteDao();
         voteDao.recordRankingsInDatabase(newVote);
 
-        response.sendRedirect("mypolls");
+        response.sendRedirect(TARGET);
     }
 }

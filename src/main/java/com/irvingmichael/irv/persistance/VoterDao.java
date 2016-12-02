@@ -101,6 +101,12 @@ public class VoterDao<T> extends GenericDao {
         return Objects.nonNull(valid);
     }
 
+    /**
+     * Gets the current notify status of a voter/poll combination.
+     * @param voterid Voter to check the notify status for
+     * @param pollid Poll to check the notify status of
+     * @return True if voter wants to be notified
+     */
     public Boolean getNotifyVoterForPoll(int voterid, int pollid) {
         Transaction tx = session.beginTransaction();
         SQLQuery sql = session.createSQLQuery("SELECT `notify` FROM VotersPolls WHERE voterid=:idvoter AND pollid=:idpoll");
@@ -111,6 +117,11 @@ public class VoterDao<T> extends GenericDao {
         return result.get(0);
     }
 
+    /**
+     * Toggle the boolean in the database for a poll/voter combination as to wether or not to notify the user upon completion of the poll.
+     * @param voterid Id of the voter to notify
+     * @param pollid Id of the poll to notify for
+     */
     public void toggleNotifyForVoterInPoll(int voterid, int pollid) {
         Transaction tx = session.beginTransaction();
         SQLQuery sql = session.createSQLQuery("UPDATE VotersPolls SET `notify` = IF (`notify`, 0, 1) WHERE voterid=:idvoter AND pollid=:idpoll");
@@ -118,6 +129,14 @@ public class VoterDao<T> extends GenericDao {
         sql.setParameter("idpoll", pollid);
         sql.executeUpdate();
         tx.commit();
+    }
+
+    /**
+     * Closes the session when the object is garbage collected
+     */
+    @Override
+    protected void finalize() {
+        session.close();
     }
 
 }

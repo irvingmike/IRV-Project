@@ -45,7 +45,7 @@ public class ChoiceDao extends GenericDao {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         choice = (Choice) session.createSQLQuery("SELECT name FROM Choices JOIN Polls ON pollid = " + pollid + " WHERE winner = 0");
-
+        session.close();
         return choice;
     }
 }

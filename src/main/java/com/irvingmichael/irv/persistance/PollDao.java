@@ -75,10 +75,21 @@ public class PollDao extends GenericDao {
         }
     }
 
+    /**
+     * Check to see if a voter is registered for a poll
+     * @param voterid Voter to check status of
+     * @param pollid Poll to check status for
+     * @return True if voter is register for poll
+     */
     public Boolean isVoterRegisterdForPoll(int voterid, int pollid) {
         return pollsVoterIsRegisterFor(voterid).contains(pollid);
     }
 
+    /**
+     * Get a list of poll ids that a specified voter is registered for
+     * @param voterId Voter to retrieve poll id list for
+     * @return List of poll ids the voter is registered for
+     */
     public List<Integer> pollsVoterIsRegisterFor(int voterId) {
         Transaction tx = session.beginTransaction();
         SQLQuery sql = session.createSQLQuery("SELECT pollid FROM VotersPolls WHERE voterId=:voterId");
@@ -86,5 +97,13 @@ public class PollDao extends GenericDao {
         List<Integer> pollList = sql.list();
         tx.commit();
         return pollList;
+    }
+
+    /**
+     * Closes the session when the object is garbage collected
+     */
+    @Override
+    protected void finalize() {
+        session.close();
     }
 }

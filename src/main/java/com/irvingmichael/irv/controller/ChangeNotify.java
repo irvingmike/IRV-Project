@@ -18,6 +18,7 @@ import java.io.IOException;
 public class ChangeNotify extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private final static String TARGET = "viewpoll?pollid=";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -27,6 +28,6 @@ public class ChangeNotify extends HttpServlet {
         VoterDao voterDao = new VoterDao();
         voterDao.toggleNotifyForVoterInPoll(voterid, pollid);
 
-        response.sendRedirect("viewpoll?pollid=" + pollid);
+        response.sendRedirect(TARGET + pollid);
     }
 }

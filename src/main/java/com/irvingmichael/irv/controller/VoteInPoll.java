@@ -22,6 +22,7 @@ import java.util.ArrayList;
 public class VoteInPoll  extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private final static String TARGET = "/voter-access/votingInPoll.jsp";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -34,7 +35,7 @@ public class VoteInPoll  extends HttpServlet {
 
         request.setAttribute("poll", poll);
 
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/votingInPoll.jsp");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher(TARGET);
         rd.forward(request, response);
 
     }

@@ -21,6 +21,7 @@ import java.io.IOException;
 public class UsePollCode extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private final static String TARGET = "/voter-access/mypolls";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -30,7 +31,7 @@ public class UsePollCode extends HttpServlet {
         PollDao pollDao = new PollDao();
         pollDao.registerVoterForPoll(request.getParameter("newpollcode"), voter.getVoterId());
 
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/mypolls");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher(TARGET);
         rd.forward(request, response);
 
     }

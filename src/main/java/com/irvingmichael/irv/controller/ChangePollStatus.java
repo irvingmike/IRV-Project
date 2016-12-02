@@ -21,6 +21,7 @@ import java.io.IOException;
 public class ChangePollStatus extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private final static String TARGET = "viewpoll?pollid=";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -32,6 +33,6 @@ public class ChangePollStatus extends HttpServlet {
         PollDao pollDao = new PollDao();
         pollDao.update(poll);
 
-        response.sendRedirect("viewpoll?pollid=" + pollid);
+        response.sendRedirect(TARGET + pollid);
     }
 }

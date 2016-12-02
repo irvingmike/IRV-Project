@@ -26,11 +26,12 @@ import java.util.List;
 public class MyPolls extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private final static String TARGET = "/voter-access/myPolls.jsp";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Poll> polls = VoterPollsPage.getPollsForCurrentVoter(request);
         request.setAttribute("polls", polls);
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/myPolls.jsp");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher(TARGET);
         rd.forward(request, response);
 
     }

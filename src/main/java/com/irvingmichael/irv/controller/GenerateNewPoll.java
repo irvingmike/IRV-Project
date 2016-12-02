@@ -30,7 +30,7 @@ public class GenerateNewPoll extends HttpServlet {
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        log.info("In generate new poll servlet");
+        log.debug("In generate new poll servlet");
 
         Gson gson = new Gson();
         JsonObject jsonObject = gson.fromJson(request.getParameter("json"), JsonObject.class);

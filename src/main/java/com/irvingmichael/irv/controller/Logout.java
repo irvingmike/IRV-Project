@@ -20,12 +20,13 @@ import java.io.IOException;
 public class Logout extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private final static String TARGET = "/index.jsp";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         request.getSession().invalidate();
 
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/index.jsp");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher(TARGET);
         rd.forward(request, response);
     }
 }

@@ -22,13 +22,14 @@ import java.io.IOException;
 public class CreatePoll extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private final static String TARGET = "/voter-access/createPoll.jsp";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         Poll newPoll = new Poll();
         request.setAttribute("poll", newPoll);
 
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/createPoll.jsp");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher(TARGET);
         rd.forward(request, response);
     }
 }

@@ -92,4 +92,11 @@ public class VoteDao extends GenericDao {
         return success;
     }
 
+    /**
+     * Closes the session when the object is garbage collected
+     */
+    @Override
+    protected void finalize() {
+        session.close();
+    }
 }

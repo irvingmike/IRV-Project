@@ -25,6 +25,7 @@ import java.util.List;
 public class ViewPoll extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
+    private final static String TARGET = "/voter-access/viewPoll.jsp";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PollDao pollDao = new PollDao();
@@ -55,7 +56,7 @@ public class ViewPoll extends HttpServlet {
         }
         request.setAttribute("notify", voterDao.getNotifyVoterForPoll(voter.getVoterId(), poll.getPollid()));
         request.setAttribute("poll", poll);
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/viewPoll.jsp");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher(TARGET);
         rd.forward(request, response);
     }
 }
