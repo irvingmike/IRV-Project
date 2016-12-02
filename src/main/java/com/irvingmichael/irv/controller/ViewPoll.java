@@ -38,14 +38,14 @@ public class ViewPoll extends HttpServlet {
         if (poll.getWinner() == -1) {
             request.setAttribute("winner", "To Be Determined");
         } else {
-            VoterDao voterDao = new VoterDao();
-            Voter winner = (Voter) voterDao.getById(poll.getWinner());
-            request.setAttribute("winner", winner.getFirstName() + " " + winner.getLastName());
+            Choice winner = (Choice) choiceDao.getById(poll.getWinner());
+            request.setAttribute("winner", winner.getName());
         }
 
         request.setAttribute("votable", false);
         VoterDao voterDao = new VoterDao();
         Voter voter = voterDao.getVoterByEmail(request.getRemoteUser());
+        request.setAttribute("currentuser", voter.getVoterId());
         VoteDao voteDao = new VoteDao();
         Vote vote = voteDao.getVoteByVoterIdPollId(voter.getVoterId(), poll.getPollid());
         if (poll.getStatus() == PollStatus.OPEN &&
@@ -53,7 +53,7 @@ public class ViewPoll extends HttpServlet {
                 pollDao.isVoterRegisterdForPoll(voter.getVoterId(), poll.getPollid())) {
             request.setAttribute("votable", true);
         }
-
+        request.setAttribute("notify", voterDao.getNotifyVoterForPoll(voter.getVoterId(), poll.getPollid()));
         request.setAttribute("poll", poll);
         RequestDispatcher rd = getServletContext().getRequestDispatcher("/voter-access/viewPoll.jsp");
         rd.forward(request, response);

@@ -2,6 +2,7 @@ package com.irvingmichael.irv.persistance;
 
 import com.irvingmichael.irv.entity.Voter;
 import com.irvingmichael.irv.factories.SessionFactoryProvider;
+import org.apache.log4j.Logger;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -16,6 +17,7 @@ import java.util.Objects;
 public class VoterDao<T> extends GenericDao {
 
     private Session session = SessionFactoryProvider.getSessionFactory().openSession();
+    private final Logger log = Logger.getLogger("debugLogger");
 
     /**
      * Empty constructor
@@ -25,11 +27,20 @@ public class VoterDao<T> extends GenericDao {
     /**
      * Retrieve a list of voter for a specified poll
      * @param pollId Poll id to get all the voter for
-     * @return List of voter for the poll
+     * @return List of voters for the poll
      */
     public List<Voter> getAllVotersForPoll(int pollId) {
-        List<Voter> voters;
-        voters = session.createSQLQuery("SELECT Voters.voterid, Voters.firstname, Voters.lastname, Voters.email, Voters.securedby FROM Voters JOIN VotersPolls ON Voters.voterid = VotersPolls.voterid WHERE VotersPolls.pollid = " + pollId).addEntity(Voter.class).list();
+        List<Voter> voters = session.createSQLQuery("SELECT Voters.voterid, Voters.firstname, Voters.lastname, Voters.email, Voters.securedby FROM Voters JOIN VotersPolls ON Voters.voterid = VotersPolls.voterid WHERE VotersPolls.pollid = " + pollId).addEntity(Voter.class).list();
+        return voters;
+    }
+
+    /**
+     * Retrieve all voters for a poll that have requested to be notified.
+     * @param pollid Id of poll to notify people for
+     * @return List of voters requesting to be notified
+     */
+    public List<Voter> getAllVotersForPollToNotify(int pollid) {
+        List<Voter> voters = session.createSQLQuery("SELECT Voters.voterid, Voters.firstname, Voters.lastname, Voters.email, Voters.securedby FROM Voters JOIN VotersPolls ON Voters.voterid = VotersPolls.voterid WHERE VotersPolls.notify = 1 AND VotersPolls.pollid = " + pollId).addEntity(Voter.class).list();
         return voters;
     }
 
@@ -53,7 +64,6 @@ public class VoterDao<T> extends GenericDao {
      * @return Voter with specified email
      */
     public Voter getVoterByEmail(String email) {
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
         return (Voter) session.createCriteria(Voter.class)
                 .add(Restrictions.eq("email", email))
                 .list()
@@ -68,7 +78,6 @@ public class VoterDao<T> extends GenericDao {
      */
     public Boolean verifyUser(String email, String password) {
         Transaction tx = session.beginTransaction();
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
         SQLQuery sql = session.createSQLQuery("SELECT voterId FROM Voters WHERE email=:email AND securedby=:pass");
         sql.setString("email", email);
         sql.setString("pass", password);
@@ -85,7 +94,6 @@ public class VoterDao<T> extends GenericDao {
      */
     public Boolean validateVoterId(int voterId) {
         Transaction tx = session.beginTransaction();
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
         SQLQuery sql = session.createSQLQuery("SELECT * FROM Voters WHERE voterid=:id");
         sql.setParameter("id", voterId);
         Object valid = sql.uniqueResult();
@@ -93,14 +101,23 @@ public class VoterDao<T> extends GenericDao {
         return Objects.nonNull(valid);
     }
 
-    public Boolean checkNotifyVoterForPoll(int voterid, int pollid) {
+    public Boolean getNotifyVoterForPoll(int voterid, int pollid) {
         Transaction tx = session.beginTransaction();
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
         SQLQuery sql = session.createSQLQuery("SELECT `notify` FROM VotersPolls WHERE voterid=:idvoter AND pollid=:idpoll");
         sql.setParameter("idvoter", voterid);
         sql.setParameter("idpoll", pollid);
-        int result = sql.getFirstResult();
-        return Boolean.
-
+        List<Boolean> result = sql.list();
+        tx.commit();
+        return result.get(0);
     }
+
+    public void toggleNotifyForVoterInPoll(int voterid, int pollid) {
+        Transaction tx = session.beginTransaction();
+        SQLQuery sql = session.createSQLQuery("UPDATE VotersPolls SET `notify` = IF (`notify`, 0, 1) WHERE voterid=:idvoter AND pollid=:idpoll");
+        sql.setParameter("idvoter", voterid);
+        sql.setParameter("idpoll", pollid);
+        sql.executeUpdate();
+        tx.commit();
+    }
+
 }

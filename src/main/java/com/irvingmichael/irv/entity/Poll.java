@@ -2,6 +2,7 @@ package com.irvingmichael.irv.entity;
 
 import java.util.*;
 
+import com.irvingmichael.irv.util.NotifyUsers;
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.log4j.Logger;
 
@@ -333,6 +334,7 @@ public class Poll {
     public void completePoll() {
         this.status = PollStatus.COMPLETED;
         determineWinner();
+        NotifyUsers.byEmail(pollid);
     }
 
     /**

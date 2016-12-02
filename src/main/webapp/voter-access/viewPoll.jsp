@@ -57,7 +57,7 @@
         </c:when>
     </c:choose>
     <c:if test="${poll.status != 'COMPLETED'}">
-        <c:if test="${poll.winner == -1}">
+        <c:if test="${poll.winner == -1 && poll.creator == currentuser}">
             <button type="button" id="btnDetermineWin">Determine winner</button>
         </c:if>
         <c:if test="${votable == 'true'}">
@@ -66,13 +66,14 @@
     </c:if>
     <c:choose>
         <c:when test="${!notify}">
-            <button type="button" id="btnAddNotify">Notify Me</button>
+            <button type="button" id="btnToggleNotify">Notify Me</button>
         </c:when>
         <c:when test="${notify}">
-            <button type="button" id="btnRemoveNotify">Cancel Notify</button>
+            <button type="button" id="btnToggleNotify">Cancel Notify</button>
         </c:when>
     </c:choose>
     <pollid hidden>${poll.pollid}</pollid>
+    <voterid hidden>${currentuser}</voterid>
 
 </div>
 </section>

@@ -56,9 +56,9 @@ public class AccessRole {
         this.accessRoleId = accessRoleId;
     }
 
-    public void setNewRole() {
+    public int setNewRole() {
         GenericDao<AccessRole> dao = new GenericDao<>(AccessRole.class);
-        dao.create(this);
+        return dao.create(this);
     }
 
 }

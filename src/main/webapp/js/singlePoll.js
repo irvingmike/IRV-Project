@@ -3,6 +3,7 @@
     console.log("JS file works.");
 
     let pollid = $('pollid').text();
+    let voterid = $('voterid').text();
 
     $('#btnOpen').click(function(){
       let target = 'changepollstatus?status=open&pollid=' + pollid;
@@ -22,6 +23,11 @@
     $('#btnVote').click(function(){
       let target  = 'voteinpoll?pollid=' + pollid;
       window.location.href=target;
+    });
+
+    $('#btnToggleNotify').click(function(){
+        let target  = 'changenotify?pollid=' + pollid + "@voterid=" + voterid;
+        window.location.href=target;
     });
 
   });
