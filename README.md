@@ -62,10 +62,6 @@ A Video Example:
 * [Screen Mockups](Design-Docs/IRV-MockUp-160907.pdf)
 * [Database Design](Design-Docs/IRV-DB-Design_v1.pdf)
 
-### [Project Plan](IRV-ProjectPlan.md)
-
-### [Development Journal](IRV-Journal.md)
-
 ### [Time Log](IRV-TimeLog.md)
 
 
