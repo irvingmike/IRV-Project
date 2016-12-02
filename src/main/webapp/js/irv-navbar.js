@@ -22,16 +22,16 @@ function createNavBarItem(itemName, pageIdentifier) {
 
   if (pageIdentifier == itemName) {
     newItem.className = "selected";
-    newItem.appendChild(document.createTextNode(itemName));
-  } else {
-    var newLink = document.createElement("a");
-    if (itemId == "logout") {
-      newLink.setAttribute("href", "/" + itemId);
-    } else {
-      newLink.setAttribute("href", "/voter-access/" + itemId);
-    }
-    newLink.appendChild(document.createTextNode(itemName));
-    newItem.appendChild(newLink);
   }
+
+  var newLink = document.createElement("a");
+  if (itemId == "logout") {
+    newLink.setAttribute("href", "/" + itemId);
+  } else {
+    newLink.setAttribute("href", "/voter-access/" + itemId);
+  }
+  newLink.appendChild(document.createTextNode(itemName));
+  newItem.appendChild(newLink);
+
   document.getElementById("navbaritems").appendChild(newItem);
 }

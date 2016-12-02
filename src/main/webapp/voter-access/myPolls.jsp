@@ -29,7 +29,7 @@
     </div>
     <c:forEach var="poll" items="${polls}">
         <div class="poll">
-            <div class="title"><a href="viewpoll?pollid=${poll.pollid}">${poll.title}</a></div><div class="creator">${poll.creator}</div><div class="status ${poll.status.getStatusString()}"></div>
+            <div class="title"><a href="viewpoll?pollid=${poll.pollid}">${poll.title}</a></div><div class="creator">${poll.creator}</div><div class="status ${poll.status}"></div>
         </div>
     </c:forEach>
 
