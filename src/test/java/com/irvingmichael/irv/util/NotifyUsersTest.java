@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 public class NotifyUsersTest {
     @Test
     public void sendSingleEmail() throws Exception {
-        try {
+        /*try {
             NotifyUsers.sendSingleEmail("irvingmichael@mac.com",
                     "irvingmichael@gmail.com",
                     "Send Single Email Test",
@@ -20,7 +20,7 @@ public class NotifyUsersTest {
             assertTrue(true);
         } catch (IOException e) {
             assertEquals("Bad sending email attempt", e, new IOException());
-        }
+        }*/
     }
 
 }

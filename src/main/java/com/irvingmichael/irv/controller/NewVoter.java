@@ -23,13 +23,13 @@ import java.io.IOException;
 public class NewVoter extends HttpServlet {
 
     private final Logger log = Logger.getLogger("debugLogger");
-    private String target = "/voter-access/mypolls";
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         Voter newVoter = new Voter(request.getParameter("signupemail"));
         String password1 = request.getParameter("passwordone");
         String password2 = request.getParameter("passwordconfirm");
+        String target = "/voter-access/mypolls";
 
         if (password1.equals(password2) && request.getParameter("passwordone").length() > 6) {
             VoterDao voterDao = new VoterDao();

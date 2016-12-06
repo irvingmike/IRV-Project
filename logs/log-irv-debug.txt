@@ -17,3 +17,199 @@
 [2016-Dec-05 20:48:20,238] DEBUG - Choices found: 3
 [2016-Dec-05 20:48:21,504] DEBUG - Choices found: 3
 [2016-Dec-05 21:05:45,881] DEBUG - Choices found: 3
+[2016-Dec-06 12:59:06,207] DEBUG - Created com.irvingmichael.irv.entity.Voter with id of: 33
+[2016-Dec-06 12:59:06,213] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 271
+[2016-Dec-06 12:59:56,967] DEBUG - Created com.irvingmichael.irv.entity.Voter with id of: 34
+[2016-Dec-06 12:59:56,971] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 272
+[2016-Dec-06 13:02:34,442] ERROR - org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-Dec-06 13:02:34,452] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 273
+[2016-Dec-06 13:04:43,253] DEBUG - In generate new poll servlet
+[2016-Dec-06 13:04:43,459] DEBUG - Pollcode: 25kIEQyt
+[2016-Dec-06 13:04:43,471] DEBUG - Created com.irvingmichael.irv.entity.Poll with id of: 37
+[2016-Dec-06 13:04:43,475] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 420
+[2016-Dec-06 13:04:43,475] DEBUG - Luke Skywalker
+[2016-Dec-06 13:04:43,478] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 421
+[2016-Dec-06 13:04:43,479] DEBUG - Han Solo
+[2016-Dec-06 13:04:43,481] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 422
+[2016-Dec-06 13:04:43,481] DEBUG - Darth Vader
+[2016-Dec-06 13:04:43,484] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 423
+[2016-Dec-06 13:04:43,484] DEBUG - Jar Jar Binks
+[2016-Dec-06 13:04:43,486] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 424
+[2016-Dec-06 13:04:43,486] DEBUG - Watto
+[2016-Dec-06 13:04:43,488] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 425
+[2016-Dec-06 13:04:43,488] DEBUG - Rey
+[2016-Dec-06 13:04:43,490] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 426
+[2016-Dec-06 13:04:43,490] DEBUG - BB-8
+[2016-Dec-06 13:04:43,492] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 427
+[2016-Dec-06 13:04:43,492] DEBUG - Princess Leia
+[2016-Dec-06 13:04:43,494] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 428
+[2016-Dec-06 13:04:43,494] DEBUG - R2-D2
+[2016-Dec-06 13:04:43,497] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 429
+[2016-Dec-06 13:04:43,497] DEBUG - Chewbacca
+[2016-Dec-06 13:04:43,499] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 430
+[2016-Dec-06 13:04:43,499] DEBUG - C-3PO
+[2016-Dec-06 13:06:01,826] DEBUG - In generate new poll servlet
+[2016-Dec-06 13:06:01,828] DEBUG - Pollcode: HhVZweTf
+[2016-Dec-06 13:06:01,840] DEBUG - Created com.irvingmichael.irv.entity.Poll with id of: 38
+[2016-Dec-06 13:06:01,843] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 431
+[2016-Dec-06 13:06:01,844] DEBUG - Bacon
+[2016-Dec-06 13:06:01,846] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 432
+[2016-Dec-06 13:06:01,846] DEBUG - Pizza
+[2016-Dec-06 13:06:01,848] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 433
+[2016-Dec-06 13:06:01,848] DEBUG - Tacos
+[2016-Dec-06 13:06:01,850] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 434
+[2016-Dec-06 13:06:01,850] DEBUG - Brussel Sprouts
+[2016-Dec-06 13:06:01,852] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 435
+[2016-Dec-06 13:06:01,852] DEBUG - Fish Bladder Jelly
+[2016-Dec-06 13:09:57,763] DEBUG - In generate new poll servlet
+[2016-Dec-06 13:09:57,765] DEBUG - Pollcode: WNaFMLLx
+[2016-Dec-06 13:09:57,776] DEBUG - Created com.irvingmichael.irv.entity.Poll with id of: 39
+[2016-Dec-06 13:09:57,777] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 436
+[2016-Dec-06 13:09:57,777] DEBUG - McDonalds
+[2016-Dec-06 13:09:57,780] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 437
+[2016-Dec-06 13:09:57,780] DEBUG - Taco Bell
+[2016-Dec-06 13:09:57,782] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 438
+[2016-Dec-06 13:09:57,782] DEBUG - KFC
+[2016-Dec-06 13:09:57,784] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 439
+[2016-Dec-06 13:09:57,784] DEBUG - Mac's
+[2016-Dec-06 13:09:57,785] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 440
+[2016-Dec-06 13:09:57,785] DEBUG - Wendy's
+[2016-Dec-06 13:09:57,787] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 441
+[2016-Dec-06 13:09:57,787] DEBUG - La Brioche
+[2016-Dec-06 13:09:57,788] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 442
+[2016-Dec-06 13:09:57,789] DEBUG - Graze
+[2016-Dec-06 13:11:28,692] DEBUG - In generate new poll servlet
+[2016-Dec-06 13:11:28,693] DEBUG - Pollcode: XrU8pXOL
+[2016-Dec-06 13:11:28,704] DEBUG - Created com.irvingmichael.irv.entity.Poll with id of: 40
+[2016-Dec-06 13:11:28,706] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 443
+[2016-Dec-06 13:11:28,706] DEBUG - iPhone 8
+[2016-Dec-06 13:11:28,708] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 444
+[2016-Dec-06 13:11:28,708] DEBUG - iPhone 7s
+[2016-Dec-06 13:11:28,710] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 445
+[2016-Dec-06 13:11:28,710] DEBUG - iPhone 7
+[2016-Dec-06 13:11:28,712] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 446
+[2016-Dec-06 13:11:28,712] DEBUG - iPhone 6s
+[2016-Dec-06 13:11:28,714] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 447
+[2016-Dec-06 13:11:28,714] DEBUG - iPhone 6
+[2016-Dec-06 13:11:28,715] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 448
+[2016-Dec-06 13:11:28,715] DEBUG - Nokia 3310
+[2016-Dec-06 13:13:23,506] DEBUG - In generate new poll servlet
+[2016-Dec-06 13:13:23,506] DEBUG - Pollcode: LfYgL86H
+[2016-Dec-06 13:13:23,520] DEBUG - Created com.irvingmichael.irv.entity.Poll with id of: 41
+[2016-Dec-06 13:13:23,523] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 449
+[2016-Dec-06 13:13:23,523] DEBUG - Blocker
+[2016-Dec-06 13:13:23,525] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 450
+[2016-Dec-06 13:13:23,525] DEBUG - Sir Fluffington the Third
+[2016-Dec-06 13:13:23,528] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 451
+[2016-Dec-06 13:13:23,528] DEBUG - Wiskers Mousington
+[2016-Dec-06 13:13:23,531] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 452
+[2016-Dec-06 13:13:23,531] DEBUG - Fluffers Wiskerton
+[2016-Dec-06 13:13:23,533] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 453
+[2016-Dec-06 13:13:23,533] DEBUG - Bob
+[2016-Dec-06 13:13:23,535] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 454
+[2016-Dec-06 13:13:23,535] DEBUG - Lady Fluffalumpagus
+[2016-Dec-06 13:13:23,537] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 455
+[2016-Dec-06 13:13:23,537] DEBUG - Tien
+[2016-Dec-06 13:13:23,538] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 456
+[2016-Dec-06 13:13:23,538] DEBUG - Arie
+[2016-Dec-06 13:13:23,540] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 457
+[2016-Dec-06 13:13:23,540] DEBUG - Lillith
+[2016-Dec-06 13:14:27,222] DEBUG - In generate new poll servlet
+[2016-Dec-06 13:14:27,223] DEBUG - Pollcode: 7oBGz8kJ
+[2016-Dec-06 13:14:27,234] DEBUG - Created com.irvingmichael.irv.entity.Poll with id of: 42
+[2016-Dec-06 13:14:27,236] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 458
+[2016-Dec-06 13:14:27,236] DEBUG - Country
+[2016-Dec-06 13:14:27,238] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 459
+[2016-Dec-06 13:14:27,238] DEBUG - Western
+[2016-Dec-06 13:16:43,945] DEBUG - In generate new poll servlet
+[2016-Dec-06 13:16:43,946] DEBUG - Pollcode: 3qysb2SF
+[2016-Dec-06 13:16:43,958] DEBUG - Created com.irvingmichael.irv.entity.Poll with id of: 43
+[2016-Dec-06 13:16:43,959] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 460
+[2016-Dec-06 13:16:43,959] DEBUG - Christmas
+[2016-Dec-06 13:16:43,961] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 461
+[2016-Dec-06 13:16:43,961] DEBUG - Halloween
+[2016-Dec-06 13:16:43,963] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 462
+[2016-Dec-06 13:16:43,963] DEBUG - New Years
+[2016-Dec-06 13:16:43,965] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 463
+[2016-Dec-06 13:16:43,965] DEBUG - Thanksgiving
+[2016-Dec-06 13:16:43,967] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 464
+[2016-Dec-06 13:16:43,967] DEBUG - Rosh Hashanah
+[2016-Dec-06 13:16:43,968] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 465
+[2016-Dec-06 13:16:43,968] DEBUG - Ramadan
+[2016-Dec-06 13:16:43,970] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 466
+[2016-Dec-06 13:16:43,970] DEBUG - Basant
+[2016-Dec-06 13:16:43,971] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 467
+[2016-Dec-06 13:16:43,972] DEBUG - Easter
+[2016-Dec-06 13:16:43,973] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 468
+[2016-Dec-06 13:16:43,973] DEBUG - Diwali
+[2016-Dec-06 13:16:43,975] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 469
+[2016-Dec-06 13:16:43,975] DEBUG - Eid al-Adha
+[2016-Dec-06 13:20:03,566] DEBUG - In generate new poll servlet
+[2016-Dec-06 13:20:03,567] DEBUG - Pollcode: QbQJNsU3
+[2016-Dec-06 13:20:03,579] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,581] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,581] DEBUG - Seems mighty chummy with the dog all of a sudden
+[2016-Dec-06 13:20:03,584] ERROR - org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-Dec-06 13:20:03,584] DEBUG - He actually *does* have your tongue
+[2016-Dec-06 13:20:03,586] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,586] DEBUG - You find a stash of "Feline of Fortune" magazines behind the couch.
+[2016-Dec-06 13:20:03,588] ERROR - org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-Dec-06 13:20:03,588] DEBUG - Cyanide pawprints all over the house
+[2016-Dec-06 13:20:03,589] ERROR - org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-Dec-06 13:20:03,589] DEBUG - You wake up to find a bird's head in your bed
+[2016-Dec-06 13:20:03,591] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,591] DEBUG - As the wind blows over the grassy knoll in downtown Dallas, you get a faint whiff of catnip
+[2016-Dec-06 13:20:03,592] ERROR - org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-Dec-06 13:20:03,592] DEBUG - Droppings in litter box spell out "REDRUM
+[2016-Dec-06 13:20:03,594] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,594] DEBUG - Catch him with a new mohawk looking in the mirror saying, "Mew looking at me? Mew looking at me?"
+[2016-Dec-06 13:20:03,595] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,595] DEBUG - Takes attentive notes every time "Itchy and Scratchy" are on
+[2016-Dec-06 13:20:03,596] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,597] DEBUG - You find blueprints for a Rube Goldberg device that starts with a mouse chased into a hole and ends with flaming oil dumped on your bed
+[2016-Dec-06 13:20:03,598] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,599] DEBUG - Has taken a sudden interest in the wood chipper
+[2016-Dec-06 13:20:03,600] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,600] DEBUG - Instead of dead birds, leaves cartons of Marlboros on your doorstep
+[2016-Dec-06 13:20:03,602] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,602] DEBUG - Ball of yarn playfully tied into a hangman's noose
+[2016-Dec-06 13:20:03,604] ERROR - org.hibernate.exception.DataException: could not execute statement
+[2016-Dec-06 13:20:03,604] DEBUG - You find a piece of paper labelled "MY WIL" which says "LEEV AWL 2 KAT."
+[2016-Dec-06 13:20:03,606] ERROR - org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-Dec-06 13:20:03,606] DEBUG - Now sharpens claws on your car's brake lines
+[2016-Dec-06 13:24:48,730] DEBUG - In generate new poll servlet
+[2016-Dec-06 13:24:48,731] DEBUG - Pollcode: fbxBj4L2
+[2016-Dec-06 13:24:48,741] DEBUG - Created com.irvingmichael.irv.entity.Poll with id of: 44
+[2016-Dec-06 13:24:48,743] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 475
+[2016-Dec-06 13:24:48,743] DEBUG - Citizen Kane
+[2016-Dec-06 13:24:48,744] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 476
+[2016-Dec-06 13:24:48,745] DEBUG - The Godfather
+[2016-Dec-06 13:24:48,746] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 477
+[2016-Dec-06 13:24:48,746] DEBUG - Casablanca
+[2016-Dec-06 13:24:48,747] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 478
+[2016-Dec-06 13:24:48,747] DEBUG - Raging Bull
+[2016-Dec-06 13:24:48,749] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 479
+[2016-Dec-06 13:24:48,749] DEBUG - Singin' in the Rain
+[2016-Dec-06 13:24:48,751] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 480
+[2016-Dec-06 13:24:48,751] DEBUG - Gone with the Wind
+[2016-Dec-06 13:24:48,753] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 481
+[2016-Dec-06 13:24:48,753] DEBUG - Lawrence of Arabia
+[2016-Dec-06 13:24:48,754] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 482
+[2016-Dec-06 13:24:48,754] DEBUG - Schindler's List
+[2016-Dec-06 13:24:48,756] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 483
+[2016-Dec-06 13:24:48,756] DEBUG - Vertigo
+[2016-Dec-06 13:24:48,757] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 484
+[2016-Dec-06 13:24:48,757] DEBUG - The Wizard of Oz
+[2016-Dec-06 13:24:48,759] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 485
+[2016-Dec-06 13:24:48,759] DEBUG - City Lights
+[2016-Dec-06 13:24:48,760] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 486
+[2016-Dec-06 13:24:48,760] DEBUG - The Searchers
+[2016-Dec-06 13:24:48,762] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 487
+[2016-Dec-06 13:24:48,762] DEBUG - Star Wars
+[2016-Dec-06 13:24:48,763] DEBUG - Created com.irvingmichael.irv.entity.Choice with id of: 488
+[2016-Dec-06 13:24:48,763] DEBUG - Psycho
+[2016-Dec-06 13:27:35,822] DEBUG - Choices found: 21
+[2016-Dec-06 13:44:56,006] DEBUG - Choices found: 99
+[2016-Dec-06 13:45:03,022] DEBUG - Updated com.irvingmichael.irv.entity.Poll: com.irvingmichael.irv.entity.Poll@767deba7
+[2016-Dec-06 13:45:03,036] DEBUG - Choices found: 99
+[2016-Dec-06 13:54:00,558] DEBUG - Choices found: 4

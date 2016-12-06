@@ -379,3 +379,345 @@
 [2016-12-05 21:09:18,725] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 [2016-12-05 21:09:18,886] HHH000399: Using default transaction strategy (direct JDBC transactions)
 [2016-12-05 21:09:18,893] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 12:57:00,058] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 12:57:00,071] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 12:57:00,073] HHH000206: hibernate.properties not found
+[2016-12-06 12:57:00,074] HHH000021: Bytecode provider name : javassist
+[2016-12-06 12:57:00,090] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 12:57:00,090] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 12:57:00,166] HHH000041: Configured SessionFactory: null
+[2016-12-06 12:57:00,237] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 12:57:00,245] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 12:57:00,246] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 12:57:00,246] HHH000006: Autocommit mode: false
+[2016-12-06 12:57:00,247] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 12:57:00,593] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 12:57:00,811] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 12:57:00,815] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 12:59:05,180] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-12-06 12:59:05,265] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 12:59:05,275] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 12:59:05,277] HHH000206: hibernate.properties not found
+[2016-12-06 12:59:05,279] HHH000021: Bytecode provider name : javassist
+[2016-12-06 12:59:05,300] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 12:59:05,300] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 12:59:05,359] HHH000041: Configured SessionFactory: null
+[2016-12-06 12:59:05,440] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 12:59:05,444] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 12:59:05,444] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 12:59:05,444] HHH000006: Autocommit mode: false
+[2016-12-06 12:59:05,445] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 12:59:05,676] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 12:59:05,819] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 12:59:05,825] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 12:59:06,207] Created com.irvingmichael.irv.entity.Voter with id of: 33
+[2016-12-06 12:59:06,213] Created com.irvingmichael.irv.entity.AccessRole with id of: 271
+[2016-12-06 12:59:56,967] Created com.irvingmichael.irv.entity.Voter with id of: 34
+[2016-12-06 12:59:56,971] Created com.irvingmichael.irv.entity.AccessRole with id of: 272
+[2016-12-06 13:02:33,245] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-12-06 13:02:33,360] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 13:02:33,369] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 13:02:33,372] HHH000206: hibernate.properties not found
+[2016-12-06 13:02:33,373] HHH000021: Bytecode provider name : javassist
+[2016-12-06 13:02:33,416] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 13:02:33,416] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 13:02:33,468] HHH000041: Configured SessionFactory: null
+[2016-12-06 13:02:33,572] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 13:02:33,577] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 13:02:33,577] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 13:02:33,577] HHH000006: Autocommit mode: false
+[2016-12-06 13:02:33,579] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 13:02:33,836] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 13:02:34,003] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 13:02:34,009] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 13:02:34,438] SQL Error: 1062, SQLState: 23000
+[2016-12-06 13:02:34,438] Duplicate entry 'irvingmichael@gmail.com' for key 'email_UNIQUE'
+[2016-12-06 13:02:34,440] SQL Warning Code: 1062, SQLState: 23000
+[2016-12-06 13:02:34,440] Duplicate entry 'irvingmichael@gmail.com' for key 'email_UNIQUE'
+[2016-12-06 13:02:34,442] org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-12-06 13:02:34,452] Created com.irvingmichael.irv.entity.AccessRole with id of: 273
+[2016-12-06 13:04:43,253] In generate new poll servlet
+[2016-12-06 13:04:43,459] Pollcode: 25kIEQyt
+[2016-12-06 13:04:43,471] Created com.irvingmichael.irv.entity.Poll with id of: 37
+[2016-12-06 13:04:43,475] Created com.irvingmichael.irv.entity.Choice with id of: 420
+[2016-12-06 13:04:43,475] Luke Skywalker
+[2016-12-06 13:04:43,478] Created com.irvingmichael.irv.entity.Choice with id of: 421
+[2016-12-06 13:04:43,479] Han Solo
+[2016-12-06 13:04:43,481] Created com.irvingmichael.irv.entity.Choice with id of: 422
+[2016-12-06 13:04:43,481] Darth Vader
+[2016-12-06 13:04:43,484] Created com.irvingmichael.irv.entity.Choice with id of: 423
+[2016-12-06 13:04:43,484] Jar Jar Binks
+[2016-12-06 13:04:43,486] Created com.irvingmichael.irv.entity.Choice with id of: 424
+[2016-12-06 13:04:43,486] Watto
+[2016-12-06 13:04:43,488] Created com.irvingmichael.irv.entity.Choice with id of: 425
+[2016-12-06 13:04:43,488] Rey
+[2016-12-06 13:04:43,490] Created com.irvingmichael.irv.entity.Choice with id of: 426
+[2016-12-06 13:04:43,490] BB-8
+[2016-12-06 13:04:43,492] Created com.irvingmichael.irv.entity.Choice with id of: 427
+[2016-12-06 13:04:43,492] Princess Leia
+[2016-12-06 13:04:43,494] Created com.irvingmichael.irv.entity.Choice with id of: 428
+[2016-12-06 13:04:43,494] R2-D2
+[2016-12-06 13:04:43,497] Created com.irvingmichael.irv.entity.Choice with id of: 429
+[2016-12-06 13:04:43,497] Chewbacca
+[2016-12-06 13:04:43,499] Created com.irvingmichael.irv.entity.Choice with id of: 430
+[2016-12-06 13:04:43,499] C-3PO
+[2016-12-06 13:06:01,826] In generate new poll servlet
+[2016-12-06 13:06:01,828] Pollcode: HhVZweTf
+[2016-12-06 13:06:01,840] Created com.irvingmichael.irv.entity.Poll with id of: 38
+[2016-12-06 13:06:01,843] Created com.irvingmichael.irv.entity.Choice with id of: 431
+[2016-12-06 13:06:01,844] Bacon
+[2016-12-06 13:06:01,846] Created com.irvingmichael.irv.entity.Choice with id of: 432
+[2016-12-06 13:06:01,846] Pizza
+[2016-12-06 13:06:01,848] Created com.irvingmichael.irv.entity.Choice with id of: 433
+[2016-12-06 13:06:01,848] Tacos
+[2016-12-06 13:06:01,850] Created com.irvingmichael.irv.entity.Choice with id of: 434
+[2016-12-06 13:06:01,850] Brussel Sprouts
+[2016-12-06 13:06:01,852] Created com.irvingmichael.irv.entity.Choice with id of: 435
+[2016-12-06 13:06:01,852] Fish Bladder Jelly
+[2016-12-06 13:09:57,763] In generate new poll servlet
+[2016-12-06 13:09:57,765] Pollcode: WNaFMLLx
+[2016-12-06 13:09:57,776] Created com.irvingmichael.irv.entity.Poll with id of: 39
+[2016-12-06 13:09:57,777] Created com.irvingmichael.irv.entity.Choice with id of: 436
+[2016-12-06 13:09:57,777] McDonalds
+[2016-12-06 13:09:57,780] Created com.irvingmichael.irv.entity.Choice with id of: 437
+[2016-12-06 13:09:57,780] Taco Bell
+[2016-12-06 13:09:57,782] Created com.irvingmichael.irv.entity.Choice with id of: 438
+[2016-12-06 13:09:57,782] KFC
+[2016-12-06 13:09:57,784] Created com.irvingmichael.irv.entity.Choice with id of: 439
+[2016-12-06 13:09:57,784] Mac's
+[2016-12-06 13:09:57,785] Created com.irvingmichael.irv.entity.Choice with id of: 440
+[2016-12-06 13:09:57,785] Wendy's
+[2016-12-06 13:09:57,787] Created com.irvingmichael.irv.entity.Choice with id of: 441
+[2016-12-06 13:09:57,787] La Brioche
+[2016-12-06 13:09:57,788] Created com.irvingmichael.irv.entity.Choice with id of: 442
+[2016-12-06 13:09:57,789] Graze
+[2016-12-06 13:11:28,692] In generate new poll servlet
+[2016-12-06 13:11:28,693] Pollcode: XrU8pXOL
+[2016-12-06 13:11:28,704] Created com.irvingmichael.irv.entity.Poll with id of: 40
+[2016-12-06 13:11:28,706] Created com.irvingmichael.irv.entity.Choice with id of: 443
+[2016-12-06 13:11:28,706] iPhone 8
+[2016-12-06 13:11:28,708] Created com.irvingmichael.irv.entity.Choice with id of: 444
+[2016-12-06 13:11:28,708] iPhone 7s
+[2016-12-06 13:11:28,710] Created com.irvingmichael.irv.entity.Choice with id of: 445
+[2016-12-06 13:11:28,710] iPhone 7
+[2016-12-06 13:11:28,712] Created com.irvingmichael.irv.entity.Choice with id of: 446
+[2016-12-06 13:11:28,712] iPhone 6s
+[2016-12-06 13:11:28,714] Created com.irvingmichael.irv.entity.Choice with id of: 447
+[2016-12-06 13:11:28,714] iPhone 6
+[2016-12-06 13:11:28,715] Created com.irvingmichael.irv.entity.Choice with id of: 448
+[2016-12-06 13:11:28,715] Nokia 3310
+[2016-12-06 13:13:23,506] In generate new poll servlet
+[2016-12-06 13:13:23,506] Pollcode: LfYgL86H
+[2016-12-06 13:13:23,520] Created com.irvingmichael.irv.entity.Poll with id of: 41
+[2016-12-06 13:13:23,523] Created com.irvingmichael.irv.entity.Choice with id of: 449
+[2016-12-06 13:13:23,523] Blocker
+[2016-12-06 13:13:23,525] Created com.irvingmichael.irv.entity.Choice with id of: 450
+[2016-12-06 13:13:23,525] Sir Fluffington the Third
+[2016-12-06 13:13:23,528] Created com.irvingmichael.irv.entity.Choice with id of: 451
+[2016-12-06 13:13:23,528] Wiskers Mousington
+[2016-12-06 13:13:23,531] Created com.irvingmichael.irv.entity.Choice with id of: 452
+[2016-12-06 13:13:23,531] Fluffers Wiskerton
+[2016-12-06 13:13:23,533] Created com.irvingmichael.irv.entity.Choice with id of: 453
+[2016-12-06 13:13:23,533] Bob
+[2016-12-06 13:13:23,535] Created com.irvingmichael.irv.entity.Choice with id of: 454
+[2016-12-06 13:13:23,535] Lady Fluffalumpagus
+[2016-12-06 13:13:23,537] Created com.irvingmichael.irv.entity.Choice with id of: 455
+[2016-12-06 13:13:23,537] Tien
+[2016-12-06 13:13:23,538] Created com.irvingmichael.irv.entity.Choice with id of: 456
+[2016-12-06 13:13:23,538] Arie
+[2016-12-06 13:13:23,540] Created com.irvingmichael.irv.entity.Choice with id of: 457
+[2016-12-06 13:13:23,540] Lillith
+[2016-12-06 13:14:27,222] In generate new poll servlet
+[2016-12-06 13:14:27,223] Pollcode: 7oBGz8kJ
+[2016-12-06 13:14:27,234] Created com.irvingmichael.irv.entity.Poll with id of: 42
+[2016-12-06 13:14:27,236] Created com.irvingmichael.irv.entity.Choice with id of: 458
+[2016-12-06 13:14:27,236] Country
+[2016-12-06 13:14:27,238] Created com.irvingmichael.irv.entity.Choice with id of: 459
+[2016-12-06 13:14:27,238] Western
+[2016-12-06 13:16:43,945] In generate new poll servlet
+[2016-12-06 13:16:43,946] Pollcode: 3qysb2SF
+[2016-12-06 13:16:43,958] Created com.irvingmichael.irv.entity.Poll with id of: 43
+[2016-12-06 13:16:43,959] Created com.irvingmichael.irv.entity.Choice with id of: 460
+[2016-12-06 13:16:43,959] Christmas
+[2016-12-06 13:16:43,961] Created com.irvingmichael.irv.entity.Choice with id of: 461
+[2016-12-06 13:16:43,961] Halloween
+[2016-12-06 13:16:43,963] Created com.irvingmichael.irv.entity.Choice with id of: 462
+[2016-12-06 13:16:43,963] New Years
+[2016-12-06 13:16:43,965] Created com.irvingmichael.irv.entity.Choice with id of: 463
+[2016-12-06 13:16:43,965] Thanksgiving
+[2016-12-06 13:16:43,967] Created com.irvingmichael.irv.entity.Choice with id of: 464
+[2016-12-06 13:16:43,967] Rosh Hashanah
+[2016-12-06 13:16:43,968] Created com.irvingmichael.irv.entity.Choice with id of: 465
+[2016-12-06 13:16:43,968] Ramadan
+[2016-12-06 13:16:43,970] Created com.irvingmichael.irv.entity.Choice with id of: 466
+[2016-12-06 13:16:43,970] Basant
+[2016-12-06 13:16:43,971] Created com.irvingmichael.irv.entity.Choice with id of: 467
+[2016-12-06 13:16:43,972] Easter
+[2016-12-06 13:16:43,973] Created com.irvingmichael.irv.entity.Choice with id of: 468
+[2016-12-06 13:16:43,973] Diwali
+[2016-12-06 13:16:43,975] Created com.irvingmichael.irv.entity.Choice with id of: 469
+[2016-12-06 13:16:43,975] Eid al-Adha
+[2016-12-06 13:20:03,566] In generate new poll servlet
+[2016-12-06 13:20:03,567] Pollcode: QbQJNsU3
+[2016-12-06 13:20:03,576] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,578] Data truncation: Data too long for column 'title' at row 1
+[2016-12-06 13:20:03,578] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,579] Data too long for column 'title' at row 1
+[2016-12-06 13:20:03,579] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,580] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,580] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,580] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,580] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,581] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,581] Seems mighty chummy with the dog all of a sudden
+[2016-12-06 13:20:03,583] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,583] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,583] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,584] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,584] org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-12-06 13:20:03,584] He actually *does* have your tongue
+[2016-12-06 13:20:03,585] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,585] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,585] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,586] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,586] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,586] You find a stash of "Feline of Fortune" magazines behind the couch.
+[2016-12-06 13:20:03,587] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,587] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,587] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,587] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,588] org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-12-06 13:20:03,588] Cyanide pawprints all over the house
+[2016-12-06 13:20:03,589] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,589] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,589] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,589] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,589] org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-12-06 13:20:03,589] You wake up to find a bird's head in your bed
+[2016-12-06 13:20:03,590] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,590] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,590] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,591] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,591] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,591] As the wind blows over the grassy knoll in downtown Dallas, you get a faint whiff of catnip
+[2016-12-06 13:20:03,592] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,592] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,592] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,592] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,592] org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-12-06 13:20:03,592] Droppings in litter box spell out "REDRUM
+[2016-12-06 13:20:03,593] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,593] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,594] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,594] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,594] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,594] Catch him with a new mohawk looking in the mirror saying, "Mew looking at me? Mew looking at me?"
+[2016-12-06 13:20:03,595] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,595] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,595] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,595] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,595] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,595] Takes attentive notes every time "Itchy and Scratchy" are on
+[2016-12-06 13:20:03,596] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,596] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,596] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,596] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,596] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,597] You find blueprints for a Rube Goldberg device that starts with a mouse chased into a hole and ends with flaming oil dumped on your bed
+[2016-12-06 13:20:03,598] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,598] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,598] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,598] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,598] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,599] Has taken a sudden interest in the wood chipper
+[2016-12-06 13:20:03,600] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,600] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,600] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,600] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,600] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,600] Instead of dead birds, leaves cartons of Marlboros on your doorstep
+[2016-12-06 13:20:03,601] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,601] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,602] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,602] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,602] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,602] Ball of yarn playfully tied into a hangman's noose
+[2016-12-06 13:20:03,603] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,603] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,604] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,604] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,604] org.hibernate.exception.DataException: could not execute statement
+[2016-12-06 13:20:03,604] You find a piece of paper labelled "MY WIL" which says "LEEV AWL 2 KAT."
+[2016-12-06 13:20:03,605] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,606] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,606] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,606] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,606] org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-12-06 13:20:03,606] Now sharpens claws on your car's brake lines
+[2016-12-06 13:24:48,730] In generate new poll servlet
+[2016-12-06 13:24:48,731] Pollcode: fbxBj4L2
+[2016-12-06 13:24:48,741] Created com.irvingmichael.irv.entity.Poll with id of: 44
+[2016-12-06 13:24:48,743] Created com.irvingmichael.irv.entity.Choice with id of: 475
+[2016-12-06 13:24:48,743] Citizen Kane
+[2016-12-06 13:24:48,744] Created com.irvingmichael.irv.entity.Choice with id of: 476
+[2016-12-06 13:24:48,745] The Godfather
+[2016-12-06 13:24:48,746] Created com.irvingmichael.irv.entity.Choice with id of: 477
+[2016-12-06 13:24:48,746] Casablanca
+[2016-12-06 13:24:48,747] Created com.irvingmichael.irv.entity.Choice with id of: 478
+[2016-12-06 13:24:48,747] Raging Bull
+[2016-12-06 13:24:48,749] Created com.irvingmichael.irv.entity.Choice with id of: 479
+[2016-12-06 13:24:48,749] Singin' in the Rain
+[2016-12-06 13:24:48,751] Created com.irvingmichael.irv.entity.Choice with id of: 480
+[2016-12-06 13:24:48,751] Gone with the Wind
+[2016-12-06 13:24:48,753] Created com.irvingmichael.irv.entity.Choice with id of: 481
+[2016-12-06 13:24:48,753] Lawrence of Arabia
+[2016-12-06 13:24:48,754] Created com.irvingmichael.irv.entity.Choice with id of: 482
+[2016-12-06 13:24:48,754] Schindler's List
+[2016-12-06 13:24:48,756] Created com.irvingmichael.irv.entity.Choice with id of: 483
+[2016-12-06 13:24:48,756] Vertigo
+[2016-12-06 13:24:48,757] Created com.irvingmichael.irv.entity.Choice with id of: 484
+[2016-12-06 13:24:48,757] The Wizard of Oz
+[2016-12-06 13:24:48,759] Created com.irvingmichael.irv.entity.Choice with id of: 485
+[2016-12-06 13:24:48,759] City Lights
+[2016-12-06 13:24:48,760] Created com.irvingmichael.irv.entity.Choice with id of: 486
+[2016-12-06 13:24:48,760] The Searchers
+[2016-12-06 13:24:48,762] Created com.irvingmichael.irv.entity.Choice with id of: 487
+[2016-12-06 13:24:48,762] Star Wars
+[2016-12-06 13:24:48,763] Created com.irvingmichael.irv.entity.Choice with id of: 488
+[2016-12-06 13:24:48,763] Psycho
+[2016-12-06 13:27:35,822] Choices found: 21
+[2016-12-06 13:44:56,006] Choices found: 99
+[2016-12-06 13:45:03,022] Updated com.irvingmichael.irv.entity.Poll: com.irvingmichael.irv.entity.Poll@767deba7
+[2016-12-06 13:45:03,036] Choices found: 99
+[2016-12-06 13:54:00,558] Choices found: 4
+[2016-12-06 13:54:00,563] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:54:00,564] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:54:04,006] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:54:04,006] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:54:19,146] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:54:19,148] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:54:22,045] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:54:22,045] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:56:00,109] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:56:00,109] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:56:00,110] HHH000327: Error performing load command : org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+[2016-12-06 13:56:02,280] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:56:02,281] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:56:04,380] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:56:04,380] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:57:52,757] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-12-06 13:57:52,861] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 13:57:52,870] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 13:57:52,873] HHH000206: hibernate.properties not found
+[2016-12-06 13:57:52,874] HHH000021: Bytecode provider name : javassist
+[2016-12-06 13:57:52,903] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 13:57:52,904] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 13:57:52,965] HHH000041: Configured SessionFactory: null
+[2016-12-06 13:57:53,066] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 13:57:53,070] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 13:57:53,071] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 13:57:53,071] HHH000006: Autocommit mode: false
+[2016-12-06 13:57:53,072] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 13:57:53,325] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 13:57:53,488] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 13:57:53,494] HHH000397: Using ASTQueryTranslatorFactory

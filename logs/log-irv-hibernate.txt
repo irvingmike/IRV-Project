@@ -351,3 +351,146 @@
 [2016-12-05 21:09:18,725] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 [2016-12-05 21:09:18,886] HHH000399: Using default transaction strategy (direct JDBC transactions)
 [2016-12-05 21:09:18,893] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 12:57:00,058] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 12:57:00,071] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 12:57:00,073] HHH000206: hibernate.properties not found
+[2016-12-06 12:57:00,074] HHH000021: Bytecode provider name : javassist
+[2016-12-06 12:57:00,090] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 12:57:00,090] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 12:57:00,166] HHH000041: Configured SessionFactory: null
+[2016-12-06 12:57:00,237] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 12:57:00,245] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 12:57:00,246] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 12:57:00,246] HHH000006: Autocommit mode: false
+[2016-12-06 12:57:00,247] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 12:57:00,593] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 12:57:00,811] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 12:57:00,815] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 12:59:05,265] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 12:59:05,275] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 12:59:05,277] HHH000206: hibernate.properties not found
+[2016-12-06 12:59:05,279] HHH000021: Bytecode provider name : javassist
+[2016-12-06 12:59:05,300] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 12:59:05,300] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 12:59:05,359] HHH000041: Configured SessionFactory: null
+[2016-12-06 12:59:05,440] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 12:59:05,444] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 12:59:05,444] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 12:59:05,444] HHH000006: Autocommit mode: false
+[2016-12-06 12:59:05,445] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 12:59:05,676] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 12:59:05,819] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 12:59:05,825] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 13:02:33,360] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 13:02:33,369] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 13:02:33,372] HHH000206: hibernate.properties not found
+[2016-12-06 13:02:33,373] HHH000021: Bytecode provider name : javassist
+[2016-12-06 13:02:33,416] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 13:02:33,416] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 13:02:33,468] HHH000041: Configured SessionFactory: null
+[2016-12-06 13:02:33,572] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 13:02:33,577] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 13:02:33,577] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 13:02:33,577] HHH000006: Autocommit mode: false
+[2016-12-06 13:02:33,579] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 13:02:33,836] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 13:02:34,003] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 13:02:34,009] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 13:02:34,438] SQL Error: 1062, SQLState: 23000
+[2016-12-06 13:02:34,438] Duplicate entry 'irvingmichael@gmail.com' for key 'email_UNIQUE'
+[2016-12-06 13:02:34,440] SQL Warning Code: 1062, SQLState: 23000
+[2016-12-06 13:02:34,440] Duplicate entry 'irvingmichael@gmail.com' for key 'email_UNIQUE'
+[2016-12-06 13:20:03,576] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,578] Data truncation: Data too long for column 'title' at row 1
+[2016-12-06 13:20:03,578] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,579] Data too long for column 'title' at row 1
+[2016-12-06 13:20:03,580] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,580] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,580] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,580] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,583] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,583] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,583] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,584] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,585] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,585] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,585] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,586] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,587] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,587] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,587] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,587] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,589] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,589] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,589] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,589] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,590] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,590] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,590] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,591] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,592] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,592] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,592] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,592] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,593] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,593] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,594] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,594] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,595] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,595] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,595] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,595] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,596] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,596] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,596] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,596] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,598] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,598] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,598] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,598] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,600] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,600] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,600] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,600] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,601] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,601] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,602] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,602] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,603] SQL Error: 1406, SQLState: 22001
+[2016-12-06 13:20:03,603] Data truncation: Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,604] SQL Warning Code: 1406, SQLState: 22001
+[2016-12-06 13:20:03,604] Data too long for column 'name' at row 1
+[2016-12-06 13:20:03,605] SQL Error: 1452, SQLState: 23000
+[2016-12-06 13:20:03,606] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:20:03,606] SQL Warning Code: 1452, SQLState: 23000
+[2016-12-06 13:20:03,606] Cannot add or update a child row: a foreign key constraint fails (`irv_project`.`choices`, CONSTRAINT `fk_pollid_choices` FOREIGN KEY (`pollid`) REFERENCES `Polls` (`pollid`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[2016-12-06 13:54:00,563] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:54:00,564] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:54:04,006] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:54:04,006] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:54:19,146] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:54:19,148] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:54:22,045] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:54:22,045] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:56:00,109] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:56:00,109] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:56:00,110] HHH000327: Error performing load command : org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+[2016-12-06 13:56:02,280] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:56:02,281] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:56:04,380] SQL Error: 1040, SQLState: 08004
+[2016-12-06 13:56:04,380] Data source rejected establishment of connection,  message from server: "Too many connections"
+[2016-12-06 13:57:52,861] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 13:57:52,870] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 13:57:52,873] HHH000206: hibernate.properties not found
+[2016-12-06 13:57:52,874] HHH000021: Bytecode provider name : javassist
+[2016-12-06 13:57:52,903] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 13:57:52,904] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 13:57:52,965] HHH000041: Configured SessionFactory: null
+[2016-12-06 13:57:53,066] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 13:57:53,070] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 13:57:53,071] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 13:57:53,071] HHH000006: Autocommit mode: false
+[2016-12-06 13:57:53,072] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 13:57:53,325] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 13:57:53,488] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 13:57:53,494] HHH000397: Using ASTQueryTranslatorFactory
