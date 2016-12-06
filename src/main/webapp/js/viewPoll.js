@@ -26,7 +26,7 @@
     });
 
     $('#btnToggleNotify').click(function(){
-        let target  = 'changenotify?pollid=' + pollid + "@voterid=" + voterid;
+        let target  = 'changenotify?pollid=' + pollid + "&voterid=" + voterid;
         window.location.href=target;
     });
 

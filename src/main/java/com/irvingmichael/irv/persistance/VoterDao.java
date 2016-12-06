@@ -40,7 +40,7 @@ public class VoterDao<T> extends GenericDao {
      * @return List of voters requesting to be notified
      */
     public List<Voter> getAllVotersForPollToNotify(int pollid) {
-        List<Voter> voters = session.createSQLQuery("SELECT Voters.voterid, Voters.firstname, Voters.lastname, Voters.email, Voters.securedby FROM Voters JOIN VotersPolls ON Voters.voterid = VotersPolls.voterid WHERE VotersPolls.notify = 1 AND VotersPolls.pollid = " + pollId).addEntity(Voter.class).list();
+        List<Voter> voters = session.createSQLQuery("SELECT Voters.voterid, Voters.firstname, Voters.lastname, Voters.email, Voters.securedby FROM Voters JOIN VotersPolls ON Voters.voterid = VotersPolls.voterid WHERE VotersPolls.notify = 1 AND VotersPolls.pollid = " + pollid).addEntity(Voter.class).list();
         return voters;
     }
 

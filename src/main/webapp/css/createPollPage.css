@@ -102,6 +102,8 @@ header li:hover {
 }
 header li.selected {
   background-color: #458FD0;
+}
+header li.selected a {
   color: #FFF;
 }
 header li.selected:hover {

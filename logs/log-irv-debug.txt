@@ -1,0 +1,19 @@
+[2016-Dec-05 19:55:57,039] ERROR - org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-Dec-05 19:55:57,065] ERROR - org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2016-Dec-05 19:58:08,263] DEBUG - Email: testingemail@fake.com
+[2016-Dec-05 19:58:08,263] DEBUG - Pass: testpass
+[2016-Dec-05 19:58:09,285] DEBUG - Created com.irvingmichael.irv.entity.Voter with id of: 28
+[2016-Dec-05 20:32:48,768] DEBUG - Created com.irvingmichael.irv.entity.Voter with id of: 29
+[2016-Dec-05 20:32:48,772] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 258
+[2016-Dec-05 20:39:14,394] DEBUG - Created com.irvingmichael.irv.entity.Voter with id of: 30
+[2016-Dec-05 20:39:14,400] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 261
+[2016-Dec-05 20:39:48,160] DEBUG - Choices found: 3
+[2016-Dec-05 20:43:31,233] DEBUG - Created com.irvingmichael.irv.entity.Voter with id of: 31
+[2016-Dec-05 20:43:31,237] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 263
+[2016-Dec-05 20:43:46,583] DEBUG - Choices found: 3
+[2016-Dec-05 20:43:59,321] DEBUG - Choices found: 3
+[2016-Dec-05 20:47:32,360] DEBUG - Created com.irvingmichael.irv.entity.Voter with id of: 32
+[2016-Dec-05 20:47:32,364] DEBUG - Created com.irvingmichael.irv.entity.AccessRole with id of: 266
+[2016-Dec-05 20:48:20,238] DEBUG - Choices found: 3
+[2016-Dec-05 20:48:21,504] DEBUG - Choices found: 3
+[2016-Dec-05 21:05:45,881] DEBUG - Choices found: 3

@@ -98,7 +98,10 @@ header {
 
     &.selected {
       background-color: $lightBlue;
-      color: #FFF;
+
+      a {
+        color: #FFF;
+      }
 
       &:hover {
         background-color: darken($lightBlue, 20%);

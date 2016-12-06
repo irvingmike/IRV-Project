@@ -2,6 +2,9 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 12/5/16 | 5 | Finished getting create account running | |
+| 12/4/16 | 3 | Working on getting new account working | |
+| 12/2/16 | 3 | Final code review, notifications finalized, depolyed to DO | |
 | 12/1/16 | 6 | Got notifications working and got some of the issues from Paula cleaned up | |
 | 11/30/16 | 5 | Got open/close poll button working, completing poll done | |
 | 11/29/16 | 5 | Fixed login, finialized creating poll, set up casting vote | |

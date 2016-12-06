@@ -7,7 +7,7 @@
 --%>
 <c:set var="pagetitle" scope="request" value="My Polls"/>
 <c:set var="stylesheet" scope="request" value="singlePollPage.css"/>
-<c:set var="jsFile" scope="request" value="singlePoll.js"/>
+<c:set var="jsFile" scope="request" value="viewPoll.js"/>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
