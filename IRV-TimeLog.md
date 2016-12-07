@@ -2,6 +2,8 @@
 
 | Date | Hours | Task | Notes |
 |------|------|-------|-------|
+| 12/6/16 | 7 | Trouble shooting tomcat server, that fixed now can't login with any account | |
+| 12/6/16 | 2 | In Class: Making up polls for demo tomorrow and trouble shooting why after deploying new db, tomcat won't run | |
 | 12/5/16 | 5 | Finished getting create account running | |
 | 12/4/16 | 3 | Working on getting new account working | |
 | 12/2/16 | 3 | Final code review, notifications finalized, depolyed to DO | |

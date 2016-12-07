@@ -721,3 +721,49 @@
 [2016-12-06 13:57:53,325] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 [2016-12-06 13:57:53,488] HHH000399: Using default transaction strategy (direct JDBC transactions)
 [2016-12-06 13:57:53,494] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 21:39:14,475] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 21:39:14,485] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 21:39:14,489] HHH000206: hibernate.properties not found
+[2016-12-06 21:39:14,491] HHH000021: Bytecode provider name : javassist
+[2016-12-06 21:39:14,519] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 21:39:14,520] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 21:39:14,643] HHH000041: Configured SessionFactory: null
+[2016-12-06 21:39:14,771] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 21:39:14,778] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 21:39:14,779] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 21:39:14,779] HHH000006: Autocommit mode: false
+[2016-12-06 21:39:14,779] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 21:39:15,176] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 21:39:15,329] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 21:39:15,333] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 21:41:13,480] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 21:41:13,484] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 21:41:13,485] HHH000206: hibernate.properties not found
+[2016-12-06 21:41:13,486] HHH000021: Bytecode provider name : javassist
+[2016-12-06 21:41:13,503] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 21:41:13,503] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 21:41:13,569] HHH000041: Configured SessionFactory: null
+[2016-12-06 21:41:13,649] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 21:41:13,655] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 21:41:13,655] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 21:41:13,655] HHH000006: Autocommit mode: false
+[2016-12-06 21:41:13,656] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 21:41:14,038] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 21:41:14,213] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 21:41:14,218] HHH000397: Using ASTQueryTranslatorFactory
+[2016-12-06 21:42:21,195] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-12-06 21:42:21,296] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-12-06 21:42:21,304] HHH000412: Hibernate Core {4.3.11.Final}
+[2016-12-06 21:42:21,307] HHH000206: hibernate.properties not found
+[2016-12-06 21:42:21,308] HHH000021: Bytecode provider name : javassist
+[2016-12-06 21:42:21,336] HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2016-12-06 21:42:21,337] HHH000040: Configuration resource: /hibernate.cfg.xml
+[2016-12-06 21:42:21,387] HHH000041: Configured SessionFactory: null
+[2016-12-06 21:42:21,490] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2016-12-06 21:42:21,496] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/irv_project]
+[2016-12-06 21:42:21,496] HHH000046: Connection properties: {user=root, password=****}
+[2016-12-06 21:42:21,497] HHH000006: Autocommit mode: false
+[2016-12-06 21:42:21,498] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2016-12-06 21:42:21,761] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-12-06 21:42:21,924] HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2016-12-06 21:42:21,930] HHH000397: Using ASTQueryTranslatorFactory

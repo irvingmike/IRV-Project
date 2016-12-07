@@ -15,7 +15,7 @@ public class VoterDaoTest {
         VoterDao voterDao = new VoterDao();
         int voterid = 1;
         int pollid = 3;
-        assertFalse(voterDao.getNotifyVoterForPoll(voterid, pollid));
+        assertTrue(voterDao.getNotifyVoterForPoll(voterid, pollid));
     }
 
     @Test

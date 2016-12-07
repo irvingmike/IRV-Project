@@ -323,7 +323,7 @@ notify</ColNames>
     <foreign-key id="79" parent="17" name="fk_choiceid_votes">
       <ColNames>choiceid</ColNames>
       <RefSchemaName>irv_project</RefSchemaName>
-      <RefTableName>Choices</RefTableName>
+      <RefTableName>choices</RefTableName>
       <RefColNames>choiceid</RefColNames>
       <OnUpdate>no-action</OnUpdate>
       <OnDelete>no-action</OnDelete>
